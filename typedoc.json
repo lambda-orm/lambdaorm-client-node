@@ -1,0 +1,11 @@
+{
+	"entryPoints": [
+		"src/lib/orm.ts",
+		"src/lib/repository"
+	],
+	"out": "doc/source",
+	"excludePrivate": true,
+	"excludeProtected": true,
+	"name": "Lambda ORM client",
+	"readme": "none"
+}

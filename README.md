@@ -1,2 +1,1 @@
-# lambdaorm-client-node
-Client Node for Lambdaorm Service
+# Lambda ORM client node
