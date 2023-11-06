@@ -8,7 +8,7 @@
 	"private": true,
 	"homepage": "https://github.com/FlavioLionelRita/lambdaorm-client-node/readme",
 	"bugs": {
-		"url": "https://github.com/FlavioLionelRita/lambdaorm-client-node/issues"
+		"url": "https://github.com/FlavioLionelRita/lambdaorm/issues"
 	},
 	"repository": {
 		"type": "git",
