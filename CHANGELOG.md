@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.7](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.6...v0.7.7) (2023-11-06)
+
+
+### Features
+
+* update issue url ([86919e6](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/86919e66524ee6bea0f6e2cc9d717b7fb9c1abc2)), closes [#176](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/176)
+
 ### [0.7.6](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.5...v0.7.6) (2023-11-06)
 
 
