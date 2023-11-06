@@ -7,7 +7,9 @@
 	"editor.insertSpaces": false,
   "cSpell.words": [
     "autoincrement",
+    "commitlint",
     "Flavio",
+    "gruntfile",
     "lambdaorm",
     "openapi",
     "openapitools"
