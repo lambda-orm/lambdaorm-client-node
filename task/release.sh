@@ -18,7 +18,7 @@ if [ $SOURCE_BRANCH == 'develop' ]; then
     git push origin main
     git checkout develop
     git merge release/${VERSION} -m "chore(release): release ${VERSION}"
-    git push --set-upstream develop
+    git push --follow-tags origin develop
     git branch -d release/${VERSION}
     git push origin --delete release/${VERSION}
 else
