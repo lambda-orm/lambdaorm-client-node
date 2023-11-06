@@ -7,8 +7,7 @@ module.exports = function (grunt) {
 			lint: { cmd: 'npx eslint src' },
 			test: { cmd: 'npx jest --config jest-config.json' },
 			tsc: { cmd: 'npx tsc ' },
-			release: { cmd: './release.sh' },
-			to_develop: { cmd: './to_develop.sh' },
+			release: { cmd: './task/release.sh' },
 			doc: { cmd: 'npx typedoc ' }
 		},
 		clean: {
@@ -24,7 +23,7 @@ module.exports = function (grunt) {
 	})
 
 	grunt.registerTask('create-package', 'create package.json for dist', function () {
-		const data = require('./package.json')
+		const data = require('../package.json')
 		delete data.devDependencies
 		delete data.private
 		data.scripts = {
@@ -32,7 +31,7 @@ module.exports = function (grunt) {
 		}
 		data.main = 'index.js'
 		data.types = 'index.d.ts'
-		fs.writeFileSync('dist/package.json', JSON.stringify(data, null, 2), 'utf8')
+		fs.writeFileSync('./dist/package.json', JSON.stringify(data, null, 2), 'utf8')
 	})
 	grunt.registerTask('build', ['exec:lint', 'clean:build', 'exec:tsc'])
 	grunt.registerTask('doc', ['build-wiki', 'exec:doc'])
