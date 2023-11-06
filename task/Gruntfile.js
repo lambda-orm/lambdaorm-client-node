@@ -1,5 +1,3 @@
-const fs = require('fs')
-
 module.exports = function (grunt) {
 	require('load-grunt-tasks')(grunt)
 	grunt.initConfig({
@@ -18,11 +16,13 @@ module.exports = function (grunt) {
 			lib: { expand: true, cwd: 'build/lib', src: '**', dest: 'dist/' },
 			readme: { expand: true, src: './README.md', dest: 'dist/' },
 			license: { expand: true, src: './LICENSE', dest: 'dist/' },
+			changeLog: { expand: true, src: './CHANGELOG.md', dest: 'dist/' },
 			jest: { expand: true, src: './jest-config.json', dest: 'dist/' }
 		}
 	})
 
 	grunt.registerTask('create-package', 'create package.json for dist', function () {
+		const fs = require('fs')
 		const data = require('../package.json')
 		delete data.devDependencies
 		delete data.private
@@ -35,7 +35,7 @@ module.exports = function (grunt) {
 	})
 	grunt.registerTask('build', ['exec:lint', 'clean:build', 'exec:tsc'])
 	grunt.registerTask('doc', ['build-wiki', 'exec:doc'])
-	grunt.registerTask('dist', ['build', 'clean:dist', 'copy:lib', 'copy:jest', 'copy:readme', 'copy:license', 'create-package'])
+	grunt.registerTask('dist', ['build', 'clean:dist', 'copy:lib', 'copy:jest', 'copy:readme', 'copy:changeLog', 'copy:license', 'create-package'])
 	grunt.registerTask('release', ['dist', 'exec:release'])
 	grunt.registerTask('default', [])
 }
