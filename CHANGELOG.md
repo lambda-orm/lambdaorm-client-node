@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.5](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.4...v0.7.5) (2023-11-06)
+
 ### [0.7.4](https://github.com/FlavioLionelRita/lambdaorm/compare/v0.7.3...v0.7.4) (2023-11-06)
 
 ### [0.7.3](https://github.com/FlavioLionelRita/lambdaorm/compare/v0.7.2...v0.7.3) (2023-11-06)

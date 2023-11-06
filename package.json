@@ -1,18 +1,18 @@
 {
 	"name": "lambdaorm-client-node",
-	"version": "0.7.4",
+	"version": "0.7.5",
 	"description": "ORM",
 	"author": "Flavio Lionel Rita <flaviolrita@gmail.com>",
 	"license": "MIT",
 	"main": "./index.js",
 	"private": true,
-	"homepage": "https://github.com/FlavioLionelRita/lambdaorm#client-node/readme",
+	"homepage": "https://github.com/FlavioLionelRita/lambdaorm-client-node/readme",
 	"bugs": {
-		"url": "https://github.com/FlavioLionelRita/lambdaorm/issues"
+		"url": "https://github.com/FlavioLionelRita/lambdaorm-client-node/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/FlavioLionelRita/lambdaorm.git"
+		"url": "https://github.com/FlavioLionelRita/lambdaorm-client-node.git"
 	},
 	"scripts": {
 		"lint": "grunt --base . --gruntfile task/Gruntfile.js lint",
