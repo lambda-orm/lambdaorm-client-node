@@ -18,7 +18,9 @@ if [ $SOURCE_BRANCH == 'develop' ]; then
     git push origin main
     git checkout develop
     git merge release/${VERSION} -m "chore(release): release ${VERSION}"
-    git push --set-upstream origin release/${VERSION}
+    git push --set-upstream develop
+    git branch -d release/${VERSION}
+    git push origin --delete release/${VERSION}
 else
     echo "Error: The release must be executed from the develop branch and not from the ${SOURCE_BRANCH} branch."
     exit -1
