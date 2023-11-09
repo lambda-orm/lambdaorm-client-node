@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### [0.7.11](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.10...v0.7.11) (2023-11-09)
+
+
+### Features
+
+* **publish:** remove send email ([3b26fb2](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/3b26fb2a3999f623c48f9857546f37d2ca469ff2)), closes [#176](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/176)
+
 ### [0.7.10](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.9...v0.7.10) (2023-11-09)
 
 
