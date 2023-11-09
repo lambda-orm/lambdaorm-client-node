@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### [0.7.10](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.9...v0.7.10) (2023-11-09)
+
+
+### Features
+
+* **release:** add send email on publish workflow ([21fb24b](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/21fb24b1796eb461e4b7c9ddcac21071855c31d9)), closes [#176](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/176)
+
 ### [0.7.9](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.8...v0.7.9) (2023-11-09)
 
 
