@@ -6,7 +6,7 @@ module.exports = function (grunt) {
 			test: { cmd: 'npx jest --config jest-config.json' },
 			tsc: { cmd: 'npx tsc ' },
 			release: { cmd: './task/release.sh' },
-			doc: { cmd: 'npx typedoc ' }
+			doc: { cmd: 'npx typedoc --plugin typedoc-plugin-markdown --out doc/source src/lib/index.ts' }
 		},
 		clean: {
 			build: ['build'],
@@ -34,8 +34,9 @@ module.exports = function (grunt) {
 		fs.writeFileSync('./dist/package.json', JSON.stringify(data, null, 2), 'utf8')
 	})
 	grunt.registerTask('build', ['exec:lint', 'clean:build', 'exec:tsc'])
-	grunt.registerTask('doc', ['build-wiki', 'exec:doc'])
+	grunt.registerTask('test', ['build', 'exec:test'])
+	grunt.registerTask('doc', ['exec:doc'])
 	grunt.registerTask('dist', ['build', 'clean:dist', 'copy:lib', 'copy:jest', 'copy:readme', 'copy:changeLog', 'copy:license', 'create-package'])
-	grunt.registerTask('release', ['dist', 'exec:release'])
+	grunt.registerTask('release', ['dist', 'doc', 'exec:release'])
 	grunt.registerTask('default', [])
 }
