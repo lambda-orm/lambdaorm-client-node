@@ -1,7 +1,7 @@
 {
 	"name": "lambdaorm-client-node",
 	"version": "0.7.9",
-	"description": "ORM",
+	"description": "Client form lambda ORM service",
 	"author": "Flavio Lionel Rita <flaviolrita@gmail.com>",
 	"license": "MIT",
 	"main": "./index.js",
