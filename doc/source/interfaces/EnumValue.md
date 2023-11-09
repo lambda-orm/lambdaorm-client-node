@@ -27,7 +27,7 @@ EnumValue
 
 #### Defined in
 
-[client/api.ts:275](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/dc8a5fe/src/lib/client/api.ts#L275)
+[client/api.ts:275](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L275)
 
 ___
 
@@ -41,4 +41,4 @@ EnumValue
 
 #### Defined in
 
-[client/api.ts:281](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/dc8a5fe/src/lib/client/api.ts#L281)
+[client/api.ts:281](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L281)
