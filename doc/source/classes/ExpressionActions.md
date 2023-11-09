@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[manager/expressionActions.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/manager/expressionActions.ts#L8)
+[manager/expressionActions.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/manager/expressionActions.ts#L8)
 
 ## Methods
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[manager/expressionActions.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/manager/expressionActions.ts#L22)
+[manager/expressionActions.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/manager/expressionActions.ts#L22)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[manager/expressionActions.ts:34](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/manager/expressionActions.ts#L34)
+[manager/expressionActions.ts:34](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/manager/expressionActions.ts#L34)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[manager/expressionActions.ts:38](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/manager/expressionActions.ts#L38)
+[manager/expressionActions.ts:38](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/manager/expressionActions.ts#L38)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[manager/expressionActions.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/manager/expressionActions.ts#L26)
+[manager/expressionActions.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/manager/expressionActions.ts#L26)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-[manager/expressionActions.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/manager/expressionActions.ts#L14)
+[manager/expressionActions.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/manager/expressionActions.ts#L14)
 
 ___
 
@@ -158,7 +158,7 @@ ___
 
 #### Defined in
 
-[manager/expressionActions.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/manager/expressionActions.ts#L18)
+[manager/expressionActions.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/manager/expressionActions.ts#L18)
 
 ___
 
@@ -178,4 +178,4 @@ ___
 
 #### Defined in
 
-[manager/expressionActions.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/manager/expressionActions.ts#L30)
+[manager/expressionActions.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/manager/expressionActions.ts#L30)

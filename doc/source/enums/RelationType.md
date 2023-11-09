@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[client/api.ts:908](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L908)
+[client/api.ts:908](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L908)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[client/api.ts:907](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L907)
+[client/api.ts:907](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L907)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[client/api.ts:909](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L909)
+[client/api.ts:909](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L909)

@@ -28,7 +28,7 @@ MetadataParameter
 
 #### Defined in
 
-[client/api.ts:504](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L504)
+[client/api.ts:504](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L504)
 
 ___
 
@@ -42,7 +42,7 @@ MetadataParameter
 
 #### Defined in
 
-[client/api.ts:492](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L492)
+[client/api.ts:492](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L492)
 
 ___
 
@@ -56,4 +56,4 @@ MetadataParameter
 
 #### Defined in
 
-[client/api.ts:498](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L498)
+[client/api.ts:498](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L498)

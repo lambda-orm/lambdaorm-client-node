@@ -28,7 +28,7 @@ Parameter
 
 #### Defined in
 
-[client/api.ts:554](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L554)
+[client/api.ts:554](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L554)
 
 ___
 
@@ -42,7 +42,7 @@ Parameter
 
 #### Defined in
 
-[client/api.ts:560](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L560)
+[client/api.ts:560](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L560)
 
 ___
 
@@ -56,4 +56,4 @@ Parameter
 
 #### Defined in
 
-[client/api.ts:566](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b17abbe/src/lib/client/api.ts#L566)
+[client/api.ts:566](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L566)
