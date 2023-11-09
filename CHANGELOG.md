@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### [0.7.9](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.8...v0.7.9) (2023-11-09)
+
+
+### Features
+
+* **documentation:** add doc script ([b17abbe](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/b17abbeac9c632b3d8664aa058c2fc73e7e4bc16)), closes [#176](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/176)
+
 ### [0.7.8](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.7...v0.7.8) (2023-11-09)
 
 
