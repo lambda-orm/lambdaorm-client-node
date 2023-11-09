@@ -26,17 +26,17 @@ jobs:
         run: cd ./dist && npm publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: Send mail
-        if: always()
-        uses: dawidd6/action-send-mail@v2
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: ${{ github.repository }}.${{ github.job }} [[${{ job.status }}]]
-          body: ${{ github.job }} job in workflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
-          to: flaviolrita@proton.me
-          from: John Doe       
+      # - name: Send mail
+      #   if: always()
+      #   uses: dawidd6/action-send-mail@v2
+      #   with:
+      #     server_address: smtp.gmail.com
+      #     server_port: 465
+      #     username: ${{ secrets.EMAIL_USERNAME }}
+      #     password: ${{ secrets.EMAIL_PASSWORD }}
+      #     subject: ${{ github.repository }}.${{ github.job }} [[${{ job.status }}]]
+      #     body: ${{ github.job }} job in workflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+      #     to: flaviolrita@proton.me
+      #     from: Lambda ORM       
 
 
