@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[client/configuration.ts:77](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/configuration.ts#L77)
+[client/configuration.ts:77](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/configuration.ts#L77)
 
 ## Properties
 
@@ -60,7 +60,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:53](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/configuration.ts#L53)
+[client/configuration.ts:53](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/configuration.ts#L53)
 
 ___
 
@@ -80,7 +80,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/configuration.ts#L32)
+[client/configuration.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/configuration.ts#L32)
 
 ___
 
@@ -96,7 +96,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/configuration.ts#L67)
+[client/configuration.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/configuration.ts#L67)
 
 ___
 
@@ -112,7 +112,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/configuration.ts#L60)
+[client/configuration.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/configuration.ts#L60)
 
 ___
 
@@ -130,7 +130,7 @@ do not support the FormData class can still run the generated client.
 
 #### Defined in
 
-[client/configuration.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/configuration.ts#L75)
+[client/configuration.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/configuration.ts#L75)
 
 ___
 
@@ -146,7 +146,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/configuration.ts#L46)
+[client/configuration.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/configuration.ts#L46)
 
 ___
 
@@ -162,7 +162,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:39](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/configuration.ts#L39)
+[client/configuration.ts:39](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/configuration.ts#L39)
 
 ## Methods
 
@@ -191,4 +191,4 @@ True if the given MIME is JSON, false otherwise.
 
 #### Defined in
 
-[client/configuration.ts:97](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/configuration.ts#L97)
+[client/configuration.ts:97](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/configuration.ts#L97)

@@ -36,7 +36,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:116](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L116)
+[client/api.ts:116](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L116)
 
 ___
 
@@ -50,7 +50,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:164](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L164)
+[client/api.ts:164](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L164)
 
 ___
 
@@ -64,7 +64,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:158](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L158)
+[client/api.ts:158](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L158)
 
 ___
 
@@ -78,7 +78,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:110](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L110)
+[client/api.ts:110](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L110)
 
 ___
 
@@ -92,7 +92,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:134](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L134)
+[client/api.ts:134](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L134)
 
 ___
 
@@ -106,7 +106,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:104](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L104)
+[client/api.ts:104](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L104)
 
 ___
 
@@ -120,7 +120,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:140](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L140)
+[client/api.ts:140](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L140)
 
 ___
 
@@ -134,7 +134,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:146](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L146)
+[client/api.ts:146](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L146)
 
 ___
 
@@ -148,7 +148,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:152](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L152)
+[client/api.ts:152](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L152)
 
 ___
 
@@ -162,7 +162,7 @@ Entity
 
 #### Defined in
 
-[client/api.ts:122](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L122)
+[client/api.ts:122](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L122)
 
 ___
 
@@ -176,4 +176,4 @@ Entity
 
 #### Defined in
 
-[client/api.ts:128](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/21fb24b/src/lib/client/api.ts#L128)
+[client/api.ts:128](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L128)
