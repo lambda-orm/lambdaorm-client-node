@@ -55,7 +55,7 @@ BaseAPI.constructor
 
 #### Defined in
 
-[client/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/base.ts#L50)
+[client/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/base.ts#L50)
 
 ## Methods
 
@@ -82,7 +82,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2224](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2224)
+[client/api.ts:2224](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2224)
 
 ___
 
@@ -108,7 +108,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2234](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2234)
+[client/api.ts:2234](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2234)
 
 ___
 
@@ -135,7 +135,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2245](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2245)
+[client/api.ts:2245](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2245)
 
 ___
 
@@ -161,7 +161,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2255](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2255)
+[client/api.ts:2255](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2255)
 
 ___
 
@@ -188,7 +188,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2266](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2266)
+[client/api.ts:2266](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2266)
 
 ___
 
@@ -216,7 +216,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2278](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2278)
+[client/api.ts:2278](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2278)
 
 ___
 
@@ -242,7 +242,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2288](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2288)
+[client/api.ts:2288](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2288)
 
 ___
 
@@ -269,7 +269,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2299](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2299)
+[client/api.ts:2299](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2299)
 
 ___
 
@@ -295,7 +295,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2309](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2309)
+[client/api.ts:2309](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2309)
 
 ___
 
@@ -322,7 +322,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2320](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2320)
+[client/api.ts:2320](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2320)
 
 ___
 
@@ -348,4 +348,4 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2330](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2330)
+[client/api.ts:2330](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L2330)

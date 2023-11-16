@@ -65,7 +65,7 @@
 
 #### Defined in
 
-[manager/repository.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L10)
+[manager/repository.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L10)
 
 ## Properties
 
@@ -75,7 +75,7 @@
 
 #### Defined in
 
-[manager/repository.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L7)
+[manager/repository.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L7)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L8)
+[manager/repository.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L8)
 
 ## Methods
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L49)
+[manager/repository.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L49)
 
 ▸ **bulkInsert**(`entities`, `include`): `Promise`<`any`[]\>
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:51](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L51)
+[manager/repository.ts:51](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L51)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:81](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L81)
+[manager/repository.ts:81](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L81)
 
 ▸ **delete**(`entity`, `include`): `Promise`<`number`\>
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L83)
+[manager/repository.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L83)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:88](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L88)
+[manager/repository.ts:88](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L88)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:102](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L102)
+[manager/repository.ts:102](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L102)
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L32)
+[manager/repository.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L32)
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L36)
+[manager/repository.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L36)
 
 ___
 
@@ -269,7 +269,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L109)
+[manager/repository.ts:109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L109)
 
 ___
 
@@ -289,7 +289,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:41](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L41)
+[manager/repository.ts:41](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L41)
 
 ▸ **insert**(`entity`, `include`): `Promise`<`any`\>
 
@@ -306,7 +306,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L43)
+[manager/repository.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L43)
 
 ___
 
@@ -328,7 +328,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:121](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L121)
+[manager/repository.ts:121](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L121)
 
 ___
 
@@ -350,7 +350,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:95](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L95)
+[manager/repository.ts:95](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L95)
 
 ___
 
@@ -370,7 +370,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:73](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L73)
+[manager/repository.ts:73](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L73)
 
 ▸ **merge**(`entity`, `include`): `Promise`<`number`\>
 
@@ -387,7 +387,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L75)
+[manager/repository.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L75)
 
 ___
 
@@ -401,7 +401,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:145](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L145)
+[manager/repository.ts:145](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L145)
 
 ___
 
@@ -423,7 +423,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:133](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L133)
+[manager/repository.ts:133](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L133)
 
 ___
 
@@ -443,7 +443,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:57](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L57)
+[manager/repository.ts:57](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L57)
 
 ▸ **update**(`entity`, `include`): `Promise`<`number`\>
 
@@ -460,7 +460,7 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:59](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L59)
+[manager/repository.ts:59](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L59)
 
 ___
 
@@ -483,4 +483,4 @@ ___
 
 #### Defined in
 
-[manager/repository.ts:64](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/repository.ts#L64)
+[manager/repository.ts:64](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/manager/repository.ts#L64)

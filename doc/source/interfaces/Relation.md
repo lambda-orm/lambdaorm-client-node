@@ -32,7 +32,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:862](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L862)
+[client/api.ts:862](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L862)
 
 ___
 
@@ -46,7 +46,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:874](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L874)
+[client/api.ts:874](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L874)
 
 ___
 
@@ -60,7 +60,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:868](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L868)
+[client/api.ts:868](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L868)
 
 ___
 
@@ -74,7 +74,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:850](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L850)
+[client/api.ts:850](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L850)
 
 ___
 
@@ -88,7 +88,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:892](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L892)
+[client/api.ts:892](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L892)
 
 ___
 
@@ -102,7 +102,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:898](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L898)
+[client/api.ts:898](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L898)
 
 ___
 
@@ -116,7 +116,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:880](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L880)
+[client/api.ts:880](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L880)
 
 ___
 
@@ -130,7 +130,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:856](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L856)
+[client/api.ts:856](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L856)
 
 ___
 
@@ -144,4 +144,4 @@ Relation
 
 #### Defined in
 
-[client/api.ts:886](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L886)
+[client/api.ts:886](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L886)

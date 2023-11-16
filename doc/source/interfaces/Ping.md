@@ -25,7 +25,7 @@ Ping
 
 #### Defined in
 
-[client/api.ts:579](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L579)
+[client/api.ts:579](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L579)
 
 ___
 
@@ -39,4 +39,4 @@ Ping
 
 #### Defined in
 
-[client/api.ts:585](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L585)
+[client/api.ts:585](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L585)

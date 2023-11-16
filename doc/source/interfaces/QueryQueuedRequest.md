@@ -28,7 +28,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[client/api.ts:824](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L824)
+[client/api.ts:824](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L824)
 
 ___
 
@@ -42,7 +42,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[client/api.ts:812](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L812)
+[client/api.ts:812](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L812)
 
 ___
 
@@ -56,7 +56,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[client/api.ts:806](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L806)
+[client/api.ts:806](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L806)
 
 ___
 
@@ -70,7 +70,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[client/api.ts:800](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L800)
+[client/api.ts:800](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L800)
 
 ___
 
@@ -84,4 +84,4 @@ QueryQueuedRequest
 
 #### Defined in
 
-[client/api.ts:818](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L818)
+[client/api.ts:818](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L818)
