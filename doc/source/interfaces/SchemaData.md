@@ -26,4 +26,4 @@ SchemaData
 
 #### Defined in
 
-[client/api.ts:945](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3b26fb2/src/lib/client/api.ts#L945)
+[client/api.ts:945](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L945)
