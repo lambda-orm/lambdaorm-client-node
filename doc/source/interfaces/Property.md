@@ -33,7 +33,7 @@ Property
 
 #### Defined in
 
-[client/api.ts:628](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L628)
+[client/api.ts:628](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L628)
 
 ___
 
@@ -47,7 +47,7 @@ Property
 
 #### Defined in
 
-[client/api.ts:634](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L634)
+[client/api.ts:634](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L634)
 
 ___
 
@@ -61,7 +61,7 @@ Property
 
 #### Defined in
 
-[client/api.ts:652](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L652)
+[client/api.ts:652](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L652)
 
 ___
 
@@ -75,7 +75,7 @@ Property
 
 #### Defined in
 
-[client/api.ts:610](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L610)
+[client/api.ts:610](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L610)
 
 ___
 
@@ -89,7 +89,7 @@ Property
 
 #### Defined in
 
-[client/api.ts:598](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L598)
+[client/api.ts:598](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L598)
 
 ___
 
@@ -103,7 +103,7 @@ Property
 
 #### Defined in
 
-[client/api.ts:616](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L616)
+[client/api.ts:616](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L616)
 
 ___
 
@@ -117,7 +117,7 @@ Property
 
 #### Defined in
 
-[client/api.ts:622](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L622)
+[client/api.ts:622](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L622)
 
 ___
 
@@ -131,7 +131,7 @@ Property
 
 #### Defined in
 
-[client/api.ts:640](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L640)
+[client/api.ts:640](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L640)
 
 ___
 
@@ -145,7 +145,7 @@ Property
 
 #### Defined in
 
-[client/api.ts:604](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L604)
+[client/api.ts:604](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L604)
 
 ___
 
@@ -159,4 +159,4 @@ Property
 
 #### Defined in
 
-[client/api.ts:646](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L646)
+[client/api.ts:646](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L646)

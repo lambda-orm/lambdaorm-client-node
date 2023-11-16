@@ -25,7 +25,7 @@ Enum
 
 #### Defined in
 
-[client/api.ts:256](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L256)
+[client/api.ts:256](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L256)
 
 ___
 
@@ -39,4 +39,4 @@ Enum
 
 #### Defined in
 
-[client/api.ts:262](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/de616fb/src/lib/client/api.ts#L262)
+[client/api.ts:262](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L262)
