@@ -32,7 +32,7 @@ Do not edit the class manually.
 
 #### Defined in
 
-[client/configuration.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/configuration.ts#L20)
+[client/configuration.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L20)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[client/configuration.ts:17](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/configuration.ts#L17)
+[client/configuration.ts:17](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L17)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[client/configuration.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/configuration.ts#L22)
+[client/configuration.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L22)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[client/configuration.ts:21](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/configuration.ts#L21)
+[client/configuration.ts:21](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L21)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[client/configuration.ts:23](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/configuration.ts#L23)
+[client/configuration.ts:23](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L23)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[client/configuration.ts:19](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/configuration.ts#L19)
+[client/configuration.ts:19](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L19)
 
 ___
 
@@ -96,4 +96,4 @@ ___
 
 #### Defined in
 
-[client/configuration.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/configuration.ts#L18)
+[client/configuration.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L18)

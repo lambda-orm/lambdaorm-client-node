@@ -89,7 +89,7 @@ Lambda ORM client
 
 #### Defined in
 
-[index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/index.ts#L6)
+[index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/index.ts#L6)
 
 ## Functions
 
@@ -122,7 +122,7 @@ ExpressionApi - axios parameter creator
 
 #### Defined in
 
-[client/api.ts:990](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L990)
+[client/api.ts:990](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L990)
 
 ___
 
@@ -157,7 +157,7 @@ ExpressionApi - factory interface
 
 #### Defined in
 
-[client/api.ts:1281](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L1281)
+[client/api.ts:1281](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1281)
 
 ___
 
@@ -191,7 +191,7 @@ ExpressionApi - functional programming interface
 
 #### Defined in
 
-[client/api.ts:1201](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L1201)
+[client/api.ts:1201](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1201)
 
 ___
 
@@ -221,7 +221,7 @@ GeneralApi - axios parameter creator
 
 #### Defined in
 
-[client/api.ts:1431](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L1431)
+[client/api.ts:1431](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1431)
 
 ___
 
@@ -253,7 +253,7 @@ GeneralApi - factory interface
 
 #### Defined in
 
-[client/api.ts:1564](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L1564)
+[client/api.ts:1564](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1564)
 
 ___
 
@@ -283,7 +283,7 @@ GeneralApi - functional programming interface
 
 #### Defined in
 
-[client/api.ts:1527](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L1527)
+[client/api.ts:1527](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1527)
 
 ___
 
@@ -321,7 +321,7 @@ SchemaApi - axios parameter creator
 
 #### Defined in
 
-[client/api.ts:1637](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L1637)
+[client/api.ts:1637](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1637)
 
 ___
 
@@ -360,7 +360,7 @@ SchemaApi - factory interface
 
 #### Defined in
 
-[client/api.ts:2109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L2109)
+[client/api.ts:2109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L2109)
 
 ___
 
@@ -398,7 +398,7 @@ SchemaApi - functional programming interface
 
 #### Defined in
 
-[client/api.ts:1993](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L1993)
+[client/api.ts:1993](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1993)
 
 ___
 
@@ -428,7 +428,7 @@ StageApi - axios parameter creator
 
 #### Defined in
 
-[client/api.ts:2340](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L2340)
+[client/api.ts:2340](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L2340)
 
 ___
 
@@ -460,7 +460,7 @@ StageApi - factory interface
 
 #### Defined in
 
-[client/api.ts:2495](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L2495)
+[client/api.ts:2495](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L2495)
 
 ___
 
@@ -490,4 +490,4 @@ StageApi - functional programming interface
 
 #### Defined in
 
-[client/api.ts:2454](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L2454)
+[client/api.ts:2454](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L2454)

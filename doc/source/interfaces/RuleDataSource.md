@@ -27,7 +27,7 @@ RuleDataSource
 
 #### Defined in
 
-[client/api.ts:932](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L932)
+[client/api.ts:932](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L932)
 
 ___
 
@@ -41,4 +41,4 @@ RuleDataSource
 
 #### Defined in
 
-[client/api.ts:926](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L926)
+[client/api.ts:926](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L926)

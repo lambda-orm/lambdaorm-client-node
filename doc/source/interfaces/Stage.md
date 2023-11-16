@@ -27,7 +27,7 @@ Stage
 
 #### Defined in
 
-[client/api.ts:983](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L983)
+[client/api.ts:983](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L983)
 
 ___
 
@@ -41,4 +41,4 @@ Stage
 
 #### Defined in
 
-[client/api.ts:977](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/4059abb/src/lib/client/api.ts#L977)
+[client/api.ts:977](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L977)
