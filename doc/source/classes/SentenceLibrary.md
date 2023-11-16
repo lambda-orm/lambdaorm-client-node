@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / SentenceLibrary
 
-# Class: SentenceLibrary
+# SentenceLibrary
 
 ## Table of contents
 
@@ -16,7 +16,7 @@
 
 ### constructor
 
-• **new SentenceLibrary**(`model`)
+• **new SentenceLibrary**(`model`): [`SentenceLibrary`](SentenceLibrary.md)
 
 #### Parameters
 
@@ -24,9 +24,13 @@
 | :------ | :------ |
 | `model` | `IModelManager` |
 
+#### Returns
+
+[`SentenceLibrary`](SentenceLibrary.md)
+
 #### Defined in
 
-[manager/library.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/library.ts#L6)
+[manager/library.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/library.ts#L6)
 
 ## Methods
 
@@ -40,4 +44,4 @@
 
 #### Defined in
 
-[manager/library.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/library.ts#L8)
+[manager/library.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/library.ts#L8)

@@ -1,10 +1,8 @@
 [Lambda ORM client](../README.md) / Metadata
 
-# Interface: Metadata
+# Metadata
 
 **`Export`**
-
-**`Interface`**
 
 Metadata
 
@@ -36,7 +34,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:423](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L423)
+[client/api.ts:423](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L423)
 
 ___
 
@@ -50,7 +48,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:387](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L387)
+[client/api.ts:387](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L387)
 
 ___
 
@@ -64,7 +62,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:381](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L381)
+[client/api.ts:381](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L381)
 
 ___
 
@@ -78,7 +76,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:393](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L393)
+[client/api.ts:393](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L393)
 
 ___
 
@@ -92,7 +90,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:369](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L369)
+[client/api.ts:369](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L369)
 
 ___
 
@@ -106,7 +104,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:429](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L429)
+[client/api.ts:429](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L429)
 
 ___
 
@@ -120,7 +118,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:405](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L405)
+[client/api.ts:405](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L405)
 
 ___
 
@@ -134,7 +132,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:399](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L399)
+[client/api.ts:399](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L399)
 
 ___
 
@@ -148,7 +146,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:411](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L411)
+[client/api.ts:411](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L411)
 
 ___
 
@@ -162,7 +160,7 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:417](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L417)
+[client/api.ts:417](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L417)
 
 ___
 
@@ -176,4 +174,4 @@ Metadata
 
 #### Defined in
 
-[client/api.ts:375](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L375)
+[client/api.ts:375](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L375)

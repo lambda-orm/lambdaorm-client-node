@@ -1,10 +1,8 @@
 [Lambda ORM client](../README.md) / Parameter
 
-# Interface: Parameter
+# Parameter
 
 **`Export`**
-
-**`Interface`**
 
 Parameter
 
@@ -28,7 +26,7 @@ Parameter
 
 #### Defined in
 
-[client/api.ts:554](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L554)
+[client/api.ts:554](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L554)
 
 ___
 
@@ -42,7 +40,7 @@ Parameter
 
 #### Defined in
 
-[client/api.ts:560](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L560)
+[client/api.ts:560](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L560)
 
 ___
 
@@ -56,4 +54,4 @@ Parameter
 
 #### Defined in
 
-[client/api.ts:566](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L566)
+[client/api.ts:566](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L566)

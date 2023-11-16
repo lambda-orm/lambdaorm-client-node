@@ -1,10 +1,8 @@
 [Lambda ORM client](../README.md) / Enum
 
-# Interface: Enum
+# Enum
 
 **`Export`**
-
-**`Interface`**
 
 Enum
 
@@ -27,7 +25,7 @@ Enum
 
 #### Defined in
 
-[client/api.ts:256](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L256)
+[client/api.ts:256](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L256)
 
 ___
 
@@ -41,4 +39,4 @@ Enum
 
 #### Defined in
 
-[client/api.ts:262](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L262)
+[client/api.ts:262](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L262)

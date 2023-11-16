@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / Configuration
 
-# Class: Configuration
+# Configuration
 
 ## Table of contents
 
@@ -26,7 +26,7 @@
 
 ### constructor
 
-• **new Configuration**(`param?`)
+• **new Configuration**(`param?`): [`Configuration`](Configuration.md)
 
 #### Parameters
 
@@ -34,9 +34,13 @@
 | :------ | :------ |
 | `param` | [`ConfigurationParameters`](../interfaces/ConfigurationParameters.md) |
 
+#### Returns
+
+[`Configuration`](Configuration.md)
+
 #### Defined in
 
-[client/configuration.ts:77](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L77)
+[client/configuration.ts:77](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/configuration.ts#L77)
 
 ## Properties
 
@@ -60,7 +64,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:53](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L53)
+[client/configuration.ts:53](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/configuration.ts#L53)
 
 ___
 
@@ -80,7 +84,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L32)
+[client/configuration.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/configuration.ts#L32)
 
 ___
 
@@ -96,7 +100,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L67)
+[client/configuration.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/configuration.ts#L67)
 
 ___
 
@@ -112,7 +116,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L60)
+[client/configuration.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/configuration.ts#L60)
 
 ___
 
@@ -122,15 +126,19 @@ ___
 
 #### Type declaration
 
-• **new formDataCtor**()
+• **new formDataCtor**(): `any`
 
 The FormData constructor that will be used to create multipart form data
 requests. You can inject this here so that execution environments that
 do not support the FormData class can still run the generated client.
 
+##### Returns
+
+`any`
+
 #### Defined in
 
-[client/configuration.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L75)
+[client/configuration.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/configuration.ts#L75)
 
 ___
 
@@ -146,7 +154,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L46)
+[client/configuration.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/configuration.ts#L46)
 
 ___
 
@@ -162,7 +170,7 @@ Configuration
 
 #### Defined in
 
-[client/configuration.ts:39](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L39)
+[client/configuration.ts:39](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/configuration.ts#L39)
 
 ## Methods
 
@@ -191,4 +199,4 @@ True if the given MIME is JSON, false otherwise.
 
 #### Defined in
 
-[client/configuration.ts:97](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/configuration.ts#L97)
+[client/configuration.ts:97](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/configuration.ts#L97)

@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / GeneralApi
 
-# Class: GeneralApi
+# GeneralApi
 
 GeneralApi - object-oriented interface
 
@@ -28,7 +28,7 @@ GeneralApi - object-oriented interface
 
 ### constructor
 
-• **new GeneralApi**(`configuration`, `axios?`)
+• **new GeneralApi**(`configuration`, `axios?`): [`GeneralApi`](GeneralApi.md)
 
 #### Parameters
 
@@ -37,13 +37,17 @@ GeneralApi - object-oriented interface
 | `configuration` | [`Configuration`](Configuration.md) | `undefined` |
 | `axios` | `AxiosInstance` | `globalAxios` |
 
+#### Returns
+
+[`GeneralApi`](GeneralApi.md)
+
 #### Inherited from
 
 BaseAPI.constructor
 
 #### Defined in
 
-[client/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/base.ts#L50)
+[client/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/base.ts#L50)
 
 ## Methods
 
@@ -69,7 +73,7 @@ GeneralApi
 
 #### Defined in
 
-[client/api.ts:1607](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1607)
+[client/api.ts:1607](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L1607)
 
 ___
 
@@ -95,7 +99,7 @@ GeneralApi
 
 #### Defined in
 
-[client/api.ts:1617](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1617)
+[client/api.ts:1617](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L1617)
 
 ___
 
@@ -121,4 +125,4 @@ GeneralApi
 
 #### Defined in
 
-[client/api.ts:1627](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L1627)
+[client/api.ts:1627](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L1627)

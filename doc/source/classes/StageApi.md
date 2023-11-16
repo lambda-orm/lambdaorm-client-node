@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / StageApi
 
-# Class: StageApi
+# StageApi
 
 StageApi - object-oriented interface
 
@@ -28,7 +28,7 @@ StageApi - object-oriented interface
 
 ### constructor
 
-• **new StageApi**(`configuration`, `axios?`)
+• **new StageApi**(`configuration`, `axios?`): [`StageApi`](StageApi.md)
 
 #### Parameters
 
@@ -37,13 +37,17 @@ StageApi - object-oriented interface
 | `configuration` | [`Configuration`](Configuration.md) | `undefined` |
 | `axios` | `AxiosInstance` | `globalAxios` |
 
+#### Returns
+
+[`StageApi`](StageApi.md)
+
 #### Inherited from
 
 BaseAPI.constructor
 
 #### Defined in
 
-[client/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/base.ts#L50)
+[client/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/base.ts#L50)
 
 ## Methods
 
@@ -70,7 +74,7 @@ StageApi
 
 #### Defined in
 
-[client/api.ts:2543](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L2543)
+[client/api.ts:2543](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2543)
 
 ___
 
@@ -98,7 +102,7 @@ StageApi
 
 #### Defined in
 
-[client/api.ts:2555](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L2555)
+[client/api.ts:2555](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2555)
 
 ___
 
@@ -125,4 +129,4 @@ StageApi
 
 #### Defined in
 
-[client/api.ts:2566](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L2566)
+[client/api.ts:2566](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L2566)

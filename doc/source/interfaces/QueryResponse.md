@@ -1,10 +1,8 @@
 [Lambda ORM client](../README.md) / QueryResponse
 
-# Interface: QueryResponse
+# QueryResponse
 
 **`Export`**
-
-**`Interface`**
 
 QueryResponse
 
@@ -26,4 +24,4 @@ QueryResponse
 
 #### Defined in
 
-[client/api.ts:837](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L837)
+[client/api.ts:837](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L837)

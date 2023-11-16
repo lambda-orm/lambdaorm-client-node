@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / OrmClient
 
-# Class: OrmClient
+# OrmClient
 
 Facade through which you can access all the functionalities of the library.
 
@@ -38,7 +38,7 @@ Facade through which you can access all the functionalities of the library.
 
 ### constructor
 
-• **new OrmClient**(`host?`)
+• **new OrmClient**(`host?`): [`OrmClient`](OrmClient.md)
 
 #### Parameters
 
@@ -46,9 +46,13 @@ Facade through which you can access all the functionalities of the library.
 | :------ | :------ | :------ |
 | `host` | `string` | `'http://localhost:9289'` |
 
+#### Returns
+
+[`OrmClient`](OrmClient.md)
+
 #### Defined in
 
-[orm.ts:19](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L19)
+[orm.ts:19](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L19)
 
 ## Properties
 
@@ -62,13 +66,13 @@ Facade through which you can access all the functionalities of the library.
 
 #### Defined in
 
-[orm.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L15)
+[orm.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L15)
 
 ## Accessors
 
 ### instance
 
-• `Static` `get` **instance**(): [`OrmClient`](OrmClient.md)
+• `get` **instance**(): [`OrmClient`](OrmClient.md)
 
 Singleton
 
@@ -78,7 +82,7 @@ Singleton
 
 #### Defined in
 
-[orm.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L26)
+[orm.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L26)
 
 ## Methods
 
@@ -106,7 +110,7 @@ Constraints of expression
 
 #### Defined in
 
-[orm.ts:82](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L82)
+[orm.ts:82](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L82)
 
 ▸ **constraints**(`expression`): `Promise`<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
@@ -126,7 +130,7 @@ Constraints of expression
 
 #### Defined in
 
-[orm.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L83)
+[orm.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L83)
 
 ___
 
@@ -144,7 +148,7 @@ ___
 
 #### Defined in
 
-[orm.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L43)
+[orm.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L43)
 
 ___
 
@@ -174,7 +178,7 @@ Result of execution
 
 #### Defined in
 
-[orm.ts:133](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L133)
+[orm.ts:133](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L133)
 
 ▸ **execute**(`expression`, `data?`, `options?`): `Promise`<`any`\>
 
@@ -196,7 +200,7 @@ Result of execution
 
 #### Defined in
 
-[orm.ts:134](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L134)
+[orm.ts:134](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L134)
 
 ___
 
@@ -228,7 +232,7 @@ Result of execution
 
 #### Defined in
 
-[orm.ts:152](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L152)
+[orm.ts:152](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L152)
 
 ▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`<`any`\>
 
@@ -252,7 +256,7 @@ Result of execution
 
 #### Defined in
 
-[orm.ts:153](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L153)
+[orm.ts:153](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L153)
 
 ___
 
@@ -276,7 +280,7 @@ ___
 
 #### Defined in
 
-[orm.ts:33](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L33)
+[orm.ts:33](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L33)
 
 ___
 
@@ -304,7 +308,7 @@ metadata of expression
 
 #### Defined in
 
-[orm.ts:98](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L98)
+[orm.ts:98](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L98)
 
 ▸ **metadata**(`expression`): `Promise`<[`Metadata`](../interfaces/Metadata.md)\>
 
@@ -324,7 +328,7 @@ metadata of expression
 
 #### Defined in
 
-[orm.ts:99](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L99)
+[orm.ts:99](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L99)
 
 ___
 
@@ -352,7 +356,7 @@ Model of expression
 
 #### Defined in
 
-[orm.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L50)
+[orm.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L50)
 
 ▸ **model**(`expression`): `Promise`<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
@@ -372,7 +376,7 @@ Model of expression
 
 #### Defined in
 
-[orm.ts:51](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L51)
+[orm.ts:51](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L51)
 
 ___
 
@@ -400,7 +404,7 @@ Parameters of expression
 
 #### Defined in
 
-[orm.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L66)
+[orm.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L66)
 
 ▸ **parameters**(`expression`): `Promise`<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
@@ -420,7 +424,7 @@ Parameters of expression
 
 #### Defined in
 
-[orm.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L67)
+[orm.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L67)
 
 ___
 
@@ -447,7 +451,7 @@ Get getInfo of expression
 
 #### Defined in
 
-[orm.ts:114](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L114)
+[orm.ts:114](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L114)
 
 ▸ **sentence**(`expression`, `options?`): `Promise`<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
 
@@ -468,4 +472,4 @@ Get getInfo of expression
 
 #### Defined in
 
-[orm.ts:115](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/orm.ts#L115)
+[orm.ts:115](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/orm.ts#L115)

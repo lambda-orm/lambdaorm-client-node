@@ -1,10 +1,8 @@
 [Lambda ORM client](../README.md) / MetadataModel
 
-# Interface: MetadataModel
+# MetadataModel
 
 **`Export`**
-
-**`Interface`**
 
 MetadataModel
 
@@ -28,7 +26,7 @@ MetadataModel
 
 #### Defined in
 
-[client/api.ts:479](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L479)
+[client/api.ts:479](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L479)
 
 ___
 
@@ -42,7 +40,7 @@ MetadataModel
 
 #### Defined in
 
-[client/api.ts:467](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L467)
+[client/api.ts:467](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L467)
 
 ___
 
@@ -56,4 +54,4 @@ MetadataModel
 
 #### Defined in
 
-[client/api.ts:473](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/client/api.ts#L473)
+[client/api.ts:473](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/client/api.ts#L473)

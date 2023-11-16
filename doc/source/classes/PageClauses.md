@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / PageClauses
 
-# Class: PageClauses
+# PageClauses
 
 ## Hierarchy
 
@@ -31,7 +31,7 @@
 
 ### constructor
 
-• **new PageClauses**(`actions`, `expression`)
+• **new PageClauses**(`actions`, `expression`): [`PageClauses`](PageClauses.md)
 
 #### Parameters
 
@@ -40,13 +40,17 @@
 | `actions` | [`ExpressionActions`](ExpressionActions.md) |
 | `expression` | `string` |
 
+#### Returns
+
+[`PageClauses`](PageClauses.md)
+
 #### Inherited from
 
 [QueryAction](QueryAction.md).[constructor](QueryAction.md#constructor)
 
 #### Defined in
 
-[manager/query.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/query.ts#L7)
+[manager/query.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/query.ts#L7)
 
 ## Methods
 
@@ -64,7 +68,7 @@
 
 #### Defined in
 
-[manager/query.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/query.ts#L24)
+[manager/query.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/query.ts#L24)
 
 ___
 
@@ -88,7 +92,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/query.ts#L12)
+[manager/query.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/query.ts#L12)
 
 ___
 
@@ -114,7 +118,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/query.ts#L16)
+[manager/query.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/query.ts#L16)
 
 ___
 
@@ -132,7 +136,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/query.ts#L36)
+[manager/query.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/query.ts#L36)
 
 ___
 
@@ -150,7 +154,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/query.ts#L20)
+[manager/query.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/query.ts#L20)
 
 ___
 
@@ -171,7 +175,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/query.ts#L43)
+[manager/query.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/query.ts#L43)
 
 ___
 
@@ -189,7 +193,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/query.ts#L28)
+[manager/query.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/query.ts#L28)
 
 ___
 
@@ -207,4 +211,4 @@ ___
 
 #### Defined in
 
-[manager/query.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/72895a2/src/lib/manager/query.ts#L32)
+[manager/query.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/ef76354/src/lib/manager/query.ts#L32)
