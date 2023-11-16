@@ -27,7 +27,7 @@ DataSource
 
 #### Defined in
 
-[client/api.ts:72](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L72)
+[client/api.ts:72](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/521cb11/src/lib/client/api.ts#L72)
 
 ___
 
@@ -41,7 +41,7 @@ DataSource
 
 #### Defined in
 
-[client/api.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L60)
+[client/api.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/521cb11/src/lib/client/api.ts#L60)
 
 ___
 
@@ -55,7 +55,7 @@ DataSource
 
 #### Defined in
 
-[client/api.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L66)
+[client/api.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/521cb11/src/lib/client/api.ts#L66)
 
 ___
 
@@ -69,4 +69,4 @@ DataSource
 
 #### Defined in
 
-[client/api.ts:54](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/c705977/src/lib/client/api.ts#L54)
+[client/api.ts:54](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/521cb11/src/lib/client/api.ts#L54)
