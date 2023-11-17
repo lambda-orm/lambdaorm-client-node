@@ -14,8 +14,11 @@
     "gmail",
     "gruntfile",
     "lambdaorm",
+    "MYSQL",
+    "northwind",
     "npmjs",
     "openapi",
-    "openapitools"
+    "openapitools",
+    "pnorthwind"
   ]
 }
