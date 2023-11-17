@@ -24,4 +24,4 @@ QueryResponse
 
 #### Defined in
 
-[client/api.ts:837](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/521cb11/src/lib/client/api.ts#L837)
+[client/api.ts:837](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L837)
