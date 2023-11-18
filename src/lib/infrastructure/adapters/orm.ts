@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
-import { IOrmClient } from './IOrm'
-import { ExpressionApi, Configuration, MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from './client'
+import { IOrmClient, ExpressionApi } from '../../application'
+import { Configuration, MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
 import { AxiosResponse } from 'axios'
 import { expressions } from '3xpr'
-import { SentenceLibrary } from './manager'
+import { SentenceLibrary } from '..'
 
 /**
  * Facade through which you can access all the functionalities of the library.

@@ -13,7 +13,7 @@
  */
 
 
-import { Configuration } from "./configuration";
+import { Configuration } from "../../domain/configuration";
 import { RequiredError, RequestArgs } from "./base";
 import { AxiosInstance, AxiosResponse } from 'axios';
 

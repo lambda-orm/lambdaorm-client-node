@@ -1,7 +1,7 @@
-import { IOrmClient } from '../IOrm'
-import { OrmClient } from './../orm'
-import { Queryable } from './query'
-import { ExpressionActions } from './expressionActions'
+import { IOrmClient } from '../application/ports/IOrm'
+import { OrmClient } from './adapters/orm'
+import { Queryable } from '../domain/queryable'
+import { ExpressionActions } from '../domain/actions'
 
 export class Repository<TEntity, TQuery> {
 	public name:string

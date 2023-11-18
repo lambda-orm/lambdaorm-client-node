@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import { ExpressionActions } from './expressionActions'
-import { MetadataConstraint, MetadataModel, MetadataParameter, MetadataSentence, Metadata } from '../client'
+import { ExpressionActions } from './actions'
+import { MetadataConstraint, MetadataModel, MetadataParameter, MetadataSentence, Metadata } from './model'
 export class QueryAction {
 	protected actions
 	protected expression

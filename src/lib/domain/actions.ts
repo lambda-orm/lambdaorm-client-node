@@ -1,5 +1,5 @@
-import { MetadataSentence, MetadataParameter, MetadataModel, MetadataConstraint, Metadata } from '../client'
-import { IOrmClient } from '../IOrm'
+import { MetadataSentence, MetadataParameter, MetadataModel, MetadataConstraint, Metadata } from './model'
+import { IOrmClient } from '../application/ports/IOrm'
 
 export class ExpressionActions {
 	private orm

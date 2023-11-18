@@ -13,7 +13,7 @@
  */
 
 
-import { Configuration } from "./configuration";
+import { Configuration } from "../../domain/configuration";
 // Some imports not used depending on template conditions
 // @ts-ignore
 import globalAxios, { AxiosPromise, AxiosInstance, AxiosRequestConfig } from 'axios';

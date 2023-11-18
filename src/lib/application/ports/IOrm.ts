@@ -1,8 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import {
-	MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint,
-	MetadataParameter
-} from './client'
+import { MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
 
 export interface IOrmClient
 {
