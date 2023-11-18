@@ -32,7 +32,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:862](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L862)
+[domain/model.ts:841](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L841)
 
 ___
 
@@ -46,7 +46,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:874](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L874)
+[domain/model.ts:853](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L853)
 
 ___
 
@@ -60,7 +60,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:868](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L868)
+[domain/model.ts:847](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L847)
 
 ___
 
@@ -74,7 +74,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:850](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L850)
+[domain/model.ts:829](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L829)
 
 ___
 
@@ -88,7 +88,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:892](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L892)
+[domain/model.ts:871](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L871)
 
 ___
 
@@ -102,7 +102,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:898](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L898)
+[domain/model.ts:877](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L877)
 
 ___
 
@@ -116,7 +116,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:880](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L880)
+[domain/model.ts:859](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L859)
 
 ___
 
@@ -130,7 +130,7 @@ Relation
 
 #### Defined in
 
-[client/api.ts:856](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L856)
+[domain/model.ts:835](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L835)
 
 ___
 
@@ -144,4 +144,4 @@ Relation
 
 #### Defined in
 
-[client/api.ts:886](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L886)
+[domain/model.ts:865](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L865)

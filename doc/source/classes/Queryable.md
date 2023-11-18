@@ -69,7 +69,7 @@
 
 #### Defined in
 
-[manager/query.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L7)
+[domain/queryable.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L7)
 
 ## Methods
 
@@ -87,7 +87,7 @@
 
 #### Defined in
 
-[manager/query.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L24)
+[domain/queryable.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L24)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:146](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L146)
+[domain/queryable.ts:146](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L146)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L12)
+[domain/queryable.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L12)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L16)
+[domain/queryable.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L16)
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:116](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L116)
+[domain/queryable.ts:116](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L116)
 
 ___
 
@@ -209,7 +209,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:131](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L131)
+[domain/queryable.ts:131](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L131)
 
 ___
 
@@ -229,7 +229,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:151](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L151)
+[domain/queryable.ts:151](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L151)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:121](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L121)
+[domain/queryable.ts:121](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L121)
 
 ___
 
@@ -275,7 +275,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:136](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L136)
+[domain/queryable.ts:136](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L136)
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:126](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L126)
+[domain/queryable.ts:126](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L126)
 
 ___
 
@@ -319,7 +319,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L36)
+[domain/queryable.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L36)
 
 ___
 
@@ -337,7 +337,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L20)
+[domain/queryable.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L20)
 
 ___
 
@@ -362,7 +362,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L43)
+[domain/queryable.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L43)
 
 ___
 
@@ -380,7 +380,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L28)
+[domain/queryable.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L28)
 
 ___
 
@@ -398,7 +398,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L32)
+[domain/queryable.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L32)
 
 ___
 
@@ -422,7 +422,7 @@ ___
 
 #### Defined in
 
-[manager/query.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L49)
+[domain/queryable.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L49)
 
 ___
 
@@ -448,4 +448,4 @@ ___
 
 #### Defined in
 
-[manager/query.ts:141](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/manager/query.ts#L141)
+[domain/queryable.ts:141](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L141)

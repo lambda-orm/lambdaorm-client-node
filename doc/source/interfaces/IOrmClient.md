@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[IOrm.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L9)
+[application/ports/IOrm.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L6)
 
 ## Methods
 
@@ -56,7 +56,7 @@ Constraints of expression
 
 #### Defined in
 
-[IOrm.ts:31](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L31)
+[application/ports/IOrm.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L28)
 
 ▸ **constraints**(`expression`): `Promise`<[`MetadataConstraint`](MetadataConstraint.md)\>
 
@@ -72,7 +72,7 @@ Constraints of expression
 
 #### Defined in
 
-[IOrm.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L32)
+[application/ports/IOrm.ts:29](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L29)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[IOrm.ts:11](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L11)
+[application/ports/IOrm.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L8)
 
 ___
 
@@ -112,7 +112,7 @@ Result of execution
 
 #### Defined in
 
-[IOrm.ts:56](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L56)
+[application/ports/IOrm.ts:53](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L53)
 
 ▸ **execute**(`expression`, `data?`, `options?`): `Promise`<`any`\>
 
@@ -130,7 +130,7 @@ Result of execution
 
 #### Defined in
 
-[IOrm.ts:57](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L57)
+[application/ports/IOrm.ts:54](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L54)
 
 ___
 
@@ -158,7 +158,7 @@ Result of execution
 
 #### Defined in
 
-[IOrm.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L66)
+[application/ports/IOrm.ts:63](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L63)
 
 ▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`<`string`\>
 
@@ -178,7 +178,7 @@ Result of execution
 
 #### Defined in
 
-[IOrm.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L67)
+[application/ports/IOrm.ts:64](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L64)
 
 ___
 
@@ -198,7 +198,7 @@ ___
 
 #### Defined in
 
-[IOrm.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L10)
+[application/ports/IOrm.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L7)
 
 ___
 
@@ -222,7 +222,7 @@ metadata of expression
 
 #### Defined in
 
-[IOrm.ts:38](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L38)
+[application/ports/IOrm.ts:35](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L35)
 
 ▸ **metadata**(`expression`): `Promise`<[`Metadata`](Metadata.md)\>
 
@@ -238,7 +238,7 @@ metadata of expression
 
 #### Defined in
 
-[IOrm.ts:39](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L39)
+[application/ports/IOrm.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L36)
 
 ___
 
@@ -262,7 +262,7 @@ Model of expression
 
 #### Defined in
 
-[IOrm.ts:17](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L17)
+[application/ports/IOrm.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L14)
 
 ▸ **model**(`expression`): `Promise`<[`MetadataModel`](MetadataModel.md)[]\>
 
@@ -278,7 +278,7 @@ Model of expression
 
 #### Defined in
 
-[IOrm.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L18)
+[application/ports/IOrm.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L15)
 
 ___
 
@@ -302,7 +302,7 @@ Parameters of expression
 
 #### Defined in
 
-[IOrm.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L24)
+[application/ports/IOrm.ts:21](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L21)
 
 ▸ **parameters**(`expression`): `Promise`<[`MetadataParameter`](MetadataParameter.md)[]\>
 
@@ -318,7 +318,7 @@ Parameters of expression
 
 #### Defined in
 
-[IOrm.ts:25](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L25)
+[application/ports/IOrm.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L22)
 
 ___
 
@@ -339,7 +339,7 @@ ___
 
 #### Defined in
 
-[IOrm.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L46)
+[application/ports/IOrm.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L43)
 
 ▸ **sentence**(`expression`, `options?`): `Promise`<[`MetadataSentence`](MetadataSentence.md)\>
 
@@ -356,4 +356,4 @@ ___
 
 #### Defined in
 
-[IOrm.ts:47](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/IOrm.ts#L47)
+[application/ports/IOrm.ts:44](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/ports/IOrm.ts#L44)

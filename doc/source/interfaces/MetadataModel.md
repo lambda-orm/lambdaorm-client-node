@@ -26,7 +26,7 @@ MetadataModel
 
 #### Defined in
 
-[client/api.ts:479](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L479)
+[domain/model.ts:458](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L458)
 
 ___
 
@@ -40,7 +40,7 @@ MetadataModel
 
 #### Defined in
 
-[client/api.ts:467](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L467)
+[domain/model.ts:446](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L446)
 
 ___
 
@@ -54,4 +54,4 @@ MetadataModel
 
 #### Defined in
 
-[client/api.ts:473](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L473)
+[domain/model.ts:452](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L452)

@@ -26,7 +26,7 @@ QueryRequest
 
 #### Defined in
 
-[client/api.ts:787](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L787)
+[domain/model.ts:766](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L766)
 
 ___
 
@@ -40,7 +40,7 @@ QueryRequest
 
 #### Defined in
 
-[client/api.ts:781](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L781)
+[domain/model.ts:760](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L760)
 
 ___
 
@@ -54,4 +54,4 @@ QueryRequest
 
 #### Defined in
 
-[client/api.ts:775](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L775)
+[domain/model.ts:754](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L754)

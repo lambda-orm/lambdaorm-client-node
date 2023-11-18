@@ -28,7 +28,7 @@ MetadataSentence
 
 #### Defined in
 
-[client/api.ts:541](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L541)
+[domain/model.ts:520](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L520)
 
 ___
 
@@ -42,7 +42,7 @@ MetadataSentence
 
 #### Defined in
 
-[client/api.ts:529](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L529)
+[domain/model.ts:508](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L508)
 
 ___
 
@@ -56,7 +56,7 @@ MetadataSentence
 
 #### Defined in
 
-[client/api.ts:523](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L523)
+[domain/model.ts:502](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L502)
 
 ___
 
@@ -70,7 +70,7 @@ MetadataSentence
 
 #### Defined in
 
-[client/api.ts:517](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L517)
+[domain/model.ts:496](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L496)
 
 ___
 
@@ -84,4 +84,4 @@ MetadataSentence
 
 #### Defined in
 
-[client/api.ts:535](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L535)
+[domain/model.ts:514](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L514)

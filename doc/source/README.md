@@ -89,7 +89,7 @@ Lambda ORM client
 
 #### Defined in
 
-[index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/index.ts#L6)
+[index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/index.ts#L6)
 
 ## Functions
 
@@ -122,7 +122,7 @@ ExpressionApi - axios parameter creator
 
 #### Defined in
 
-[client/api.ts:990](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L990)
+[application/services/expressionService.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L10)
 
 ___
 
@@ -157,7 +157,7 @@ ExpressionApi - factory interface
 
 #### Defined in
 
-[client/api.ts:1281](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1281)
+[application/services/expressionService.ts:289](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L289)
 
 ___
 
@@ -191,7 +191,7 @@ ExpressionApi - functional programming interface
 
 #### Defined in
 
-[client/api.ts:1201](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1201)
+[application/services/expressionService.ts:209](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L209)
 
 ___
 
@@ -221,7 +221,7 @@ GeneralApi - axios parameter creator
 
 #### Defined in
 
-[client/api.ts:1431](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1431)
+[application/services/generalService.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/generalService.ts#L10)
 
 ___
 
@@ -253,7 +253,7 @@ GeneralApi - factory interface
 
 #### Defined in
 
-[client/api.ts:1564](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1564)
+[application/services/generalService.ts:137](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/generalService.ts#L137)
 
 ___
 
@@ -283,7 +283,7 @@ GeneralApi - functional programming interface
 
 #### Defined in
 
-[client/api.ts:1527](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1527)
+[application/services/generalService.ts:100](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/generalService.ts#L100)
 
 ___
 
@@ -321,7 +321,7 @@ SchemaApi - axios parameter creator
 
 #### Defined in
 
-[client/api.ts:1637](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1637)
+[application/services/schemaService.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L10)
 
 ___
 
@@ -360,7 +360,7 @@ SchemaApi - factory interface
 
 #### Defined in
 
-[client/api.ts:2109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2109)
+[application/services/schemaService.ts:460](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L460)
 
 ___
 
@@ -398,7 +398,7 @@ SchemaApi - functional programming interface
 
 #### Defined in
 
-[client/api.ts:1993](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1993)
+[application/services/schemaService.ts:344](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L344)
 
 ___
 
@@ -428,7 +428,7 @@ StageApi - axios parameter creator
 
 #### Defined in
 
-[client/api.ts:2340](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2340)
+[application/services/stageService.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/stageService.ts#L10)
 
 ___
 
@@ -460,7 +460,7 @@ StageApi - factory interface
 
 #### Defined in
 
-[client/api.ts:2495](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2495)
+[application/services/stageService.ts:159](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/stageService.ts#L159)
 
 ___
 
@@ -490,4 +490,4 @@ StageApi - functional programming interface
 
 #### Defined in
 
-[client/api.ts:2454](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2454)
+[application/services/stageService.ts:118](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/stageService.ts#L118)

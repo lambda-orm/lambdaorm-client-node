@@ -47,7 +47,7 @@ BaseAPI.constructor
 
 #### Defined in
 
-[client/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/base.ts#L50)
+[application/services/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/base.ts#L50)
 
 ## Methods
 
@@ -74,7 +74,7 @@ StageApi
 
 #### Defined in
 
-[client/api.ts:2543](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2543)
+[application/services/stageService.ts:207](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/stageService.ts#L207)
 
 ___
 
@@ -102,7 +102,7 @@ StageApi
 
 #### Defined in
 
-[client/api.ts:2555](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2555)
+[application/services/stageService.ts:219](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/stageService.ts#L219)
 
 ___
 
@@ -129,4 +129,4 @@ StageApi
 
 #### Defined in
 
-[client/api.ts:2566](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2566)
+[application/services/stageService.ts:230](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/stageService.ts#L230)

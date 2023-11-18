@@ -27,7 +27,7 @@ Mapping
 
 #### Defined in
 
-[client/api.ts:356](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L356)
+[domain/model.ts:335](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L335)
 
 ___
 
@@ -41,7 +41,7 @@ Mapping
 
 #### Defined in
 
-[client/api.ts:338](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L338)
+[domain/model.ts:317](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L317)
 
 ___
 
@@ -55,7 +55,7 @@ Mapping
 
 #### Defined in
 
-[client/api.ts:344](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L344)
+[domain/model.ts:323](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L323)
 
 ___
 
@@ -69,4 +69,4 @@ Mapping
 
 #### Defined in
 
-[client/api.ts:350](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L350)
+[domain/model.ts:329](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L329)

@@ -47,7 +47,7 @@ BaseAPI.constructor
 
 #### Defined in
 
-[client/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/base.ts#L50)
+[application/services/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/base.ts#L50)
 
 ## Methods
 
@@ -73,7 +73,7 @@ GeneralApi
 
 #### Defined in
 
-[client/api.ts:1607](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1607)
+[application/services/generalService.ts:180](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/generalService.ts#L180)
 
 ___
 
@@ -99,7 +99,7 @@ GeneralApi
 
 #### Defined in
 
-[client/api.ts:1617](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1617)
+[application/services/generalService.ts:190](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/generalService.ts#L190)
 
 ___
 
@@ -125,4 +125,4 @@ GeneralApi
 
 #### Defined in
 
-[client/api.ts:1627](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L1627)
+[application/services/generalService.ts:200](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/generalService.ts#L200)

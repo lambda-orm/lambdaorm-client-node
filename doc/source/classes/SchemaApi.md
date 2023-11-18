@@ -55,7 +55,7 @@ BaseAPI.constructor
 
 #### Defined in
 
-[client/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/base.ts#L50)
+[application/services/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/base.ts#L50)
 
 ## Methods
 
@@ -82,7 +82,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2224](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2224)
+[application/services/schemaService.ts:575](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L575)
 
 ___
 
@@ -108,7 +108,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2234](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2234)
+[application/services/schemaService.ts:585](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L585)
 
 ___
 
@@ -135,7 +135,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2245](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2245)
+[application/services/schemaService.ts:596](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L596)
 
 ___
 
@@ -161,7 +161,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2255](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2255)
+[application/services/schemaService.ts:606](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L606)
 
 ___
 
@@ -188,7 +188,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2266](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2266)
+[application/services/schemaService.ts:617](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L617)
 
 ___
 
@@ -216,7 +216,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2278](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2278)
+[application/services/schemaService.ts:629](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L629)
 
 ___
 
@@ -242,7 +242,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2288](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2288)
+[application/services/schemaService.ts:639](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L639)
 
 ___
 
@@ -269,7 +269,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2299](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2299)
+[application/services/schemaService.ts:650](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L650)
 
 ___
 
@@ -295,7 +295,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2309](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2309)
+[application/services/schemaService.ts:660](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L660)
 
 ___
 
@@ -322,7 +322,7 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2320](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2320)
+[application/services/schemaService.ts:671](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L671)
 
 ___
 
@@ -348,4 +348,4 @@ SchemaApi
 
 #### Defined in
 
-[client/api.ts:2330](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L2330)
+[application/services/schemaService.ts:681](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/schemaService.ts#L681)

@@ -25,7 +25,7 @@ Index
 
 #### Defined in
 
-[client/api.ts:325](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L325)
+[domain/model.ts:304](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L304)
 
 ___
 
@@ -39,4 +39,4 @@ Index
 
 #### Defined in
 
-[client/api.ts:319](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/7c52331/src/lib/client/api.ts#L319)
+[domain/model.ts:298](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L298)
