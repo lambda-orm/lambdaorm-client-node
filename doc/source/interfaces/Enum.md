@@ -25,7 +25,7 @@ Enum
 
 #### Defined in
 
-[domain/model.ts:235](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L235)
+[domain/model.ts:235](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/model.ts#L235)
 
 ___
 
@@ -39,4 +39,4 @@ Enum
 
 #### Defined in
 
-[domain/model.ts:241](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L241)
+[domain/model.ts:241](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/model.ts#L241)

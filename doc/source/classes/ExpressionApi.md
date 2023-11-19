@@ -51,7 +51,7 @@ BaseAPI.constructor
 
 #### Defined in
 
-[application/services/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/base.ts#L50)
+[application/services/base.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/application/services/base.ts#L50)
 
 ## Methods
 
@@ -78,7 +78,7 @@ ExpressionApi
 
 #### Defined in
 
-[application/services/expressionService.ts:363](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L363)
+[application/services/expressionService.ts:363](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/application/services/expressionService.ts#L363)
 
 ___
 
@@ -105,7 +105,7 @@ ExpressionApi
 
 #### Defined in
 
-[application/services/expressionService.ts:374](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L374)
+[application/services/expressionService.ts:374](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/application/services/expressionService.ts#L374)
 
 ___
 
@@ -132,7 +132,7 @@ ExpressionApi
 
 #### Defined in
 
-[application/services/expressionService.ts:385](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L385)
+[application/services/expressionService.ts:385](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/application/services/expressionService.ts#L385)
 
 ___
 
@@ -159,7 +159,7 @@ ExpressionApi
 
 #### Defined in
 
-[application/services/expressionService.ts:396](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L396)
+[application/services/expressionService.ts:396](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/application/services/expressionService.ts#L396)
 
 ___
 
@@ -186,7 +186,7 @@ ExpressionApi
 
 #### Defined in
 
-[application/services/expressionService.ts:407](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L407)
+[application/services/expressionService.ts:407](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/application/services/expressionService.ts#L407)
 
 ___
 
@@ -213,7 +213,7 @@ ExpressionApi
 
 #### Defined in
 
-[application/services/expressionService.ts:418](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L418)
+[application/services/expressionService.ts:418](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/application/services/expressionService.ts#L418)
 
 ___
 
@@ -240,4 +240,4 @@ ExpressionApi
 
 #### Defined in
 
-[application/services/expressionService.ts:429](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/application/services/expressionService.ts#L429)
+[application/services/expressionService.ts:429](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/application/services/expressionService.ts#L429)

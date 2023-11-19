@@ -24,9 +24,9 @@
 
 - [constraints](Map2Clauses.md#constraints)
 - [execute](Map2Clauses.md#execute)
-- [executeQueued](Map2Clauses.md#executequeued)
 - [metadata](Map2Clauses.md#metadata)
 - [model](Map2Clauses.md#model)
+- [normalize](Map2Clauses.md#normalize)
 - [parameters](Map2Clauses.md#parameters)
 - [sentence](Map2Clauses.md#sentence)
 - [sort](Map2Clauses.md#sort)
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[domain/queryable.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L7)
+[domain/queryable.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/queryable.ts#L7)
 
 ## Methods
 
@@ -78,7 +78,7 @@
 
 #### Defined in
 
-[domain/queryable.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L24)
+[domain/queryable.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/queryable.ts#L24)
 
 ___
 
@@ -102,33 +102,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L12)
-
-___
-
-### executeQueued
-
-▸ **executeQueued**(`topic`, `data`, `chunk?`): `Promise`<`any`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `topic` | `string` |
-| `data` | `any` |
-| `chunk?` | `number` |
-
-#### Returns
-
-`Promise`<`any`\>
-
-#### Inherited from
-
-[QueryAction](QueryAction.md).[executeQueued](QueryAction.md#executequeued)
-
-#### Defined in
-
-[domain/queryable.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L16)
+[domain/queryable.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/queryable.ts#L12)
 
 ___
 
@@ -146,7 +120,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L36)
+[domain/queryable.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/queryable.ts#L36)
 
 ___
 
@@ -164,7 +138,25 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L20)
+[domain/queryable.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/queryable.ts#L20)
+
+___
+
+### normalize
+
+▸ **normalize**(): `string`
+
+#### Returns
+
+`string`
+
+#### Inherited from
+
+[QueryAction](QueryAction.md).[normalize](QueryAction.md#normalize)
+
+#### Defined in
+
+[domain/queryable.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/queryable.ts#L16)
 
 ___
 
@@ -182,7 +174,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L28)
+[domain/queryable.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/queryable.ts#L28)
 
 ___
 
@@ -200,7 +192,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L32)
+[domain/queryable.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/queryable.ts#L32)
 
 ___
 
@@ -220,4 +212,4 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:55](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/queryable.ts#L55)
+[domain/queryable.ts:55](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/queryable.ts#L55)

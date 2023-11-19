@@ -25,7 +25,7 @@ Dependent
 
 #### Defined in
 
-[domain/model.ts:64](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L64)
+[domain/model.ts:64](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/model.ts#L64)
 
 ___
 
@@ -39,4 +39,4 @@ Dependent
 
 #### Defined in
 
-[domain/model.ts:70](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b13c123/src/lib/domain/model.ts#L70)
+[domain/model.ts:70](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/model.ts#L70)
