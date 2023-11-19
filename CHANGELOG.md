@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### [0.7.20](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.19...v0.7.20) (2023-11-19)
+
+
+### Features
+
+* add lambda lab on northwind ([cf1dba5](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/cf1dba516554fcebd4580f656d3b0c9452830aa3)), closes [#189](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/189)
+
 ### [0.7.19](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.18...v0.7.19) (2023-11-18)
 
 ### [0.7.18](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.17...v0.7.18) (2023-11-17)
