@@ -34,7 +34,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:95](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L95)
+[domain/model.ts:95](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L95)
 
 ___
 
@@ -48,7 +48,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:143](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L143)
+[domain/model.ts:143](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L143)
 
 ___
 
@@ -62,7 +62,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:137](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L137)
+[domain/model.ts:137](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L137)
 
 ___
 
@@ -76,7 +76,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:89](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L89)
+[domain/model.ts:89](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L89)
 
 ___
 
@@ -90,7 +90,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:113](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L113)
+[domain/model.ts:113](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L113)
 
 ___
 
@@ -104,7 +104,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L83)
+[domain/model.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L83)
 
 ___
 
@@ -118,7 +118,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:119](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L119)
+[domain/model.ts:119](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L119)
 
 ___
 
@@ -132,7 +132,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:125](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L125)
+[domain/model.ts:125](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L125)
 
 ___
 
@@ -146,7 +146,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:131](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L131)
+[domain/model.ts:131](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L131)
 
 ___
 
@@ -160,7 +160,7 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:101](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L101)
+[domain/model.ts:101](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L101)
 
 ___
 
@@ -174,4 +174,4 @@ Entity
 
 #### Defined in
 
-[domain/model.ts:107](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L107)
+[domain/model.ts:107](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L107)

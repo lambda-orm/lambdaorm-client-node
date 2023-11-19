@@ -33,4 +33,4 @@
 
 #### Defined in
 
-[domain/queryable.ts:197](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/queryable.ts#L197)
+[domain/queryable.ts:197](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/queryable.ts#L197)

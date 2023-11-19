@@ -24,4 +24,4 @@ QueryResponse
 
 #### Defined in
 
-[domain/model.ts:816](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L816)
+[domain/model.ts:816](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/1ad40ad/src/lib/domain/model.ts#L816)
