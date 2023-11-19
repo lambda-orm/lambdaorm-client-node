@@ -1,17 +1,18 @@
 import { GeneralService } from 'lib/application'
 import { GeneralApi } from '../api'
 import { AxiosResponse } from 'axios'
+import { Health, Ping } from '../../domain'
 
 export class GeneralApiService implements GeneralService {
 	// eslint-disable-next-line no-useless-constructor
 	constructor (private readonly generalApi:GeneralApi) {}
 
-	public async ping ():Promise<any> {
+	public async ping ():Promise<Ping> {
 		const result:AxiosResponse<any, any> = await this.generalApi.ping()
 		return result.data
 	}
 
-	public async health ():Promise<any> {
+	public async health ():Promise<Health> {
 		const result:AxiosResponse<any, any> = await this.generalApi.health()
 		return result.data
 	}
