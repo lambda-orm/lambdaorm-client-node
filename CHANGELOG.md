@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### [0.7.22](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.21...v0.7.22) (2023-11-19)
+
+
+### Features
+
+* rename OrmClient for Orm ([1ad40ad](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/1ad40ad6d316d56e72dfe699559201c5ba056197)), closes [#0](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/0)
+
 ### [0.7.21](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.20...v0.7.21) (2023-11-19)
 
 
