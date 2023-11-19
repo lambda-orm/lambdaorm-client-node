@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
-import { IOrmClient, ExpressionApi } from '../../application'
+import { IOrm, ExpressionApi } from '../../application'
 import { Configuration, MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
 import { AxiosResponse } from 'axios'
 import { expressions } from '3xpr'
@@ -9,9 +9,9 @@ import { SentenceLibrary } from '..'
 /**
  * Facade through which you can access all the functionalities of the library.
  */
-export class OrmClient implements IOrmClient {
+export class Orm implements IOrm {
 	// eslint-disable-next-line no-use-before-define
-	private static _instance: OrmClient
+	private static _instance: Orm
 	public host: string
 	private configuration?:Configuration
 	private expressionApi?: ExpressionApi
@@ -23,9 +23,9 @@ export class OrmClient implements IOrmClient {
 	/**
  * Singleton
  */
-	public static get instance (): OrmClient {
+	public static get instance (): IOrm {
 		if (!this._instance) {
-			this._instance = new OrmClient()
+			this._instance = new Orm()
 		}
 		return this._instance
 	}

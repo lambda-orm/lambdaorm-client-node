@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import { MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
 
-export interface IOrmClient
+export interface IOrm
 {
 	host:string
 	init (host?: string):Promise<void>

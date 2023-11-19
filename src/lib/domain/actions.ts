@@ -1,11 +1,11 @@
 import { MetadataSentence, MetadataParameter, MetadataModel, MetadataConstraint, Metadata } from './model'
-import { IOrmClient } from '../application/ports/IOrm'
+import { IOrm } from '../application/ports/IOrm'
 
 export class ExpressionActions {
 	private orm
 	private name
 	private stage
-	constructor (name: string, orm:IOrmClient, stage?:string) {
+	constructor (name: string, orm:IOrm, stage?:string) {
 		this.name = name
 		this.stage = stage
 		this.orm = orm

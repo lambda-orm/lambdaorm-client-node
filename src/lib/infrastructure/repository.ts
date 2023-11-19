@@ -1,16 +1,16 @@
-import { IOrmClient } from '../application/ports/IOrm'
-import { OrmClient } from './adapters/orm'
+import { IOrm } from '../application/ports/IOrm'
+import { Orm } from './adapters/orm'
 import { Queryable } from '../domain/queryable'
 import { ExpressionActions } from '../domain/actions'
 
 export class Repository<TEntity, TQuery> {
 	public name:string
 	public stage?:string
-	private orm:IOrmClient
-	constructor (name: string, stage?:string, Orm?:IOrmClient) {
+	private orm:IOrm
+	constructor (name: string, stage?:string, orm?:IOrm) {
 		this.name = name
 		this.stage = stage
-		this.orm = Orm || OrmClient.instance
+		this.orm = orm || Orm.instance
 	}
 
 	protected async _execute (

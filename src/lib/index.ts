@@ -1,6 +1,6 @@
-import { OrmClient } from './infrastructure/adapters/orm'
+import { Orm } from './infrastructure/adapters/orm'
 export * from './application'
 export * from './infrastructure'
 export * from './domain'
-export { OrmClient } from './infrastructure/adapters/orm'
-export const ormClient = OrmClient.instance
+export { Orm } from './infrastructure/adapters/orm'
+export const orm = Orm.instance
