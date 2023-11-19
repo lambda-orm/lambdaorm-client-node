@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### [0.7.23](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.22...v0.7.23) (2023-11-19)
+
+
+### Features
+
+* refactorize services ([f2f2587](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/f2f2587fdc1652083c76cc0797e6c46d12a01ac1)), closes [#198](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/198)
+
 ### [0.7.22](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.21...v0.7.22) (2023-11-19)
 
 
