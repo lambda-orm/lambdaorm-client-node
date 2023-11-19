@@ -5,13 +5,23 @@
 	"version": "0.2.0",
 	"configurations": [		
 		{
-			"name": "northwind",
+			"name": "lab string query",
 			"type": "node",
 			"request": "launch",
 			"skipFiles": [
 				"<node_internals>/**"
 			],
-			"program": "${workspaceFolder}/build/dev/labs/northwind/client/lab.js",
+			"program": "${workspaceFolder}/build/dev/labs/northwind/client/queryLab.js",
+			"envFile": "${workspaceFolder}/config/collections/workspace/.env"
+		},
+		{
+			"name": "lab lambda query",
+			"type": "node",
+			"request": "launch",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"program": "${workspaceFolder}/build/dev/labs/northwind/client/lambdaLab.js",
 			"envFile": "${workspaceFolder}/config/collections/workspace/.env"
 		}		
 	]
