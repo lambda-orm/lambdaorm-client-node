@@ -1,4 +1,4 @@
-import { IOrm } from '../application/ports/IOrm'
+import { IOrm } from '../application/IOrm'
 import { Orm } from './adapters/orm'
 import { Queryable } from '../domain/queryable'
 import { ExpressionActions } from '../domain/actions'

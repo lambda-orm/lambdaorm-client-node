@@ -1,5 +1,5 @@
 import { MetadataSentence, MetadataParameter, MetadataModel, MetadataConstraint, Metadata } from './model'
-import { IOrm } from '../application/ports/IOrm'
+import { IOrm } from '../application/IOrm'
 
 export class ExpressionActions {
 	private orm

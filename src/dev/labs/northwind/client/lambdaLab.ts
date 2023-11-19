@@ -4,6 +4,11 @@ import { Orders } from './model'
 async function execute () {
 	try {	
 		orm.init('http://localhost:9291')
+
+		console.log(await orm.general.ping())
+		console.log(await orm.general.health())
+		console.log(await orm.general.metrics())		
+
 		const query = (id:number)=> Orders.filter(p =>p.id==id)
 																			.include(p=>[p.customer.map(p=>p.name),p.details
 																				.include(p=>p.product

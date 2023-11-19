@@ -1,5 +1,8 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import { MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
+import { MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../domain'
+import { GeneralService } from './GeneralService'
+import { SchemaService } from './SchemaService'
+import { StageService } from './StageService'
 
 export interface IOrm
 {
@@ -7,6 +10,9 @@ export interface IOrm
 	init (host?: string):Promise<void>
 	end ():Promise<void>
 
+	get general (): GeneralService
+	get schema (): SchemaService
+	get stage (): StageService
 	/**
 		* Get model of expression
 		* @returns Model of expression
