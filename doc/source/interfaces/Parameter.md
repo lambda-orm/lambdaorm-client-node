@@ -26,7 +26,7 @@ Parameter
 
 #### Defined in
 
-[domain/model.ts:533](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/model.ts#L533)
+[domain/model.ts:533](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L533)
 
 ___
 
@@ -40,7 +40,7 @@ Parameter
 
 #### Defined in
 
-[domain/model.ts:539](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/model.ts#L539)
+[domain/model.ts:539](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L539)
 
 ___
 
@@ -54,4 +54,4 @@ Parameter
 
 #### Defined in
 
-[domain/model.ts:545](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/model.ts#L545)
+[domain/model.ts:545](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L545)

@@ -24,4 +24,4 @@ SchemaData
 
 #### Defined in
 
-[domain/model.ts:923](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/model.ts#L923)
+[domain/model.ts:923](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/model.ts#L923)

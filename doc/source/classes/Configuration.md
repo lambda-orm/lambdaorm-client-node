@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[domain/configuration.ts:77](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/configuration.ts#L77)
+[domain/configuration.ts:77](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/configuration.ts#L77)
 
 ## Properties
 
@@ -64,7 +64,7 @@ Configuration
 
 #### Defined in
 
-[domain/configuration.ts:53](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/configuration.ts#L53)
+[domain/configuration.ts:53](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/configuration.ts#L53)
 
 ___
 
@@ -84,7 +84,7 @@ Configuration
 
 #### Defined in
 
-[domain/configuration.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/configuration.ts#L32)
+[domain/configuration.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/configuration.ts#L32)
 
 ___
 
@@ -100,7 +100,7 @@ Configuration
 
 #### Defined in
 
-[domain/configuration.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/configuration.ts#L67)
+[domain/configuration.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/configuration.ts#L67)
 
 ___
 
@@ -116,7 +116,7 @@ Configuration
 
 #### Defined in
 
-[domain/configuration.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/configuration.ts#L60)
+[domain/configuration.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/configuration.ts#L60)
 
 ___
 
@@ -138,7 +138,7 @@ do not support the FormData class can still run the generated client.
 
 #### Defined in
 
-[domain/configuration.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/configuration.ts#L75)
+[domain/configuration.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/configuration.ts#L75)
 
 ___
 
@@ -154,7 +154,7 @@ Configuration
 
 #### Defined in
 
-[domain/configuration.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/configuration.ts#L46)
+[domain/configuration.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/configuration.ts#L46)
 
 ___
 
@@ -170,7 +170,7 @@ Configuration
 
 #### Defined in
 
-[domain/configuration.ts:39](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/configuration.ts#L39)
+[domain/configuration.ts:39](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/configuration.ts#L39)
 
 ## Methods
 
@@ -199,4 +199,4 @@ True if the given MIME is JSON, false otherwise.
 
 #### Defined in
 
-[domain/configuration.ts:97](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/domain/configuration.ts#L97)
+[domain/configuration.ts:97](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/domain/configuration.ts#L97)

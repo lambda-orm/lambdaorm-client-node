@@ -1,44 +1,44 @@
-[Lambda ORM client](../README.md) / OrmClient
+[Lambda ORM client](../README.md) / Orm
 
-# OrmClient
+# Orm
 
 Facade through which you can access all the functionalities of the library.
 
 ## Implements
 
-- [`IOrmClient`](../interfaces/IOrmClient.md)
+- [`IOrm`](../interfaces/IOrm.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](OrmClient.md#constructor)
+- [constructor](Orm.md#constructor)
 
 ### Properties
 
-- [host](OrmClient.md#host)
+- [host](Orm.md#host)
 
 ### Accessors
 
-- [instance](OrmClient.md#instance)
+- [instance](Orm.md#instance)
 
 ### Methods
 
-- [constraints](OrmClient.md#constraints)
-- [end](OrmClient.md#end)
-- [execute](OrmClient.md#execute)
-- [executeQueued](OrmClient.md#executequeued)
-- [init](OrmClient.md#init)
-- [metadata](OrmClient.md#metadata)
-- [model](OrmClient.md#model)
-- [parameters](OrmClient.md#parameters)
-- [sentence](OrmClient.md#sentence)
+- [constraints](Orm.md#constraints)
+- [end](Orm.md#end)
+- [execute](Orm.md#execute)
+- [executeQueued](Orm.md#executequeued)
+- [init](Orm.md#init)
+- [metadata](Orm.md#metadata)
+- [model](Orm.md#model)
+- [parameters](Orm.md#parameters)
+- [sentence](Orm.md#sentence)
 
 ## Constructors
 
 ### constructor
 
-• **new OrmClient**(`host?`): [`OrmClient`](OrmClient.md)
+• **new Orm**(`host?`): [`Orm`](Orm.md)
 
 #### Parameters
 
@@ -48,11 +48,11 @@ Facade through which you can access all the functionalities of the library.
 
 #### Returns
 
-[`OrmClient`](OrmClient.md)
+[`Orm`](Orm.md)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:19](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L19)
+[infrastructure/adapters/orm.ts:19](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L19)
 
 ## Properties
 
@@ -62,27 +62,27 @@ Facade through which you can access all the functionalities of the library.
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[host](../interfaces/IOrmClient.md#host)
+[IOrm](../interfaces/IOrm.md).[host](../interfaces/IOrm.md#host)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L15)
+[infrastructure/adapters/orm.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L15)
 
 ## Accessors
 
 ### instance
 
-• `get` **instance**(): [`OrmClient`](OrmClient.md)
+• `get` **instance**(): [`IOrm`](../interfaces/IOrm.md)
 
 Singleton
 
 #### Returns
 
-[`OrmClient`](OrmClient.md)
+[`IOrm`](../interfaces/IOrm.md)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L26)
+[infrastructure/adapters/orm.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L26)
 
 ## Methods
 
@@ -106,11 +106,11 @@ Constraints of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[constraints](../interfaces/IOrmClient.md#constraints)
+[IOrm](../interfaces/IOrm.md).[constraints](../interfaces/IOrm.md#constraints)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:82](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L82)
+[infrastructure/adapters/orm.ts:82](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L82)
 
 ▸ **constraints**(`expression`): `Promise`<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
@@ -126,11 +126,11 @@ Constraints of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[constraints](../interfaces/IOrmClient.md#constraints)
+[IOrm](../interfaces/IOrm.md).[constraints](../interfaces/IOrm.md#constraints)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L83)
+[infrastructure/adapters/orm.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L83)
 
 ___
 
@@ -144,11 +144,11 @@ ___
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[end](../interfaces/IOrmClient.md#end)
+[IOrm](../interfaces/IOrm.md).[end](../interfaces/IOrm.md#end)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L43)
+[infrastructure/adapters/orm.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L43)
 
 ___
 
@@ -174,11 +174,11 @@ Result of execution
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[execute](../interfaces/IOrmClient.md#execute)
+[IOrm](../interfaces/IOrm.md).[execute](../interfaces/IOrm.md#execute)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:133](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L133)
+[infrastructure/adapters/orm.ts:133](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L133)
 
 ▸ **execute**(`expression`, `data?`, `options?`): `Promise`<`any`\>
 
@@ -196,11 +196,11 @@ Result of execution
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[execute](../interfaces/IOrmClient.md#execute)
+[IOrm](../interfaces/IOrm.md).[execute](../interfaces/IOrm.md#execute)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:134](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L134)
+[infrastructure/adapters/orm.ts:134](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L134)
 
 ___
 
@@ -228,11 +228,11 @@ Result of execution
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[executeQueued](../interfaces/IOrmClient.md#executequeued)
+[IOrm](../interfaces/IOrm.md).[executeQueued](../interfaces/IOrm.md#executequeued)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:152](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L152)
+[infrastructure/adapters/orm.ts:152](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L152)
 
 ▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`<`any`\>
 
@@ -252,11 +252,11 @@ Result of execution
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[executeQueued](../interfaces/IOrmClient.md#executequeued)
+[IOrm](../interfaces/IOrm.md).[executeQueued](../interfaces/IOrm.md#executequeued)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:153](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L153)
+[infrastructure/adapters/orm.ts:153](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L153)
 
 ___
 
@@ -276,11 +276,11 @@ ___
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[init](../interfaces/IOrmClient.md#init)
+[IOrm](../interfaces/IOrm.md).[init](../interfaces/IOrm.md#init)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:33](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L33)
+[infrastructure/adapters/orm.ts:33](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L33)
 
 ___
 
@@ -304,11 +304,11 @@ metadata of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[metadata](../interfaces/IOrmClient.md#metadata)
+[IOrm](../interfaces/IOrm.md).[metadata](../interfaces/IOrm.md#metadata)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:98](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L98)
+[infrastructure/adapters/orm.ts:98](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L98)
 
 ▸ **metadata**(`expression`): `Promise`<[`Metadata`](../interfaces/Metadata.md)\>
 
@@ -324,11 +324,11 @@ metadata of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[metadata](../interfaces/IOrmClient.md#metadata)
+[IOrm](../interfaces/IOrm.md).[metadata](../interfaces/IOrm.md#metadata)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:99](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L99)
+[infrastructure/adapters/orm.ts:99](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L99)
 
 ___
 
@@ -352,11 +352,11 @@ Model of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[model](../interfaces/IOrmClient.md#model)
+[IOrm](../interfaces/IOrm.md).[model](../interfaces/IOrm.md#model)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L50)
+[infrastructure/adapters/orm.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L50)
 
 ▸ **model**(`expression`): `Promise`<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
@@ -372,11 +372,11 @@ Model of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[model](../interfaces/IOrmClient.md#model)
+[IOrm](../interfaces/IOrm.md).[model](../interfaces/IOrm.md#model)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:51](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L51)
+[infrastructure/adapters/orm.ts:51](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L51)
 
 ___
 
@@ -400,11 +400,11 @@ Parameters of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[parameters](../interfaces/IOrmClient.md#parameters)
+[IOrm](../interfaces/IOrm.md).[parameters](../interfaces/IOrm.md#parameters)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L66)
+[infrastructure/adapters/orm.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L66)
 
 ▸ **parameters**(`expression`): `Promise`<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
@@ -420,11 +420,11 @@ Parameters of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[parameters](../interfaces/IOrmClient.md#parameters)
+[IOrm](../interfaces/IOrm.md).[parameters](../interfaces/IOrm.md#parameters)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L67)
+[infrastructure/adapters/orm.ts:67](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L67)
 
 ___
 
@@ -447,11 +447,11 @@ Get getInfo of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[sentence](../interfaces/IOrmClient.md#sentence)
+[IOrm](../interfaces/IOrm.md).[sentence](../interfaces/IOrm.md#sentence)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:114](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L114)
+[infrastructure/adapters/orm.ts:114](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L114)
 
 ▸ **sentence**(`expression`, `options?`): `Promise`<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
 
@@ -468,8 +468,8 @@ Get getInfo of expression
 
 #### Implementation of
 
-[IOrmClient](../interfaces/IOrmClient.md).[sentence](../interfaces/IOrmClient.md#sentence)
+[IOrm](../interfaces/IOrm.md).[sentence](../interfaces/IOrm.md#sentence)
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:115](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/adapters/orm.ts#L115)
+[infrastructure/adapters/orm.ts:115](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/adapters/orm.ts#L115)

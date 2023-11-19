@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[infrastructure/library.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/library.ts#L6)
+[infrastructure/library.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/library.ts#L6)
 
 ## Methods
 
@@ -44,4 +44,4 @@
 
 #### Defined in
 
-[infrastructure/library.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/cf1dba5/src/lib/infrastructure/library.ts#L8)
+[infrastructure/library.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/daf068a/src/lib/infrastructure/library.ts#L8)
