@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / StageService
 
-# StageService
+# Interface: StageService
 
 ## Table of contents
 
@@ -14,7 +14,7 @@
 
 ### exists
 
-▸ **exists**(`stage`): `Promise`<`boolean`\>
+▸ **exists**(`stage`): `Promise`\<`boolean`\>
 
 #### Parameters
 
@@ -24,17 +24,17 @@
 
 #### Returns
 
-`Promise`<`boolean`\>
+`Promise`\<`boolean`\>
 
 #### Defined in
 
-[application/StageService.ts:3](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/StageService.ts#L3)
+[application/StageService.ts:3](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/StageService.ts#L3)
 
 ___
 
 ### export
 
-▸ **export**(`stage`): `Promise`<[`SchemaConfig`](SchemaConfig.md)\>
+▸ **export**(`stage`): `Promise`\<[`SchemaConfig`](SchemaConfig.md)\>
 
 #### Parameters
 
@@ -44,17 +44,17 @@ ___
 
 #### Returns
 
-`Promise`<[`SchemaConfig`](SchemaConfig.md)\>
+`Promise`\<[`SchemaConfig`](SchemaConfig.md)\>
 
 #### Defined in
 
-[application/StageService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/StageService.ts#L4)
+[application/StageService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/StageService.ts#L4)
 
 ___
 
 ### import
 
-▸ **import**(`stage`, `schemaData`): `Promise`<`void`\>
+▸ **import**(`stage`, `schemaData`): `Promise`\<`void`\>
 
 #### Parameters
 
@@ -65,8 +65,8 @@ ___
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 
-[application/StageService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/StageService.ts#L5)
+[application/StageService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/StageService.ts#L5)

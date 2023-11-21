@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / SchemaConfig
 
-# SchemaConfig
+# Interface: SchemaConfig
 
 ## Table of contents
 
@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[domain/stage.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/stage.ts#L6)
+[domain/stage.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/stage.ts#L6)

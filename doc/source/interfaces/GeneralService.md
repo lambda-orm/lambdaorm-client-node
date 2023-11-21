@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / GeneralService
 
-# GeneralService
+# Interface: GeneralService
 
 ## Table of contents
 
@@ -15,54 +15,54 @@
 
 ### health
 
-▸ **health**(): `Promise`<[`Health`](Health.md)\>
+▸ **health**(): `Promise`\<[`Health`](Health.md)\>
 
 #### Returns
 
-`Promise`<[`Health`](Health.md)\>
+`Promise`\<[`Health`](Health.md)\>
 
 #### Defined in
 
-[application/GeneralService.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/GeneralService.ts#L6)
+[application/GeneralService.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/GeneralService.ts#L6)
 
 ___
 
 ### metrics
 
-▸ **metrics**(): `Promise`<`any`\>
+▸ **metrics**(): `Promise`\<`any`\>
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[application/GeneralService.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/GeneralService.ts#L7)
+[application/GeneralService.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/GeneralService.ts#L7)
 
 ___
 
 ### ping
 
-▸ **ping**(): `Promise`<[`Ping`](Ping.md)\>
+▸ **ping**(): `Promise`\<[`Ping`](Ping.md)\>
 
 #### Returns
 
-`Promise`<[`Ping`](Ping.md)\>
+`Promise`\<[`Ping`](Ping.md)\>
 
 #### Defined in
 
-[application/GeneralService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/GeneralService.ts#L5)
+[application/GeneralService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/GeneralService.ts#L5)
 
 ___
 
 ### version
 
-▸ **version**(): `Promise`<{ `version`: `string`  }\>
+▸ **version**(): `Promise`\<\{ `version`: `string`  }\>
 
 #### Returns
 
-`Promise`<{ `version`: `string`  }\>
+`Promise`\<\{ `version`: `string`  }\>
 
 #### Defined in
 
-[application/GeneralService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/GeneralService.ts#L4)
+[application/GeneralService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/GeneralService.ts#L4)

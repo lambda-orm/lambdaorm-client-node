@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / Index
 
-# Index
+# Interface: Index
 
 **`Export`**
 
@@ -25,7 +25,7 @@ Index
 
 #### Defined in
 
-[domain/model.ts:304](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L304)
+[domain/model.ts:304](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L304)
 
 ___
 
@@ -39,4 +39,4 @@ Index
 
 #### Defined in
 
-[domain/model.ts:298](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L298)
+[domain/model.ts:298](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L298)

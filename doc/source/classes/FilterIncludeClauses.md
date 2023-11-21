@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / FilterIncludeClauses
 
-# FilterIncludeClauses<T\>
+# Class: FilterIncludeClauses\<T\>
 
 ## Type parameters
 
@@ -10,7 +10,7 @@
 
 ## Hierarchy
 
-- [`HavingClauses`](HavingClauses.md)<`T`\>
+- [`HavingClauses`](HavingClauses.md)\<`T`\>
 
   ↳ **`FilterIncludeClauses`**
 
@@ -41,7 +41,7 @@
 
 ### constructor
 
-• **new FilterIncludeClauses**<`T`\>(`actions`, `expression`): [`FilterIncludeClauses`](FilterIncludeClauses.md)<`T`\>
+• **new FilterIncludeClauses**\<`T`\>(`actions`, `expression`): [`FilterIncludeClauses`](FilterIncludeClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -58,7 +58,7 @@
 
 #### Returns
 
-[`FilterIncludeClauses`](FilterIncludeClauses.md)<`T`\>
+[`FilterIncludeClauses`](FilterIncludeClauses.md)\<`T`\>
 
 #### Inherited from
 
@@ -66,17 +66,17 @@
 
 #### Defined in
 
-[domain/queryable.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L7)
+[domain/queryable.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L7)
 
 ## Methods
 
 ### constraints
 
-▸ **constraints**(): `Promise`<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
+▸ **constraints**(): `Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
 #### Returns
 
-`Promise`<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
+`Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
 #### Inherited from
 
@@ -84,13 +84,13 @@
 
 #### Defined in
 
-[domain/queryable.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L24)
+[domain/queryable.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L24)
 
 ___
 
 ### distinct
 
-▸ **distinct**<`U`\>(`predicate`): [`MapClauses`](MapClauses.md)<`U`\>
+▸ **distinct**\<`U`\>(`predicate`): [`MapClauses`](MapClauses.md)\<`U`\>
 
 #### Type parameters
 
@@ -106,7 +106,7 @@ ___
 
 #### Returns
 
-[`MapClauses`](MapClauses.md)<`U`\>
+[`MapClauses`](MapClauses.md)\<`U`\>
 
 #### Inherited from
 
@@ -114,13 +114,13 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:76](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L76)
+[domain/queryable.ts:76](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L76)
 
 ___
 
 ### execute
 
-▸ **execute**(`data`): `Promise`<`any`\>
+▸ **execute**(`data`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -130,7 +130,7 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Inherited from
 
@@ -138,13 +138,13 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L12)
+[domain/queryable.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L12)
 
 ___
 
 ### first
 
-▸ **first**<`U`\>(`predicate`): [`Map2Clauses`](Map2Clauses.md)<`U`\>
+▸ **first**\<`U`\>(`predicate`): [`Map2Clauses`](Map2Clauses.md)\<`U`\>
 
 #### Type parameters
 
@@ -160,7 +160,7 @@ ___
 
 #### Returns
 
-[`Map2Clauses`](Map2Clauses.md)<`U`\>
+[`Map2Clauses`](Map2Clauses.md)\<`U`\>
 
 #### Inherited from
 
@@ -168,13 +168,13 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L66)
+[domain/queryable.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L66)
 
 ___
 
 ### having
 
-▸ **having**(`predicate`): [`HavingClauses`](HavingClauses.md)<`T`\>
+▸ **having**(`predicate`): [`HavingClauses`](HavingClauses.md)\<`T`\>
 
 #### Parameters
 
@@ -184,17 +184,17 @@ ___
 
 #### Returns
 
-[`HavingClauses`](HavingClauses.md)<`T`\>
+[`HavingClauses`](HavingClauses.md)\<`T`\>
 
 #### Defined in
 
-[domain/queryable.ts:82](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L82)
+[domain/queryable.ts:82](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L82)
 
 ___
 
 ### last
 
-▸ **last**<`U`\>(`predicate`): [`Map2Clauses`](Map2Clauses.md)<`U`\>
+▸ **last**\<`U`\>(`predicate`): [`Map2Clauses`](Map2Clauses.md)\<`U`\>
 
 #### Type parameters
 
@@ -210,7 +210,7 @@ ___
 
 #### Returns
 
-[`Map2Clauses`](Map2Clauses.md)<`U`\>
+[`Map2Clauses`](Map2Clauses.md)\<`U`\>
 
 #### Inherited from
 
@@ -218,13 +218,13 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:71](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L71)
+[domain/queryable.ts:71](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L71)
 
 ___
 
 ### map
 
-▸ **map**<`U`\>(`predicate`): [`MapClauses`](MapClauses.md)<`U`\>
+▸ **map**\<`U`\>(`predicate`): [`MapClauses`](MapClauses.md)\<`U`\>
 
 #### Type parameters
 
@@ -240,7 +240,7 @@ ___
 
 #### Returns
 
-[`MapClauses`](MapClauses.md)<`U`\>
+[`MapClauses`](MapClauses.md)\<`U`\>
 
 #### Inherited from
 
@@ -248,17 +248,17 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:61](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L61)
+[domain/queryable.ts:61](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L61)
 
 ___
 
 ### metadata
 
-▸ **metadata**(): `Promise`<[`Metadata`](../interfaces/Metadata.md)\>
+▸ **metadata**(): `Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
 #### Returns
 
-`Promise`<[`Metadata`](../interfaces/Metadata.md)\>
+`Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
 #### Inherited from
 
@@ -266,17 +266,17 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L36)
+[domain/queryable.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L36)
 
 ___
 
 ### model
 
-▸ **model**(): `Promise`<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
+▸ **model**(): `Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
 #### Returns
 
-`Promise`<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
+`Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
 #### Inherited from
 
@@ -284,7 +284,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L20)
+[domain/queryable.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L20)
 
 ___
 
@@ -302,7 +302,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L16)
+[domain/queryable.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L16)
 
 ___
 
@@ -327,17 +327,17 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L43)
+[domain/queryable.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L43)
 
 ___
 
 ### parameters
 
-▸ **parameters**(): `Promise`<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
+▸ **parameters**(): `Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
 #### Returns
 
-`Promise`<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
+`Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
 #### Inherited from
 
@@ -345,17 +345,17 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L28)
+[domain/queryable.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L28)
 
 ___
 
 ### sentence
 
-▸ **sentence**(): `Promise`<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
+▸ **sentence**(): `Promise`\<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
 
 #### Returns
 
-`Promise`<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
+`Promise`\<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
 
 #### Inherited from
 
@@ -363,7 +363,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L32)
+[domain/queryable.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L32)
 
 ___
 
@@ -387,4 +387,4 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L49)
+[domain/queryable.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L49)

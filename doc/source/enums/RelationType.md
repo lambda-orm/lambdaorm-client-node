@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / RelationType
 
-# RelationType
+# Enumeration: RelationType
 
 **`Export`**
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[domain/model.ts:887](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L887)
+[domain/model.ts:887](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L887)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[domain/model.ts:886](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L886)
+[domain/model.ts:886](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L886)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[domain/model.ts:888](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L888)
+[domain/model.ts:888](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L888)

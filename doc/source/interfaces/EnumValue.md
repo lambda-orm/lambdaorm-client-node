@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / EnumValue
 
-# EnumValue
+# Interface: EnumValue
 
 **`Export`**
 
@@ -25,7 +25,7 @@ EnumValue
 
 #### Defined in
 
-[domain/model.ts:254](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L254)
+[domain/model.ts:254](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L254)
 
 ___
 
@@ -39,4 +39,4 @@ EnumValue
 
 #### Defined in
 
-[domain/model.ts:260](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L260)
+[domain/model.ts:260](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L260)

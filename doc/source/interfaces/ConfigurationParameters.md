@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / ConfigurationParameters
 
-# ConfigurationParameters
+# Interface: ConfigurationParameters
 
 λORM Service
 service of lambda orm
@@ -28,21 +28,21 @@ Do not edit the class manually.
 
 ### accessToken
 
-• `Optional` **accessToken**: `string` \| `Promise`<`string`\> \| (`name?`: `string`, `scopes?`: `string`[]) => `string` \| (`name?`: `string`, `scopes?`: `string`[]) => `Promise`<`string`\>
+• `Optional` **accessToken**: `string` \| `Promise`\<`string`\> \| (`name?`: `string`, `scopes?`: `string`[]) => `string` \| (`name?`: `string`, `scopes?`: `string`[]) => `Promise`\<`string`\>
 
 #### Defined in
 
-[domain/configuration.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/configuration.ts#L20)
+[domain/configuration.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/configuration.ts#L20)
 
 ___
 
 ### apiKey
 
-• `Optional` **apiKey**: `string` \| `Promise`<`string`\> \| (`name`: `string`) => `string` \| (`name`: `string`) => `Promise`<`string`\>
+• `Optional` **apiKey**: `string` \| `Promise`\<`string`\> \| (`name`: `string`) => `string` \| (`name`: `string`) => `Promise`\<`string`\>
 
 #### Defined in
 
-[domain/configuration.ts:17](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/configuration.ts#L17)
+[domain/configuration.ts:17](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/configuration.ts#L17)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[domain/configuration.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/configuration.ts#L22)
+[domain/configuration.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/configuration.ts#L22)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[domain/configuration.ts:21](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/configuration.ts#L21)
+[domain/configuration.ts:21](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/configuration.ts#L21)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[domain/configuration.ts:23](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/configuration.ts#L23)
+[domain/configuration.ts:23](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/configuration.ts#L23)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[domain/configuration.ts:19](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/configuration.ts#L19)
+[domain/configuration.ts:19](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/configuration.ts#L19)
 
 ___
 
@@ -100,4 +100,4 @@ ___
 
 #### Defined in
 
-[domain/configuration.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/configuration.ts#L18)
+[domain/configuration.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/configuration.ts#L18)

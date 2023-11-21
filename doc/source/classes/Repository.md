@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / Repository
 
-# Repository<TEntity, TQuery\>
+# Class: Repository\<TEntity, TQuery\>
 
 ## Type parameters
 
@@ -42,7 +42,7 @@
 
 ### constructor
 
-• **new Repository**<`TEntity`, `TQuery`\>(`name`, `stage?`, `orm?`): [`Repository`](Repository.md)<`TEntity`, `TQuery`\>
+• **new Repository**\<`TEntity`, `TQuery`\>(`name`, `stage?`, `orm?`): [`Repository`](Repository.md)\<`TEntity`, `TQuery`\>
 
 #### Type parameters
 
@@ -61,11 +61,11 @@
 
 #### Returns
 
-[`Repository`](Repository.md)<`TEntity`, `TQuery`\>
+[`Repository`](Repository.md)\<`TEntity`, `TQuery`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L10)
+[infrastructure/repository.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L10)
 
 ## Properties
 
@@ -75,7 +75,7 @@
 
 #### Defined in
 
-[infrastructure/repository.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L7)
+[infrastructure/repository.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L7)
 
 ___
 
@@ -85,13 +85,13 @@ ___
 
 #### Defined in
 
-[infrastructure/repository.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L8)
+[infrastructure/repository.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L8)
 
 ## Methods
 
 ### bulkInsert
 
-▸ **bulkInsert**(`entities`): `Promise`<`any`[]\>
+▸ **bulkInsert**(`entities`): `Promise`\<`any`[]\>
 
 #### Parameters
 
@@ -101,13 +101,13 @@ ___
 
 #### Returns
 
-`Promise`<`any`[]\>
+`Promise`\<`any`[]\>
 
 #### Defined in
 
-[infrastructure/repository.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L49)
+[infrastructure/repository.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L49)
 
-▸ **bulkInsert**(`entities`, `include`): `Promise`<`any`[]\>
+▸ **bulkInsert**(`entities`, `include`): `Promise`\<`any`[]\>
 
 #### Parameters
 
@@ -118,17 +118,17 @@ ___
 
 #### Returns
 
-`Promise`<`any`[]\>
+`Promise`\<`any`[]\>
 
 #### Defined in
 
-[infrastructure/repository.ts:51](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L51)
+[infrastructure/repository.ts:51](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L51)
 
 ___
 
 ### delete
 
-▸ **delete**(`entity`): `Promise`<`number`\>
+▸ **delete**(`entity`): `Promise`\<`number`\>
 
 #### Parameters
 
@@ -138,13 +138,13 @@ ___
 
 #### Returns
 
-`Promise`<`number`\>
+`Promise`\<`number`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:81](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L81)
+[infrastructure/repository.ts:81](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L81)
 
-▸ **delete**(`entity`, `include`): `Promise`<`number`\>
+▸ **delete**(`entity`, `include`): `Promise`\<`number`\>
 
 #### Parameters
 
@@ -155,17 +155,17 @@ ___
 
 #### Returns
 
-`Promise`<`number`\>
+`Promise`\<`number`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L83)
+[infrastructure/repository.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L83)
 
 ___
 
 ### deleteAll
 
-▸ **deleteAll**(`data`, `filter?`, `include?`): `Promise`<`number`\>
+▸ **deleteAll**(`data`, `filter?`, `include?`): `Promise`\<`number`\>
 
 #### Parameters
 
@@ -177,17 +177,17 @@ ___
 
 #### Returns
 
-`Promise`<`number`\>
+`Promise`\<`number`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:88](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L88)
+[infrastructure/repository.ts:88](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L88)
 
 ___
 
 ### distinct
 
-▸ **distinct**(`data`, `filter?`, `include?`): `Promise`<`any`[]\>
+▸ **distinct**(`data`, `filter?`, `include?`): `Promise`\<`any`[]\>
 
 #### Parameters
 
@@ -199,17 +199,17 @@ ___
 
 #### Returns
 
-`Promise`<`any`[]\>
+`Promise`\<`any`[]\>
 
 #### Defined in
 
-[infrastructure/repository.ts:102](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L102)
+[infrastructure/repository.ts:102](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L102)
 
 ___
 
 ### execute
 
-▸ **execute**(`expression`, `data?`): `Promise`<`any`\>
+▸ **execute**(`expression`, `data?`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -220,17 +220,17 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L32)
+[infrastructure/repository.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L32)
 
 ___
 
 ### executeQueued
 
-▸ **executeQueued**(`topic`, `expression`, `data?`, `chunk?`): `Promise`<`any`\>
+▸ **executeQueued**(`topic`, `expression`, `data?`, `chunk?`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -243,17 +243,17 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L36)
+[infrastructure/repository.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L36)
 
 ___
 
 ### first
 
-▸ **first**(`data`, `filter?`, `include?`): `Promise`<``null`` \| `TEntity`\>
+▸ **first**(`data`, `filter?`, `include?`): `Promise`\<``null`` \| `TEntity`\>
 
 #### Parameters
 
@@ -265,17 +265,17 @@ ___
 
 #### Returns
 
-`Promise`<``null`` \| `TEntity`\>
+`Promise`\<``null`` \| `TEntity`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L109)
+[infrastructure/repository.ts:109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L109)
 
 ___
 
 ### insert
 
-▸ **insert**(`entity`): `Promise`<`any`\>
+▸ **insert**(`entity`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -285,13 +285,13 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:41](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L41)
+[infrastructure/repository.ts:41](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L41)
 
-▸ **insert**(`entity`, `include`): `Promise`<`any`\>
+▸ **insert**(`entity`, `include`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -302,17 +302,17 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L43)
+[infrastructure/repository.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L43)
 
 ___
 
 ### last
 
-▸ **last**(`data`, `filter?`, `include?`): `Promise`<``null`` \| `TEntity`\>
+▸ **last**(`data`, `filter?`, `include?`): `Promise`\<``null`` \| `TEntity`\>
 
 #### Parameters
 
@@ -324,17 +324,17 @@ ___
 
 #### Returns
 
-`Promise`<``null`` \| `TEntity`\>
+`Promise`\<``null`` \| `TEntity`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:121](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L121)
+[infrastructure/repository.ts:121](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L121)
 
 ___
 
 ### list
 
-▸ **list**(`data`, `filter?`, `include?`): `Promise`<`TEntity`[]\>
+▸ **list**(`data`, `filter?`, `include?`): `Promise`\<`TEntity`[]\>
 
 #### Parameters
 
@@ -346,17 +346,17 @@ ___
 
 #### Returns
 
-`Promise`<`TEntity`[]\>
+`Promise`\<`TEntity`[]\>
 
 #### Defined in
 
-[infrastructure/repository.ts:95](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L95)
+[infrastructure/repository.ts:95](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L95)
 
 ___
 
 ### merge
 
-▸ **merge**(`entity`): `Promise`<`number`\>
+▸ **merge**(`entity`): `Promise`\<`number`\>
 
 #### Parameters
 
@@ -366,13 +366,13 @@ ___
 
 #### Returns
 
-`Promise`<`number`\>
+`Promise`\<`number`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:73](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L73)
+[infrastructure/repository.ts:73](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L73)
 
-▸ **merge**(`entity`, `include`): `Promise`<`number`\>
+▸ **merge**(`entity`, `include`): `Promise`\<`number`\>
 
 #### Parameters
 
@@ -383,31 +383,31 @@ ___
 
 #### Returns
 
-`Promise`<`number`\>
+`Promise`\<`number`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L75)
+[infrastructure/repository.ts:75](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L75)
 
 ___
 
 ### query
 
-▸ **query**(): [`Queryable`](Queryable.md)<`TQuery`\>
+▸ **query**(): [`Queryable`](Queryable.md)\<`TQuery`\>
 
 #### Returns
 
-[`Queryable`](Queryable.md)<`TQuery`\>
+[`Queryable`](Queryable.md)\<`TQuery`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:145](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L145)
+[infrastructure/repository.ts:145](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L145)
 
 ___
 
 ### take
 
-▸ **take**(`data`, `filter?`, `include?`): `Promise`<``null`` \| `TEntity`\>
+▸ **take**(`data`, `filter?`, `include?`): `Promise`\<``null`` \| `TEntity`\>
 
 #### Parameters
 
@@ -419,17 +419,17 @@ ___
 
 #### Returns
 
-`Promise`<``null`` \| `TEntity`\>
+`Promise`\<``null`` \| `TEntity`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:133](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L133)
+[infrastructure/repository.ts:133](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L133)
 
 ___
 
 ### update
 
-▸ **update**(`entity`): `Promise`<`number`\>
+▸ **update**(`entity`): `Promise`\<`number`\>
 
 #### Parameters
 
@@ -439,13 +439,13 @@ ___
 
 #### Returns
 
-`Promise`<`number`\>
+`Promise`\<`number`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:57](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L57)
+[infrastructure/repository.ts:57](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L57)
 
-▸ **update**(`entity`, `include`): `Promise`<`number`\>
+▸ **update**(`entity`, `include`): `Promise`\<`number`\>
 
 #### Parameters
 
@@ -456,17 +456,17 @@ ___
 
 #### Returns
 
-`Promise`<`number`\>
+`Promise`\<`number`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:59](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L59)
+[infrastructure/repository.ts:59](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L59)
 
 ___
 
 ### updateAll
 
-▸ **updateAll**(`data`, `map`, `filter?`, `include?`): `Promise`<`number`\>
+▸ **updateAll**(`data`, `map`, `filter?`, `include?`): `Promise`\<`number`\>
 
 #### Parameters
 
@@ -479,8 +479,8 @@ ___
 
 #### Returns
 
-`Promise`<`number`\>
+`Promise`\<`number`\>
 
 #### Defined in
 
-[infrastructure/repository.ts:64](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/infrastructure/repository.ts#L64)
+[infrastructure/repository.ts:64](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/infrastructure/repository.ts#L64)

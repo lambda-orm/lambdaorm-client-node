@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / MetadataParameter
 
-# MetadataParameter
+# Interface: MetadataParameter
 
 **`Export`**
 
@@ -26,7 +26,7 @@ MetadataParameter
 
 #### Defined in
 
-[domain/model.ts:483](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L483)
+[domain/model.ts:483](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L483)
 
 ___
 
@@ -40,7 +40,7 @@ MetadataParameter
 
 #### Defined in
 
-[domain/model.ts:471](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L471)
+[domain/model.ts:471](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L471)
 
 ___
 
@@ -54,4 +54,4 @@ MetadataParameter
 
 #### Defined in
 
-[domain/model.ts:477](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/model.ts#L477)
+[domain/model.ts:477](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L477)

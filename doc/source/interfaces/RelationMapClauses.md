@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / RelationMapClauses
 
-# RelationMapClauses<T\>
+# Interface: RelationMapClauses\<T\>
 
 ## Type parameters
 
@@ -20,7 +20,7 @@
 
 ### filter
 
-▸ **filter**(`predicate`, `thisArg?`): [`FilterClauses`](../classes/FilterClauses.md)<`T`\>
+▸ **filter**(`predicate`, `thisArg?`): [`FilterClauses`](../classes/FilterClauses.md)\<`T`\>
 
 #### Parameters
 
@@ -31,17 +31,17 @@
 
 #### Returns
 
-[`FilterClauses`](../classes/FilterClauses.md)<`T`\>
+[`FilterClauses`](../classes/FilterClauses.md)\<`T`\>
 
 #### Defined in
 
-[domain/queryable.ts:215](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L215)
+[domain/queryable.ts:215](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L215)
 
 ___
 
 ### include
 
-▸ **include**(`predicate`, `thisArg?`): [`IncludeClauses`](../classes/IncludeClauses.md)<`T`\>
+▸ **include**(`predicate`, `thisArg?`): [`IncludeClauses`](../classes/IncludeClauses.md)\<`T`\>
 
 #### Parameters
 
@@ -52,11 +52,11 @@ ___
 
 #### Returns
 
-[`IncludeClauses`](../classes/IncludeClauses.md)<`T`\>
+[`IncludeClauses`](../classes/IncludeClauses.md)\<`T`\>
 
 #### Defined in
 
-[domain/queryable.ts:217](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L217)
+[domain/queryable.ts:217](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L217)
 
 ___
 
@@ -77,4 +77,4 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:213](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L213)
+[domain/queryable.ts:213](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L213)

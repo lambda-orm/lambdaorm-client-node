@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / ExpressionActions
 
-# ExpressionActions
+# Class: ExpressionActions
 
 ## Table of contents
 
@@ -38,13 +38,13 @@
 
 #### Defined in
 
-[domain/actions.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/actions.ts#L8)
+[domain/actions.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L8)
 
 ## Methods
 
 ### constraints
 
-▸ **constraints**(`expression`): `Promise`<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
+▸ **constraints**(`expression`): `Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
 #### Parameters
 
@@ -54,17 +54,17 @@
 
 #### Returns
 
-`Promise`<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
+`Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
 #### Defined in
 
-[domain/actions.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/actions.ts#L22)
+[domain/actions.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L22)
 
 ___
 
 ### execute
 
-▸ **execute**(`expression`, `data`): `Promise`<`any`\>
+▸ **execute**(`expression`, `data`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -75,17 +75,17 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[domain/actions.ts:34](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/actions.ts#L34)
+[domain/actions.ts:34](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L34)
 
 ___
 
 ### executeQueued
 
-▸ **executeQueued**(`expression`, `topic`, `data`, `chunk?`): `Promise`<`any`\>
+▸ **executeQueued**(`expression`, `topic`, `data`, `chunk?`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -98,17 +98,17 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[domain/actions.ts:38](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/actions.ts#L38)
+[domain/actions.ts:38](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L38)
 
 ___
 
 ### metadata
 
-▸ **metadata**(`expression`): `Promise`<[`Metadata`](../interfaces/Metadata.md)\>
+▸ **metadata**(`expression`): `Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
 #### Parameters
 
@@ -118,17 +118,17 @@ ___
 
 #### Returns
 
-`Promise`<[`Metadata`](../interfaces/Metadata.md)\>
+`Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
 #### Defined in
 
-[domain/actions.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/actions.ts#L26)
+[domain/actions.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L26)
 
 ___
 
 ### model
 
-▸ **model**(`expression`): `Promise`<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
+▸ **model**(`expression`): `Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
 #### Parameters
 
@@ -138,17 +138,17 @@ ___
 
 #### Returns
 
-`Promise`<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
+`Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
 #### Defined in
 
-[domain/actions.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/actions.ts#L14)
+[domain/actions.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L14)
 
 ___
 
 ### parameters
 
-▸ **parameters**(`expression`): `Promise`<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
+▸ **parameters**(`expression`): `Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
 #### Parameters
 
@@ -158,17 +158,17 @@ ___
 
 #### Returns
 
-`Promise`<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
+`Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
 #### Defined in
 
-[domain/actions.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/actions.ts#L18)
+[domain/actions.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L18)
 
 ___
 
 ### sentence
 
-▸ **sentence**(`expression`): `Promise`<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
+▸ **sentence**(`expression`): `Promise`\<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
 
 #### Parameters
 
@@ -178,8 +178,8 @@ ___
 
 #### Returns
 
-`Promise`<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
+`Promise`\<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
 
 #### Defined in
 
-[domain/actions.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/actions.ts#L30)
+[domain/actions.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L30)

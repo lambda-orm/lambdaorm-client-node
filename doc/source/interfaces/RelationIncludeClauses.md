@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / RelationIncludeClauses
 
-# RelationIncludeClauses<T\>
+# Interface: RelationIncludeClauses\<T\>
 
 ## Type parameters
 
@@ -21,7 +21,7 @@
 
 ### distinct
 
-▸ **distinct**<`U`\>(`predicate`, `thisArg?`): [`RelationMapClauses`](RelationMapClauses.md)<`T`\>
+▸ **distinct**\<`U`\>(`predicate`, `thisArg?`): [`RelationMapClauses`](RelationMapClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -38,17 +38,17 @@
 
 #### Returns
 
-[`RelationMapClauses`](RelationMapClauses.md)<`T`\>
+[`RelationMapClauses`](RelationMapClauses.md)\<`T`\>
 
 #### Defined in
 
-[domain/queryable.ts:227](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L227)
+[domain/queryable.ts:227](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L227)
 
 ___
 
 ### first
 
-▸ **first**<`U`\>(`predicate`, `thisArg?`): [`RelationMapClauses`](RelationMapClauses.md)<`T`\>
+▸ **first**\<`U`\>(`predicate`, `thisArg?`): [`RelationMapClauses`](RelationMapClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -65,17 +65,17 @@ ___
 
 #### Returns
 
-[`RelationMapClauses`](RelationMapClauses.md)<`T`\>
+[`RelationMapClauses`](RelationMapClauses.md)\<`T`\>
 
 #### Defined in
 
-[domain/queryable.ts:223](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L223)
+[domain/queryable.ts:223](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L223)
 
 ___
 
 ### last
 
-▸ **last**<`U`\>(`predicate`, `thisArg?`): [`RelationMapClauses`](RelationMapClauses.md)<`T`\>
+▸ **last**\<`U`\>(`predicate`, `thisArg?`): [`RelationMapClauses`](RelationMapClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -92,17 +92,17 @@ ___
 
 #### Returns
 
-[`RelationMapClauses`](RelationMapClauses.md)<`T`\>
+[`RelationMapClauses`](RelationMapClauses.md)\<`T`\>
 
 #### Defined in
 
-[domain/queryable.ts:225](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L225)
+[domain/queryable.ts:225](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L225)
 
 ___
 
 ### map
 
-▸ **map**<`U`\>(`predicate`, `thisArg?`): [`RelationMapClauses`](RelationMapClauses.md)<`T`\>
+▸ **map**\<`U`\>(`predicate`, `thisArg?`): [`RelationMapClauses`](RelationMapClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -119,8 +119,8 @@ ___
 
 #### Returns
 
-[`RelationMapClauses`](RelationMapClauses.md)<`T`\>
+[`RelationMapClauses`](RelationMapClauses.md)\<`T`\>
 
 #### Defined in
 
-[domain/queryable.ts:221](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L221)
+[domain/queryable.ts:221](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L221)

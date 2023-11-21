@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / SchemaService
 
-# SchemaService
+# Interface: SchemaService
 
 ## Table of contents
 
@@ -25,49 +25,49 @@
 
 ### dataSources
 
-▸ **dataSources**(): `Promise`<{ `dialect`: `string` ; `name`: `string`  }[]\>
+▸ **dataSources**(): `Promise`\<\{ `dialect`: `string` ; `name`: `string`  }[]\>
 
 #### Returns
 
-`Promise`<{ `dialect`: `string` ; `name`: `string`  }[]\>
+`Promise`\<\{ `dialect`: `string` ; `name`: `string`  }[]\>
 
 #### Defined in
 
-[application/SchemaService.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L6)
+[application/SchemaService.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L6)
 
 ___
 
 ### domain
 
-▸ **domain**(): `Promise`<[`SchemaDomain`](SchemaDomain.md)\>
+▸ **domain**(): `Promise`\<[`SchemaDomain`](SchemaDomain.md)\>
 
 #### Returns
 
-`Promise`<[`SchemaDomain`](SchemaDomain.md)\>
+`Promise`\<[`SchemaDomain`](SchemaDomain.md)\>
 
 #### Defined in
 
-[application/SchemaService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L5)
+[application/SchemaService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L5)
 
 ___
 
 ### entities
 
-▸ **entities**(): `Promise`<[`Entity`](Entity.md)[]\>
+▸ **entities**(): `Promise`\<[`Entity`](Entity.md)[]\>
 
 #### Returns
 
-`Promise`<[`Entity`](Entity.md)[]\>
+`Promise`\<[`Entity`](Entity.md)[]\>
 
 #### Defined in
 
-[application/SchemaService.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L7)
+[application/SchemaService.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L7)
 
 ___
 
 ### entity
 
-▸ **entity**(`entity`): `Promise`<`undefined` \| [`Entity`](Entity.md)\>
+▸ **entity**(`entity`): `Promise`\<`undefined` \| [`Entity`](Entity.md)\>
 
 #### Parameters
 
@@ -77,17 +77,17 @@ ___
 
 #### Returns
 
-`Promise`<`undefined` \| [`Entity`](Entity.md)\>
+`Promise`\<`undefined` \| [`Entity`](Entity.md)\>
 
 #### Defined in
 
-[application/SchemaService.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L8)
+[application/SchemaService.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L8)
 
 ___
 
 ### entityMapping
 
-▸ **entityMapping**(`mapping`, `entity`): `Promise`<`undefined` \| [`EntityMapping`](EntityMapping.md)\>
+▸ **entityMapping**(`mapping`, `entity`): `Promise`\<`undefined` \| [`EntityMapping`](EntityMapping.md)\>
 
 #### Parameters
 
@@ -98,17 +98,17 @@ ___
 
 #### Returns
 
-`Promise`<`undefined` \| [`EntityMapping`](EntityMapping.md)\>
+`Promise`\<`undefined` \| [`EntityMapping`](EntityMapping.md)\>
 
 #### Defined in
 
-[application/SchemaService.ts:13](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L13)
+[application/SchemaService.ts:13](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L13)
 
 ___
 
 ### enum
 
-▸ **enum**(`_enum`): `Promise`<`undefined` \| [`Enum`](Enum.md)\>
+▸ **enum**(`_enum`): `Promise`\<`undefined` \| [`Enum`](Enum.md)\>
 
 #### Parameters
 
@@ -118,31 +118,31 @@ ___
 
 #### Returns
 
-`Promise`<`undefined` \| [`Enum`](Enum.md)\>
+`Promise`\<`undefined` \| [`Enum`](Enum.md)\>
 
 #### Defined in
 
-[application/SchemaService.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L10)
+[application/SchemaService.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L10)
 
 ___
 
 ### enums
 
-▸ **enums**(): `Promise`<[`Enum`](Enum.md)[]\>
+▸ **enums**(): `Promise`\<[`Enum`](Enum.md)[]\>
 
 #### Returns
 
-`Promise`<[`Enum`](Enum.md)[]\>
+`Promise`\<[`Enum`](Enum.md)[]\>
 
 #### Defined in
 
-[application/SchemaService.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L9)
+[application/SchemaService.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L9)
 
 ___
 
 ### mapping
 
-▸ **mapping**(`mapping`): `Promise`<`undefined` \| [`Mapping`](Mapping.md)\>
+▸ **mapping**(`mapping`): `Promise`\<`undefined` \| [`Mapping`](Mapping.md)\>
 
 #### Parameters
 
@@ -152,45 +152,45 @@ ___
 
 #### Returns
 
-`Promise`<`undefined` \| [`Mapping`](Mapping.md)\>
+`Promise`\<`undefined` \| [`Mapping`](Mapping.md)\>
 
 #### Defined in
 
-[application/SchemaService.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L12)
+[application/SchemaService.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L12)
 
 ___
 
 ### mappings
 
-▸ **mappings**(): `Promise`<[`Mapping`](Mapping.md)[]\>
+▸ **mappings**(): `Promise`\<[`Mapping`](Mapping.md)[]\>
 
 #### Returns
 
-`Promise`<[`Mapping`](Mapping.md)[]\>
+`Promise`\<[`Mapping`](Mapping.md)[]\>
 
 #### Defined in
 
-[application/SchemaService.ts:11](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L11)
+[application/SchemaService.ts:11](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L11)
 
 ___
 
 ### schema
 
-▸ **schema**(): `Promise`<[`Schema`](Schema.md)\>
+▸ **schema**(): `Promise`\<[`Schema`](Schema.md)\>
 
 #### Returns
 
-`Promise`<[`Schema`](Schema.md)\>
+`Promise`\<[`Schema`](Schema.md)\>
 
 #### Defined in
 
-[application/SchemaService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L4)
+[application/SchemaService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L4)
 
 ___
 
 ### stage
 
-▸ **stage**(`stage`): `Promise`<`undefined` \| [`Stage`](Stage.md)\>
+▸ **stage**(`stage`): `Promise`\<`undefined` \| [`Stage`](Stage.md)\>
 
 #### Parameters
 
@@ -200,50 +200,50 @@ ___
 
 #### Returns
 
-`Promise`<`undefined` \| [`Stage`](Stage.md)\>
+`Promise`\<`undefined` \| [`Stage`](Stage.md)\>
 
 #### Defined in
 
-[application/SchemaService.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L15)
+[application/SchemaService.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L15)
 
 ___
 
 ### stages
 
-▸ **stages**(): `Promise`<[`Stage`](Stage.md)[]\>
+▸ **stages**(): `Promise`\<[`Stage`](Stage.md)[]\>
 
 #### Returns
 
-`Promise`<[`Stage`](Stage.md)[]\>
+`Promise`\<[`Stage`](Stage.md)[]\>
 
 #### Defined in
 
-[application/SchemaService.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L14)
+[application/SchemaService.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L14)
 
 ___
 
 ### version
 
-▸ **version**(): `Promise`<{ `version`: `string`  }\>
+▸ **version**(): `Promise`\<\{ `version`: `string`  }\>
 
 #### Returns
 
-`Promise`<{ `version`: `string`  }\>
+`Promise`\<\{ `version`: `string`  }\>
 
 #### Defined in
 
-[application/SchemaService.ts:3](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L3)
+[application/SchemaService.ts:3](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L3)
 
 ___
 
 ### views
 
-▸ **views**(): `Promise`<`string`[]\>
+▸ **views**(): `Promise`\<`string`[]\>
 
 #### Returns
 
-`Promise`<`string`[]\>
+`Promise`\<`string`[]\>
 
 #### Defined in
 
-[application/SchemaService.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L16)
+[application/SchemaService.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/SchemaService.ts#L16)

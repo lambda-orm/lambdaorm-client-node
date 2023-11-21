@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / ModifyAllClauses
 
-# ModifyAllClauses<T\>
+# Interface: ModifyAllClauses\<T\>
 
 ## Type parameters
 
@@ -18,7 +18,7 @@
 
 ### include
 
-▸ **include**(`predicate`, `thisArg?`): [`ModifyIncludeClauses`](ModifyIncludeClauses.md)<`T`\>
+▸ **include**(`predicate`, `thisArg?`): [`ModifyIncludeClauses`](ModifyIncludeClauses.md)\<`T`\>
 
 #### Parameters
 
@@ -29,8 +29,8 @@
 
 #### Returns
 
-[`ModifyIncludeClauses`](ModifyIncludeClauses.md)<`T`\>
+[`ModifyIncludeClauses`](ModifyIncludeClauses.md)\<`T`\>
 
 #### Defined in
 
-[domain/queryable.ts:208](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L208)
+[domain/queryable.ts:208](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L208)

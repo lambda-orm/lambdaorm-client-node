@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / ModifyFilterClauses
 
-# ModifyFilterClauses<T\>
+# Interface: ModifyFilterClauses\<T\>
 
 ## Type parameters
 
@@ -33,4 +33,4 @@
 
 #### Defined in
 
-[domain/queryable.ts:193](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L193)
+[domain/queryable.ts:193](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L193)

@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / ExpressionService
 
-# ExpressionService
+# Interface: ExpressionService
 
 ## Table of contents
 
@@ -18,7 +18,7 @@
 
 ### constraints
 
-▸ **constraints**(`expression`): `Promise`<[`MetadataConstraint`](MetadataConstraint.md)\>
+▸ **constraints**(`expression`): `Promise`\<[`MetadataConstraint`](MetadataConstraint.md)\>
 
 Get constraints of expression
 
@@ -30,19 +30,19 @@ Get constraints of expression
 
 #### Returns
 
-`Promise`<[`MetadataConstraint`](MetadataConstraint.md)\>
+`Promise`\<[`MetadataConstraint`](MetadataConstraint.md)\>
 
 Constraints of expression
 
 #### Defined in
 
-[application/ExpressionService.ts:23](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/ExpressionService.ts#L23)
+[application/ExpressionService.ts:23](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L23)
 
 ___
 
 ### execute
 
-▸ **execute**(`expression`, `data`, `options?`): `Promise`<`any`\>
+▸ **execute**(`expression`, `data`, `options?`): `Promise`\<`any`\>
 
 Execute expression
 
@@ -56,19 +56,19 @@ Execute expression
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 Result of execution
 
 #### Defined in
 
-[application/ExpressionService.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/ExpressionService.ts#L46)
+[application/ExpressionService.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L46)
 
 ___
 
 ### executeQueued
 
-▸ **executeQueued**(`expression`, `topic`, `data`, `chunk?`, `options?`): `Promise`<`any`\>
+▸ **executeQueued**(`expression`, `topic`, `data`, `chunk?`, `options?`): `Promise`\<`any`\>
 
 Execute expression
 
@@ -84,19 +84,19 @@ Execute expression
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 Result of execution
 
 #### Defined in
 
-[application/ExpressionService.ts:55](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/ExpressionService.ts#L55)
+[application/ExpressionService.ts:55](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L55)
 
 ___
 
 ### metadata
 
-▸ **metadata**(`expression`): `Promise`<[`Metadata`](Metadata.md)\>
+▸ **metadata**(`expression`): `Promise`\<[`Metadata`](Metadata.md)\>
 
 Get metadata of expression
 
@@ -108,19 +108,19 @@ Get metadata of expression
 
 #### Returns
 
-`Promise`<[`Metadata`](Metadata.md)\>
+`Promise`\<[`Metadata`](Metadata.md)\>
 
 metadata of expression
 
 #### Defined in
 
-[application/ExpressionService.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/ExpressionService.ts#L30)
+[application/ExpressionService.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L30)
 
 ___
 
 ### model
 
-▸ **model**(`expression`): `Promise`<[`MetadataModel`](MetadataModel.md)[]\>
+▸ **model**(`expression`): `Promise`\<[`MetadataModel`](MetadataModel.md)[]\>
 
 Get model of expression
 
@@ -132,19 +132,19 @@ Get model of expression
 
 #### Returns
 
-`Promise`<[`MetadataModel`](MetadataModel.md)[]\>
+`Promise`\<[`MetadataModel`](MetadataModel.md)[]\>
 
 Model of expression
 
 #### Defined in
 
-[application/ExpressionService.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/ExpressionService.ts#L9)
+[application/ExpressionService.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L9)
 
 ___
 
 ### parameters
 
-▸ **parameters**(`expression`): `Promise`<[`MetadataParameter`](MetadataParameter.md)[]\>
+▸ **parameters**(`expression`): `Promise`\<[`MetadataParameter`](MetadataParameter.md)[]\>
 
 Get parameters of expression
 
@@ -156,19 +156,19 @@ Get parameters of expression
 
 #### Returns
 
-`Promise`<[`MetadataParameter`](MetadataParameter.md)[]\>
+`Promise`\<[`MetadataParameter`](MetadataParameter.md)[]\>
 
 Parameters of expression
 
 #### Defined in
 
-[application/ExpressionService.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/ExpressionService.ts#L16)
+[application/ExpressionService.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L16)
 
 ___
 
 ### sentence
 
-▸ **sentence**(`expression`, `options`): `Promise`<[`MetadataSentence`](MetadataSentence.md)\>
+▸ **sentence**(`expression`, `options`): `Promise`\<[`MetadataSentence`](MetadataSentence.md)\>
 
 Get getInfo of expression
 
@@ -181,8 +181,8 @@ Get getInfo of expression
 
 #### Returns
 
-`Promise`<[`MetadataSentence`](MetadataSentence.md)\>
+`Promise`\<[`MetadataSentence`](MetadataSentence.md)\>
 
 #### Defined in
 
-[application/ExpressionService.ts:37](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/ExpressionService.ts#L37)
+[application/ExpressionService.ts:37](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L37)

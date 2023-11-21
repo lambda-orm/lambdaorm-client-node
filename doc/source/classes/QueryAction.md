@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / QueryAction
 
-# QueryAction
+# Class: QueryAction
 
 ## Hierarchy
 
@@ -51,27 +51,27 @@
 
 #### Defined in
 
-[domain/queryable.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L7)
+[domain/queryable.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L7)
 
 ## Methods
 
 ### constraints
 
-▸ **constraints**(): `Promise`<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
+▸ **constraints**(): `Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
 #### Returns
 
-`Promise`<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
+`Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
 #### Defined in
 
-[domain/queryable.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L24)
+[domain/queryable.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L24)
 
 ___
 
 ### execute
 
-▸ **execute**(`data`): `Promise`<`any`\>
+▸ **execute**(`data`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -81,39 +81,39 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[domain/queryable.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L12)
+[domain/queryable.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L12)
 
 ___
 
 ### metadata
 
-▸ **metadata**(): `Promise`<[`Metadata`](../interfaces/Metadata.md)\>
+▸ **metadata**(): `Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
 #### Returns
 
-`Promise`<[`Metadata`](../interfaces/Metadata.md)\>
+`Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
 #### Defined in
 
-[domain/queryable.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L36)
+[domain/queryable.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L36)
 
 ___
 
 ### model
 
-▸ **model**(): `Promise`<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
+▸ **model**(): `Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
 #### Returns
 
-`Promise`<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
+`Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
 #### Defined in
 
-[domain/queryable.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L20)
+[domain/queryable.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L20)
 
 ___
 
@@ -127,32 +127,32 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L16)
+[domain/queryable.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L16)
 
 ___
 
 ### parameters
 
-▸ **parameters**(): `Promise`<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
+▸ **parameters**(): `Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
 #### Returns
 
-`Promise`<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
+`Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
 #### Defined in
 
-[domain/queryable.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L28)
+[domain/queryable.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L28)
 
 ___
 
 ### sentence
 
-▸ **sentence**(): `Promise`<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
+▸ **sentence**(): `Promise`\<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
 
 #### Returns
 
-`Promise`<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
+`Promise`\<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
 
 #### Defined in
 
-[domain/queryable.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L32)
+[domain/queryable.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/queryable.ts#L32)

@@ -1,6 +1,6 @@
 [Lambda ORM client](../README.md) / IOrm
 
-# IOrm
+# Interface: IOrm
 
 ## Implemented by
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[application/IOrm.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L9)
+[application/IOrm.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L9)
 
 ## Accessors
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[application/IOrm.ts:13](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L13)
+[application/IOrm.ts:13](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L13)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[application/IOrm.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L14)
+[application/IOrm.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L14)
 
 ___
 
@@ -80,13 +80,13 @@ ___
 
 #### Defined in
 
-[application/IOrm.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L15)
+[application/IOrm.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L15)
 
 ## Methods
 
 ### constraints
 
-▸ **constraints**(`expression`): `Promise`<[`MetadataConstraint`](MetadataConstraint.md)\>
+▸ **constraints**(`expression`): `Promise`\<[`MetadataConstraint`](MetadataConstraint.md)\>
 
 Get constraints of expression
 
@@ -98,15 +98,15 @@ Get constraints of expression
 
 #### Returns
 
-`Promise`<[`MetadataConstraint`](MetadataConstraint.md)\>
+`Promise`\<[`MetadataConstraint`](MetadataConstraint.md)\>
 
 Constraints of expression
 
 #### Defined in
 
-[application/IOrm.ts:34](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L34)
+[application/IOrm.ts:34](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L34)
 
-▸ **constraints**(`expression`): `Promise`<[`MetadataConstraint`](MetadataConstraint.md)\>
+▸ **constraints**(`expression`): `Promise`\<[`MetadataConstraint`](MetadataConstraint.md)\>
 
 #### Parameters
 
@@ -116,31 +116,31 @@ Constraints of expression
 
 #### Returns
 
-`Promise`<[`MetadataConstraint`](MetadataConstraint.md)\>
+`Promise`\<[`MetadataConstraint`](MetadataConstraint.md)\>
 
 #### Defined in
 
-[application/IOrm.ts:35](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L35)
+[application/IOrm.ts:35](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L35)
 
 ___
 
 ### end
 
-▸ **end**(): `Promise`<`void`\>
+▸ **end**(): `Promise`\<`void`\>
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 
-[application/IOrm.ts:11](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L11)
+[application/IOrm.ts:11](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L11)
 
 ___
 
 ### execute
 
-▸ **execute**(`expression`, `data?`, `options?`): `Promise`<`any`\>
+▸ **execute**(`expression`, `data?`, `options?`): `Promise`\<`any`\>
 
 Execute expression
 
@@ -154,15 +154,15 @@ Execute expression
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 Result of execution
 
 #### Defined in
 
-[application/IOrm.ts:59](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L59)
+[application/IOrm.ts:59](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L59)
 
-▸ **execute**(`expression`, `data?`, `options?`): `Promise`<`any`\>
+▸ **execute**(`expression`, `data?`, `options?`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -174,17 +174,17 @@ Result of execution
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[application/IOrm.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L60)
+[application/IOrm.ts:60](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L60)
 
 ___
 
 ### executeQueued
 
-▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`<`string`\>
+▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`\<`string`\>
 
 Execute expression
 
@@ -200,15 +200,15 @@ Execute expression
 
 #### Returns
 
-`Promise`<`string`\>
+`Promise`\<`string`\>
 
 Result of execution
 
 #### Defined in
 
-[application/IOrm.ts:69](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L69)
+[application/IOrm.ts:69](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L69)
 
-▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`<`string`\>
+▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`\<`string`\>
 
 #### Parameters
 
@@ -222,17 +222,17 @@ Result of execution
 
 #### Returns
 
-`Promise`<`string`\>
+`Promise`\<`string`\>
 
 #### Defined in
 
-[application/IOrm.ts:70](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L70)
+[application/IOrm.ts:70](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L70)
 
 ___
 
 ### init
 
-▸ **init**(`host?`): `Promise`<`void`\>
+▸ **init**(`host?`): `Promise`\<`void`\>
 
 #### Parameters
 
@@ -242,17 +242,17 @@ ___
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 
-[application/IOrm.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L10)
+[application/IOrm.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L10)
 
 ___
 
 ### metadata
 
-▸ **metadata**(`expression`): `Promise`<[`Metadata`](Metadata.md)\>
+▸ **metadata**(`expression`): `Promise`\<[`Metadata`](Metadata.md)\>
 
 Get metadata of expression
 
@@ -264,15 +264,15 @@ Get metadata of expression
 
 #### Returns
 
-`Promise`<[`Metadata`](Metadata.md)\>
+`Promise`\<[`Metadata`](Metadata.md)\>
 
 metadata of expression
 
 #### Defined in
 
-[application/IOrm.ts:41](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L41)
+[application/IOrm.ts:41](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L41)
 
-▸ **metadata**(`expression`): `Promise`<[`Metadata`](Metadata.md)\>
+▸ **metadata**(`expression`): `Promise`\<[`Metadata`](Metadata.md)\>
 
 #### Parameters
 
@@ -282,17 +282,17 @@ metadata of expression
 
 #### Returns
 
-`Promise`<[`Metadata`](Metadata.md)\>
+`Promise`\<[`Metadata`](Metadata.md)\>
 
 #### Defined in
 
-[application/IOrm.ts:42](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L42)
+[application/IOrm.ts:42](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L42)
 
 ___
 
 ### model
 
-▸ **model**(`expression`): `Promise`<[`MetadataModel`](MetadataModel.md)[]\>
+▸ **model**(`expression`): `Promise`\<[`MetadataModel`](MetadataModel.md)[]\>
 
 Get model of expression
 
@@ -304,15 +304,15 @@ Get model of expression
 
 #### Returns
 
-`Promise`<[`MetadataModel`](MetadataModel.md)[]\>
+`Promise`\<[`MetadataModel`](MetadataModel.md)[]\>
 
 Model of expression
 
 #### Defined in
 
-[application/IOrm.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L20)
+[application/IOrm.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L20)
 
-▸ **model**(`expression`): `Promise`<[`MetadataModel`](MetadataModel.md)[]\>
+▸ **model**(`expression`): `Promise`\<[`MetadataModel`](MetadataModel.md)[]\>
 
 #### Parameters
 
@@ -322,17 +322,17 @@ Model of expression
 
 #### Returns
 
-`Promise`<[`MetadataModel`](MetadataModel.md)[]\>
+`Promise`\<[`MetadataModel`](MetadataModel.md)[]\>
 
 #### Defined in
 
-[application/IOrm.ts:21](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L21)
+[application/IOrm.ts:21](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L21)
 
 ___
 
 ### parameters
 
-▸ **parameters**(`expression`): `Promise`<[`MetadataParameter`](MetadataParameter.md)[]\>
+▸ **parameters**(`expression`): `Promise`\<[`MetadataParameter`](MetadataParameter.md)[]\>
 
 Get parameters of expression
 
@@ -344,15 +344,15 @@ Get parameters of expression
 
 #### Returns
 
-`Promise`<[`MetadataParameter`](MetadataParameter.md)[]\>
+`Promise`\<[`MetadataParameter`](MetadataParameter.md)[]\>
 
 Parameters of expression
 
 #### Defined in
 
-[application/IOrm.ts:27](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L27)
+[application/IOrm.ts:27](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L27)
 
-▸ **parameters**(`expression`): `Promise`<[`MetadataParameter`](MetadataParameter.md)[]\>
+▸ **parameters**(`expression`): `Promise`\<[`MetadataParameter`](MetadataParameter.md)[]\>
 
 #### Parameters
 
@@ -362,17 +362,17 @@ Parameters of expression
 
 #### Returns
 
-`Promise`<[`MetadataParameter`](MetadataParameter.md)[]\>
+`Promise`\<[`MetadataParameter`](MetadataParameter.md)[]\>
 
 #### Defined in
 
-[application/IOrm.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L28)
+[application/IOrm.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L28)
 
 ___
 
 ### sentence
 
-▸ **sentence**(`expression`, `options?`): `Promise`<[`MetadataSentence`](MetadataSentence.md)\>
+▸ **sentence**(`expression`, `options?`): `Promise`\<[`MetadataSentence`](MetadataSentence.md)\>
 
 #### Parameters
 
@@ -383,13 +383,13 @@ ___
 
 #### Returns
 
-`Promise`<[`MetadataSentence`](MetadataSentence.md)\>
+`Promise`\<[`MetadataSentence`](MetadataSentence.md)\>
 
 #### Defined in
 
-[application/IOrm.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L49)
+[application/IOrm.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L49)
 
-▸ **sentence**(`expression`, `options?`): `Promise`<[`MetadataSentence`](MetadataSentence.md)\>
+▸ **sentence**(`expression`, `options?`): `Promise`\<[`MetadataSentence`](MetadataSentence.md)\>
 
 #### Parameters
 
@@ -400,8 +400,8 @@ ___
 
 #### Returns
 
-`Promise`<[`MetadataSentence`](MetadataSentence.md)\>
+`Promise`\<[`MetadataSentence`](MetadataSentence.md)\>
 
 #### Defined in
 
-[application/IOrm.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/IOrm.ts#L50)
+[application/IOrm.ts:50](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/IOrm.ts#L50)
