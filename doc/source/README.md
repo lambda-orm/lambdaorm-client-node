@@ -66,10 +66,12 @@ Lambda ORM client
 - [RelationIncludeClauses](interfaces/RelationIncludeClauses.md)
 - [RelationMapClauses](interfaces/RelationMapClauses.md)
 - [RuleDataSource](interfaces/RuleDataSource.md)
+- [Schema](interfaces/Schema.md)
 - [SchemaConfig](interfaces/SchemaConfig.md)
 - [SchemaConfigEntity](interfaces/SchemaConfigEntity.md)
 - [SchemaData](interfaces/SchemaData.md)
 - [SchemaDataEntity](interfaces/SchemaDataEntity.md)
+- [SchemaDomain](interfaces/SchemaDomain.md)
 - [SchemaService](interfaces/SchemaService.md)
 - [Stage](interfaces/Stage.md)
 - [StageService](interfaces/StageService.md)
@@ -180,7 +182,7 @@ Lambda ORM client
 
 #### Defined in
 
-[domain/queryable.ts:252](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L252)
+[domain/queryable.ts:252](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L252)
 
 ___
 
@@ -196,7 +198,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:250](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L250)
+[domain/queryable.ts:250](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L250)
 
 ___
 
@@ -212,7 +214,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:251](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L251)
+[domain/queryable.ts:251](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L251)
 
 ## Variables
 
@@ -222,7 +224,7 @@ ___
 
 #### Defined in
 
-[index.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/index.ts#L5)
+[index.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/index.ts#L5)
 
 ## Functions
 
@@ -244,7 +246,7 @@ Get the absolute value
 
 #### Defined in
 
-[domain/queryable.ts:269](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L269)
+[domain/queryable.ts:269](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L269)
 
 ___
 
@@ -266,7 +268,7 @@ Get the arc cosine
 
 #### Defined in
 
-[domain/queryable.ts:271](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L271)
+[domain/queryable.ts:271](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L271)
 
 ___
 
@@ -287,7 +289,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:369](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L369)
+[domain/queryable.ts:369](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L369)
 
 ___
 
@@ -308,7 +310,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:371](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L371)
+[domain/queryable.ts:371](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L371)
 
 ___
 
@@ -329,7 +331,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:373](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L373)
+[domain/queryable.ts:373](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L373)
 
 ___
 
@@ -350,7 +352,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:367](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L367)
+[domain/queryable.ts:367](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L367)
 
 ___
 
@@ -371,7 +373,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:375](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L375)
+[domain/queryable.ts:375](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L375)
 
 ___
 
@@ -392,7 +394,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:377](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L377)
+[domain/queryable.ts:377](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L377)
 
 ___
 
@@ -413,7 +415,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:365](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L365)
+[domain/queryable.ts:365](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L365)
 
 ___
 
@@ -434,7 +436,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:256](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L256)
+[domain/queryable.ts:256](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L256)
 
 ___
 
@@ -454,7 +456,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:260](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L260)
+[domain/queryable.ts:260](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L260)
 
 ___
 
@@ -476,7 +478,7 @@ Get the arc sine
 
 #### Defined in
 
-[domain/queryable.ts:273](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L273)
+[domain/queryable.ts:273](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L273)
 
 ___
 
@@ -498,7 +500,7 @@ Get the arc tangent
 
 #### Defined in
 
-[domain/queryable.ts:275](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L275)
+[domain/queryable.ts:275](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L275)
 
 ___
 
@@ -521,7 +523,7 @@ Get the arc tangent of x and y
 
 #### Defined in
 
-[domain/queryable.ts:277](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L277)
+[domain/queryable.ts:277](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L277)
 
 ___
 
@@ -541,7 +543,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:411](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L411)
+[domain/queryable.ts:411](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L411)
 
 ___
 
@@ -563,7 +565,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:262](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L262)
+[domain/queryable.ts:262](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L262)
 
 ___
 
@@ -585,7 +587,7 @@ Get the smallest following integer
 
 #### Defined in
 
-[domain/queryable.ts:279](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L279)
+[domain/queryable.ts:279](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L279)
 
 ___
 
@@ -607,7 +609,7 @@ Get character from ASCII code
 
 #### Defined in
 
-[domain/queryable.ts:310](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L310)
+[domain/queryable.ts:310](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L310)
 
 ___
 
@@ -629,7 +631,7 @@ String concatenation
 
 #### Defined in
 
-[domain/queryable.ts:334](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L334)
+[domain/queryable.ts:334](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L334)
 
 ___
 
@@ -651,7 +653,7 @@ Get the cosine
 
 #### Defined in
 
-[domain/queryable.ts:281](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L281)
+[domain/queryable.ts:281](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L281)
 
 ___
 
@@ -673,7 +675,7 @@ Get hyperbolic cosine
 
 #### Defined in
 
-[domain/queryable.ts:283](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L283)
+[domain/queryable.ts:283](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L283)
 
 ___
 
@@ -693,7 +695,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:413](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L413)
+[domain/queryable.ts:413](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L413)
 
 ___
 
@@ -709,7 +711,7 @@ Get the current time
 
 #### Defined in
 
-[domain/queryable.ts:339](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L339)
+[domain/queryable.ts:339](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L339)
 
 ___
 
@@ -729,7 +731,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:347](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L347)
+[domain/queryable.ts:347](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L347)
 
 ___
 
@@ -750,7 +752,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:379](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L379)
+[domain/queryable.ts:379](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L379)
 
 ___
 
@@ -770,7 +772,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:349](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L349)
+[domain/queryable.ts:349](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L349)
 
 ___
 
@@ -790,7 +792,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:355](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L355)
+[domain/queryable.ts:355](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L355)
 
 ___
 
@@ -810,7 +812,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:258](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L258)
+[domain/queryable.ts:258](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L258)
 
 ___
 
@@ -830,7 +832,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:266](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L266)
+[domain/queryable.ts:266](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L266)
 
 ___
 
@@ -852,7 +854,7 @@ Raise e to the nth power
 
 #### Defined in
 
-[domain/queryable.ts:285](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L285)
+[domain/queryable.ts:285](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L285)
 
 ___
 
@@ -872,7 +874,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:415](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L415)
+[domain/queryable.ts:415](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L415)
 
 ___
 
@@ -894,7 +896,7 @@ Get the largest preceding integer
 
 #### Defined in
 
-[domain/queryable.ts:287](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L287)
+[domain/queryable.ts:287](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L287)
 
 ___
 
@@ -914,7 +916,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:359](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L359)
+[domain/queryable.ts:359](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L359)
 
 ___
 
@@ -935,7 +937,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:264](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L264)
+[domain/queryable.ts:264](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L264)
 
 ___
 
@@ -955,7 +957,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:408](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L408)
+[domain/queryable.ts:408](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L408)
 
 ___
 
@@ -975,7 +977,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:406](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L406)
+[domain/queryable.ts:406](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L406)
 
 ___
 
@@ -995,7 +997,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:417](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L417)
+[domain/queryable.ts:417](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L417)
 
 ___
 
@@ -1017,7 +1019,7 @@ Get natural logarithm of num
 
 #### Defined in
 
-[domain/queryable.ts:289](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L289)
+[domain/queryable.ts:289](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L289)
 
 ___
 
@@ -1040,7 +1042,7 @@ Get logarithm, base num1, of num2
 
 #### Defined in
 
-[domain/queryable.ts:291](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L291)
+[domain/queryable.ts:291](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L291)
 
 ___
 
@@ -1062,7 +1064,7 @@ Lowercase string
 
 #### Defined in
 
-[domain/queryable.ts:314](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L314)
+[domain/queryable.ts:314](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L314)
 
 ___
 
@@ -1086,7 +1088,7 @@ Pad the left-side of string
 
 #### Defined in
 
-[domain/queryable.ts:316](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L316)
+[domain/queryable.ts:316](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L316)
 
 ___
 
@@ -1108,7 +1110,7 @@ Remove leading chars
 
 #### Defined in
 
-[domain/queryable.ts:318](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L318)
+[domain/queryable.ts:318](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L318)
 
 ___
 
@@ -1128,7 +1130,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:419](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L419)
+[domain/queryable.ts:419](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L419)
 
 ___
 
@@ -1148,7 +1150,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:421](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L421)
+[domain/queryable.ts:421](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L421)
 
 ___
 
@@ -1168,7 +1170,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:361](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L361)
+[domain/queryable.ts:361](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L361)
 
 ___
 
@@ -1188,7 +1190,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:353](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L353)
+[domain/queryable.ts:353](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L353)
 
 ___
 
@@ -1204,7 +1206,7 @@ Get the current dateTime
 
 #### Defined in
 
-[domain/queryable.ts:343](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L343)
+[domain/queryable.ts:343](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L343)
 
 ___
 
@@ -1225,7 +1227,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:402](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L402)
+[domain/queryable.ts:402](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L402)
 
 ___
 
@@ -1247,7 +1249,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:404](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L404)
+[domain/queryable.ts:404](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L404)
 
 ___
 
@@ -1270,7 +1272,7 @@ Get remainder
 
 #### Defined in
 
-[domain/queryable.ts:293](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L293)
+[domain/queryable.ts:293](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L293)
 
 ___
 
@@ -1294,7 +1296,7 @@ The replace() method searches a string for a specified value and returns a new s
 
 #### Defined in
 
-[domain/queryable.ts:320](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L320)
+[domain/queryable.ts:320](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L320)
 
 ___
 
@@ -1317,7 +1319,7 @@ Get rounded value
 
 #### Defined in
 
-[domain/queryable.ts:295](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L295)
+[domain/queryable.ts:295](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L295)
 
 ___
 
@@ -1341,7 +1343,7 @@ Pad the right-side of string
 
 #### Defined in
 
-[domain/queryable.ts:322](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L322)
+[domain/queryable.ts:322](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L322)
 
 ___
 
@@ -1363,7 +1365,7 @@ Remove trailing spaces
 
 #### Defined in
 
-[domain/queryable.ts:324](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L324)
+[domain/queryable.ts:324](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L324)
 
 ___
 
@@ -1383,7 +1385,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:363](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L363)
+[domain/queryable.ts:363](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L363)
 
 ___
 
@@ -1405,7 +1407,7 @@ Get sign of exp
 
 #### Defined in
 
-[domain/queryable.ts:297](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L297)
+[domain/queryable.ts:297](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L297)
 
 ___
 
@@ -1427,7 +1429,7 @@ Get sine
 
 #### Defined in
 
-[domain/queryable.ts:299](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L299)
+[domain/queryable.ts:299](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L299)
 
 ___
 
@@ -1449,7 +1451,7 @@ Get hyperbolic sine
 
 #### Defined in
 
-[domain/queryable.ts:301](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L301)
+[domain/queryable.ts:301](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L301)
 
 ___
 
@@ -1463,7 +1465,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:399](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L399)
+[domain/queryable.ts:399](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L399)
 
 ___
 
@@ -1487,7 +1489,7 @@ Get a substring of string
 
 #### Defined in
 
-[domain/queryable.ts:326](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L326)
+[domain/queryable.ts:326](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L326)
 
 ___
 
@@ -1511,7 +1513,7 @@ Get a substring of string
 
 #### Defined in
 
-[domain/queryable.ts:328](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L328)
+[domain/queryable.ts:328](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L328)
 
 ___
 
@@ -1531,7 +1533,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:423](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L423)
+[domain/queryable.ts:423](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L423)
 
 ___
 
@@ -1553,7 +1555,7 @@ Get tangent
 
 #### Defined in
 
-[domain/queryable.ts:303](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L303)
+[domain/queryable.ts:303](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L303)
 
 ___
 
@@ -1575,7 +1577,7 @@ Get hyperbolic tangent
 
 #### Defined in
 
-[domain/queryable.ts:305](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L305)
+[domain/queryable.ts:305](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L305)
 
 ___
 
@@ -1595,7 +1597,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:345](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L345)
+[domain/queryable.ts:345](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L345)
 
 ___
 
@@ -1616,7 +1618,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:381](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L381)
+[domain/queryable.ts:381](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L381)
 
 ___
 
@@ -1636,7 +1638,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:386](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L386)
+[domain/queryable.ts:386](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L386)
 
 ___
 
@@ -1656,7 +1658,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:388](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L388)
+[domain/queryable.ts:388](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L388)
 
 ___
 
@@ -1676,7 +1678,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:392](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L392)
+[domain/queryable.ts:392](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L392)
 
 ___
 
@@ -1696,7 +1698,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:394](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L394)
+[domain/queryable.ts:394](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L394)
 
 ___
 
@@ -1716,7 +1718,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:384](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L384)
+[domain/queryable.ts:384](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L384)
 
 ___
 
@@ -1736,7 +1738,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:390](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L390)
+[domain/queryable.ts:390](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L390)
 
 ___
 
@@ -1752,7 +1754,7 @@ Get the current date
 
 #### Defined in
 
-[domain/queryable.ts:341](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L341)
+[domain/queryable.ts:341](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L341)
 
 ___
 
@@ -1774,7 +1776,7 @@ Remove characters
 
 #### Defined in
 
-[domain/queryable.ts:330](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L330)
+[domain/queryable.ts:330](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L330)
 
 ___
 
@@ -1797,7 +1799,7 @@ Truncate num
 
 #### Defined in
 
-[domain/queryable.ts:307](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L307)
+[domain/queryable.ts:307](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L307)
 
 ___
 
@@ -1819,7 +1821,7 @@ Uppercase string
 
 #### Defined in
 
-[domain/queryable.ts:332](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L332)
+[domain/queryable.ts:332](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L332)
 
 ___
 
@@ -1833,7 +1835,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:397](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L397)
+[domain/queryable.ts:397](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L397)
 
 ___
 
@@ -1853,7 +1855,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:357](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L357)
+[domain/queryable.ts:357](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L357)
 
 ___
 
@@ -1873,4 +1875,4 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:351](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/queryable.ts#L351)
+[domain/queryable.ts:351](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/queryable.ts#L351)

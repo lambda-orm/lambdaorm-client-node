@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[domain/stage.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/domain/stage.ts#L6)
+[domain/stage.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/domain/stage.ts#L6)

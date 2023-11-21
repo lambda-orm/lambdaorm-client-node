@@ -7,6 +7,7 @@
 ### Methods
 
 - [dataSources](SchemaService.md#datasources)
+- [domain](SchemaService.md#domain)
 - [entities](SchemaService.md#entities)
 - [entity](SchemaService.md#entity)
 - [entityMapping](SchemaService.md#entitymapping)
@@ -14,8 +15,11 @@
 - [enums](SchemaService.md#enums)
 - [mapping](SchemaService.md#mapping)
 - [mappings](SchemaService.md#mappings)
+- [schema](SchemaService.md#schema)
 - [stage](SchemaService.md#stage)
 - [stages](SchemaService.md#stages)
+- [version](SchemaService.md#version)
+- [views](SchemaService.md#views)
 
 ## Methods
 
@@ -29,7 +33,21 @@
 
 #### Defined in
 
-[application/SchemaService.ts:3](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L3)
+[application/SchemaService.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L6)
+
+___
+
+### domain
+
+▸ **domain**(): `Promise`<[`SchemaDomain`](SchemaDomain.md)\>
+
+#### Returns
+
+`Promise`<[`SchemaDomain`](SchemaDomain.md)\>
+
+#### Defined in
+
+[application/SchemaService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L5)
 
 ___
 
@@ -43,7 +61,7 @@ ___
 
 #### Defined in
 
-[application/SchemaService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L4)
+[application/SchemaService.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L7)
 
 ___
 
@@ -63,7 +81,7 @@ ___
 
 #### Defined in
 
-[application/SchemaService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L5)
+[application/SchemaService.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L8)
 
 ___
 
@@ -84,7 +102,7 @@ ___
 
 #### Defined in
 
-[application/SchemaService.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L10)
+[application/SchemaService.ts:13](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L13)
 
 ___
 
@@ -104,7 +122,7 @@ ___
 
 #### Defined in
 
-[application/SchemaService.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L7)
+[application/SchemaService.ts:10](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L10)
 
 ___
 
@@ -118,7 +136,7 @@ ___
 
 #### Defined in
 
-[application/SchemaService.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L6)
+[application/SchemaService.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L9)
 
 ___
 
@@ -138,7 +156,7 @@ ___
 
 #### Defined in
 
-[application/SchemaService.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L9)
+[application/SchemaService.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L12)
 
 ___
 
@@ -152,7 +170,21 @@ ___
 
 #### Defined in
 
-[application/SchemaService.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L8)
+[application/SchemaService.ts:11](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L11)
+
+___
+
+### schema
+
+▸ **schema**(): `Promise`<[`Schema`](Schema.md)\>
+
+#### Returns
+
+`Promise`<[`Schema`](Schema.md)\>
+
+#### Defined in
+
+[application/SchemaService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L4)
 
 ___
 
@@ -172,7 +204,7 @@ ___
 
 #### Defined in
 
-[application/SchemaService.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L12)
+[application/SchemaService.ts:15](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L15)
 
 ___
 
@@ -186,4 +218,32 @@ ___
 
 #### Defined in
 
-[application/SchemaService.ts:11](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/b5acaf4/src/lib/application/SchemaService.ts#L11)
+[application/SchemaService.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L14)
+
+___
+
+### version
+
+▸ **version**(): `Promise`<{ `version`: `string`  }\>
+
+#### Returns
+
+`Promise`<{ `version`: `string`  }\>
+
+#### Defined in
+
+[application/SchemaService.ts:3](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L3)
+
+___
+
+### views
+
+▸ **views**(): `Promise`<`string`[]\>
+
+#### Returns
+
+`Promise`<`string`[]\>
+
+#### Defined in
+
+[application/SchemaService.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/accb0c4/src/lib/application/SchemaService.ts#L16)
