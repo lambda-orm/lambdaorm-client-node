@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### [0.7.24](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.23...v0.7.24) (2023-11-21)
+
+
+### Features
+
+* **schema:** add version, schema and domain endpints ([a973fe6](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/a973fe6150f9655cdd1a6f9691072018e1616067)), closes [#202](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/202)
+
+
+### Bug Fixes
+
+* update dependencies ([accb0c4](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/accb0c4bb5c15f976b227d7a13e22c60b2857b48)), closes [#202](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/202)
+
 ### [0.7.23](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.22...v0.7.23) (2023-11-19)
 
 
