@@ -1,7 +1,7 @@
 import globalAxios, { AxiosPromise, AxiosInstance, AxiosRequestConfig } from 'axios'
 import { DUMMY_BASE_URL, assertParamExists, setSearchParams, toPathString, createRequestFunction } from './common'
 import { RequestArgs, BaseAPI } from './base'
-import { Configuration, Enum, DataSource, Entity, EntityMapping, Mapping, Stage } from '../../domain'
+import { Configuration, Enum, DataSource, Entity, EntityMapping, Mapping, Stage, Schema, SchemaDomain } from '../../domain'
 
 /**
  * SchemaApi - axios parameter creator
@@ -9,6 +9,118 @@ import { Configuration, Enum, DataSource, Entity, EntityMapping, Mapping, Stage 
  */
 export const SchemaApiAxiosParamCreator = function (configuration: Configuration) {
 	return {
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		version: async (options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+			const localVarPath = '/version'
+			// use dummy base URL string because the URL constructor only accepts absolute URLs.
+			const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL)
+			let baseOptions
+			if (configuration) {
+				baseOptions = configuration.baseOptions
+			}
+
+			const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options }
+			const localVarHeaderParameter = {} as any
+			const localVarQueryParameter = {} as any
+
+			setSearchParams(localVarUrlObj, localVarQueryParameter)
+			const headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {}
+			localVarRequestOptions.headers = { ...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers }
+
+			return {
+				url: toPathString(localVarUrlObj),
+				options: localVarRequestOptions
+			}
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		schema: async (options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+			const localVarPath = '/schema'
+			// use dummy base URL string because the URL constructor only accepts absolute URLs.
+			const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL)
+			let baseOptions
+			if (configuration) {
+				baseOptions = configuration.baseOptions
+			}
+
+			const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options }
+			const localVarHeaderParameter = {} as any
+			const localVarQueryParameter = {} as any
+
+			setSearchParams(localVarUrlObj, localVarQueryParameter)
+			const headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {}
+			localVarRequestOptions.headers = { ...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers }
+
+			return {
+				url: toPathString(localVarUrlObj),
+				options: localVarRequestOptions
+			}
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		domain: async (options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+			const localVarPath = '/domain'
+			// use dummy base URL string because the URL constructor only accepts absolute URLs.
+			const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL)
+			let baseOptions
+			if (configuration) {
+				baseOptions = configuration.baseOptions
+			}
+
+			const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options }
+			const localVarHeaderParameter = {} as any
+			const localVarQueryParameter = {} as any
+
+			setSearchParams(localVarUrlObj, localVarQueryParameter)
+			const headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {}
+			localVarRequestOptions.headers = { ...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers }
+
+			return {
+				url: toPathString(localVarUrlObj),
+				options: localVarRequestOptions
+			}
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		views: async (options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+			const localVarPath = '/views'
+			// use dummy base URL string because the URL constructor only accepts absolute URLs.
+			const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL)
+			let baseOptions
+			if (configuration) {
+				baseOptions = configuration.baseOptions
+			}
+
+			const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options }
+			const localVarHeaderParameter = {} as any
+			const localVarQueryParameter = {} as any
+
+			setSearchParams(localVarUrlObj, localVarQueryParameter)
+			const headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {}
+			localVarRequestOptions.headers = { ...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers }
+
+			return {
+				url: toPathString(localVarUrlObj),
+				options: localVarRequestOptions
+			}
+		},
+
 		/**
 			 *
 			 * @param {string} _enum
@@ -346,6 +458,46 @@ export const SchemaApiFp = function (configuration: Configuration) {
 	return {
 		/**
 			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		async version (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<{version:string}>> {
+			const localVarAxiosArgs = await localVarAxiosParamCreator.version(options)
+			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		async schema (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Schema>> {
+			const localVarAxiosArgs = await localVarAxiosParamCreator.schema(options)
+			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		async domain (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<SchemaDomain>> {
+			const localVarAxiosArgs = await localVarAxiosParamCreator.domain(options)
+			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		async views (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Array<string>>> {
+			const localVarAxiosArgs = await localVarAxiosParamCreator.views(options)
+			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
+		},
+
+		/**
+			 *
 			 * @param {string} _enum
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
@@ -462,6 +614,42 @@ export const SchemaApiFactory = function (configuration: Configuration, axios?: 
 	return {
 		/**
 			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		version (options?: any): AxiosPromise<{version:string}> {
+			return localVarFp.version(options).then((request) => request(axios, configuration.basePath))
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		schema (options?: any): AxiosPromise<Schema> {
+			return localVarFp.schema(options).then((request) => request(axios, configuration.basePath))
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		domain (options?: any): AxiosPromise<SchemaDomain> {
+			return localVarFp.domain(options).then((request) => request(axios, configuration.basePath))
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
+		views (options?: any): AxiosPromise<Array<string>> {
+			return localVarFp.views(options).then((request) => request(axios, configuration.basePath))
+		},
+
+		/**
+			 *
 			 * @param {string} _enum
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
@@ -565,6 +753,46 @@ export const SchemaApiFactory = function (configuration: Configuration, axios?: 
 * @extends {BaseAPI}
 */
 export class SchemaApi extends BaseAPI {
+	/**
+	 *
+	 * @param {*} [options] Override http request option.
+	 * @throws {RequiredError}
+	 * @memberof SchemaApi
+	 */
+	public version (options?: AxiosRequestConfig) {
+		return SchemaApiFp(this.configuration).version(options).then((request) => request(this.axios, this.configuration.basePath))
+	}
+
+	/**
+	 *
+	 * @param {*} [options] Override http request option.
+	 * @throws {RequiredError}
+	 * @memberof SchemaApi
+	 */
+	public schema (options?: AxiosRequestConfig) {
+		return SchemaApiFp(this.configuration).schema(options).then((request) => request(this.axios, this.configuration.basePath))
+	}
+
+	/**
+	 *
+	 * @param {*} [options] Override http request option.
+	 * @throws {RequiredError}
+	 * @memberof SchemaApi
+	 */
+	public domain (options?: AxiosRequestConfig) {
+		return SchemaApiFp(this.configuration).domain(options).then((request) => request(this.axios, this.configuration.basePath))
+	}
+
+	/**
+	 *
+	 * @param {*} [options] Override http request option.
+	 * @throws {RequiredError}
+	 * @memberof SchemaApi
+	 */
+	public views (options?: AxiosRequestConfig) {
+		return SchemaApiFp(this.configuration).views(options).then((request) => request(this.axios, this.configuration.basePath))
+	}
+
 	/**
 	 *
 	 * @param {string} _enum

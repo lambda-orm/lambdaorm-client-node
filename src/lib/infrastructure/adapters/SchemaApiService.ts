@@ -1,11 +1,26 @@
 import { SchemaService } from 'lib/application'
-import { Entity, EntityMapping, Enum, Mapping, Stage } from '../../domain'
+import { Entity, EntityMapping, Enum, Mapping, Schema, SchemaDomain, Stage } from '../../domain'
 import { SchemaApi } from '../api'
 import { AxiosResponse } from 'axios'
 
 export class SchemaApiService implements SchemaService {
 	// eslint-disable-next-line no-useless-constructor
 	constructor (private readonly schemaApi:SchemaApi) {}
+
+	public async version (): Promise<{version:string}> {
+		const result:AxiosResponse<{version:string}, any> = await this.schemaApi.version()
+		return result.data
+	}
+
+	public async schema (): Promise<Schema> {
+		const result:AxiosResponse<Schema, any> = await this.schemaApi.schema()
+		return result.data
+	}
+
+	public async domain (): Promise<SchemaDomain> {
+		const result:AxiosResponse<SchemaDomain, any> = await this.schemaApi.domain()
+		return result.data
+	}
 
 	public async dataSources ():Promise<{name:string, dialect:string}[]> {
 		const result:AxiosResponse<{name:string, dialect:string}[], any> = await this.schemaApi.dataSources()
@@ -54,6 +69,11 @@ export class SchemaApiService implements SchemaService {
 
 	public async stage (stage:string): Promise<Stage|undefined> {
 		const result:AxiosResponse<Stage, any> = await this.schemaApi.stage(stage)
+		return result.data
+	}
+
+	public async views (): Promise<string[]> {
+		const result:AxiosResponse<string[], any> = await this.schemaApi.views()
 		return result.data
 	}
 }

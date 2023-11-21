@@ -960,3 +960,39 @@ export interface Stage {
 	 */
 	'dataSources': Array<RuleDataSource>;
 }
+
+export interface SchemaDomain {
+	/**
+	 *
+	 * @type {string}
+	 * @memberof SchemaDomain
+	 */
+	'version': string;
+	/**
+	 *
+	 * @type {Array<Entity>}
+	 * @memberof SchemaDomain
+	 */
+	'entities': Array<Entity>
+	/**
+	 *
+	 * @type {Array<Enum>}
+	 * @memberof SchemaDomain
+	 */
+	'enums': Array<Enum>
+}
+
+export interface Schema {
+	/**
+	 *
+	 * @type {string}
+	 * @memberof Schema
+	 */
+	'version': string;
+	/**
+	 *
+	 * @type {SchemaDomain}
+	 * @memberof Schema
+	 */
+	'domain': Array<SchemaDomain>
+}

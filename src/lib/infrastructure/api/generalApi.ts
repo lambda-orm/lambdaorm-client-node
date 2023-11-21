@@ -14,6 +14,34 @@ export const GeneralApiAxiosParamCreator = function (configuration: Configuratio
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
+		version: async (options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+			const localVarPath = '/version'
+			// use dummy base URL string because the URL constructor only accepts absolute URLs.
+			const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL)
+			let baseOptions
+			if (configuration) {
+				baseOptions = configuration.baseOptions
+			}
+
+			const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options }
+			const localVarHeaderParameter = {} as any
+			const localVarQueryParameter = {} as any
+
+			setSearchParams(localVarUrlObj, localVarQueryParameter)
+			const headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {}
+			localVarRequestOptions.headers = { ...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers }
+
+			return {
+				url: toPathString(localVarUrlObj),
+				options: localVarRequestOptions
+			}
+		},
+
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
 		health: async (options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
 			const localVarPath = '/health'
 			// use dummy base URL string because the URL constructor only accepts absolute URLs.
@@ -105,6 +133,15 @@ export const GeneralApiFp = function (configuration: Configuration) {
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
+		async version (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Health>> {
+			const localVarAxiosArgs = await localVarAxiosParamCreator.version(options)
+			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
+		},
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
 		async health (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Health>> {
 			const localVarAxiosArgs = await localVarAxiosParamCreator.health(options)
 			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
@@ -142,6 +179,14 @@ export const GeneralApiFactory = function (configuration: Configuration, basePat
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
+		version (options?: any): AxiosPromise<Health> {
+			return localVarFp.version(options).then((request) => request(axios, configuration.basePath))
+		},
+		/**
+			 *
+			 * @param {*} [options] Override http request option.
+			 * @throws {RequiredError}
+			 */
 		health (options?: any): AxiosPromise<Health> {
 			return localVarFp.health(options).then((request) => request(axios, configuration.basePath))
 		},
@@ -171,6 +216,16 @@ export const GeneralApiFactory = function (configuration: Configuration, basePat
 * @extends {BaseAPI}
 */
 export class GeneralApi extends BaseAPI {
+	/**
+	 *
+	 * @param {*} [options] Override http request option.
+	 * @throws {RequiredError}
+	 * @memberof GeneralApi
+	 */
+	public version (options?: AxiosRequestConfig) {
+		return GeneralApiFp(this.configuration).version(options).then((request) => request(this.axios, this.configuration.basePath))
+	}
+
 	/**
 	 *
 	 * @param {*} [options] Override http request option.

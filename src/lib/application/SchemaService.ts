@@ -1,5 +1,8 @@
-import { Entity, EntityMapping, Enum, Mapping, Stage } from '../domain'
+import { Entity, EntityMapping, Enum, Mapping, Stage, Schema, SchemaDomain } from '../domain'
 export interface SchemaService {
+	version ():Promise<{version:string}>
+	schema (): Promise<Schema>
+	domain (): Promise<SchemaDomain>
 	dataSources ():Promise<{name:string, dialect:string}[]>
 	entities (): Promise<Entity[]>
 	entity (entity:string): Promise<Entity|undefined>
@@ -10,4 +13,5 @@ export interface SchemaService {
 	entityMapping (mapping:string, entity:string): Promise<EntityMapping|undefined>
 	stages (): Promise<Stage[]>
 	stage (stage:string): Promise<Stage|undefined>
+	views (): Promise<string[]>
 }
