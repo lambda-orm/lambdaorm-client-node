@@ -16,13 +16,13 @@
 
 ### constructor
 
-• **new SentenceLibrary**(`model`): [`SentenceLibrary`](SentenceLibrary.md)
+• **new SentenceLibrary**(`expressions`): [`SentenceLibrary`](SentenceLibrary.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `model` | `IModelManager` |
+| `expressions` | `Expressions` |
 
 #### Returns
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[infrastructure/library.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/infrastructure/library.ts#L6)
+[infrastructure/library.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/infrastructure/library.ts#L6)
 
 ## Methods
 
@@ -44,4 +44,4 @@
 
 #### Defined in
 
-[infrastructure/library.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/infrastructure/library.ts#L8)
+[infrastructure/library.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/infrastructure/library.ts#L8)

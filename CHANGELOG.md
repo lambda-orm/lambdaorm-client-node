@@ -6,10 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ### [0.7.27](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.26...v0.7.27) (2023-11-28)
 
+**Bug Fixes:**
 
-### Bug Fixes
-
-* **library:** solve create library ([70ce19d](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/70ce19d2d829c8be4e4708e53838144d0c2f2127)), closes [#201](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/201)
+* **library:** solve create library ([70ce19d](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/70ce19d2d829c8be4e4708e53838144d0c2f2127)), closes [#201](https://github.com/FlavioLionelRita/lambdaorm/issues/201)
 
 ### [0.7.26](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.25...v0.7.26) (2023-11-28)
 

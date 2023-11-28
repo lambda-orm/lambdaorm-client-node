@@ -25,7 +25,7 @@ Constraint
 
 #### Defined in
 
-[domain/model.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L20)
+[domain/model.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L20)
 
 ___
 
@@ -39,4 +39,4 @@ Constraint
 
 #### Defined in
 
-[domain/model.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L14)
+[domain/model.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L14)

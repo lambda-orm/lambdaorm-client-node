@@ -26,7 +26,7 @@ MetadataConstraint
 
 #### Defined in
 
-[domain/model.ts:433](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L433)
+[domain/model.ts:433](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L433)
 
 ___
 
@@ -40,7 +40,7 @@ MetadataConstraint
 
 #### Defined in
 
-[domain/model.ts:427](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L427)
+[domain/model.ts:427](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L427)
 
 ___
 
@@ -54,4 +54,4 @@ MetadataConstraint
 
 #### Defined in
 
-[domain/model.ts:421](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L421)
+[domain/model.ts:421](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L421)

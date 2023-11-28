@@ -22,7 +22,7 @@ SchemaDomain
 
 #### Defined in
 
-[domain/model.ts:976](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L976)
+[domain/model.ts:976](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L976)
 
 ___
 
@@ -36,7 +36,7 @@ SchemaDomain
 
 #### Defined in
 
-[domain/model.ts:982](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L982)
+[domain/model.ts:982](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L982)
 
 ___
 
@@ -50,4 +50,4 @@ SchemaDomain
 
 #### Defined in
 
-[domain/model.ts:970](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L970)
+[domain/model.ts:970](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L970)

@@ -28,7 +28,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[domain/model.ts:803](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L803)
+[domain/model.ts:803](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L803)
 
 ___
 
@@ -42,7 +42,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[domain/model.ts:791](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L791)
+[domain/model.ts:791](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L791)
 
 ___
 
@@ -56,7 +56,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[domain/model.ts:785](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L785)
+[domain/model.ts:785](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L785)
 
 ___
 
@@ -70,7 +70,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[domain/model.ts:779](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L779)
+[domain/model.ts:779](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L779)
 
 ___
 
@@ -84,4 +84,4 @@ QueryQueuedRequest
 
 #### Defined in
 
-[domain/model.ts:797](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L797)
+[domain/model.ts:797](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L797)
