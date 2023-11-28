@@ -18,7 +18,7 @@ export class ExpressionApiService implements ExpressionService {
 	public async model(expression:Function): Promise<MetadataModel[]>
 	public async model(expression:string): Promise<MetadataModel[]>
 	public async model (expression: string|Function): Promise<MetadataModel[]> {
-		const _expression = typeof expression !== 'string' ? expressions.toExpression(expression) : expression
+		const _expression = typeof expression !== 'string' ? this.toExpression(expression) : expression
 		const result:AxiosResponse<MetadataModel[], any> = await this.expressionApi.model({ expression: _expression })
 		return result.data
 	}
@@ -31,7 +31,7 @@ export class ExpressionApiService implements ExpressionService {
 	public async parameters(expression:Function): Promise<MetadataParameter[]>;
 	public async parameters(expression:string): Promise<MetadataParameter[]>;
 	public async parameters (expression: string|Function): Promise<MetadataParameter[]> {
-		const _expression = typeof expression !== 'string' ? expressions.toExpression(expression) : expression
+		const _expression = typeof expression !== 'string' ? this.toExpression(expression) : expression
 		const result:AxiosResponse<MetadataParameter[], any> = await this.expressionApi.parameters({ expression: _expression })
 		return result.data
 	}
@@ -44,7 +44,7 @@ export class ExpressionApiService implements ExpressionService {
 	public async constraints(expression:Function): Promise<MetadataConstraint>;
 	public async constraints(expression:string): Promise<MetadataConstraint>;
 	public async constraints (expression: string|Function): Promise<MetadataConstraint> {
-		const _expression = typeof expression !== 'string' ? expressions.toExpression(expression) : expression
+		const _expression = typeof expression !== 'string' ? this.toExpression(expression) : expression
 		const result:AxiosResponse<MetadataConstraint, any> = await this.expressionApi.constraints({ expression: _expression })
 		return result.data
 	}
@@ -57,7 +57,7 @@ export class ExpressionApiService implements ExpressionService {
 	public async metadata(expression: Function): Promise<Metadata>
 	public async metadata (expression:string):Promise<Metadata>
 	public async metadata (expression: string|Function): Promise<Metadata> {
-		const _expression = typeof expression !== 'string' ? expressions.toExpression(expression) : expression
+		const _expression = typeof expression !== 'string' ? this.toExpression(expression) : expression
 		const result:AxiosResponse<Metadata, any> = await this.expressionApi.metadata({ expression: _expression })
 		return result.data
 	}
@@ -70,7 +70,7 @@ export class ExpressionApiService implements ExpressionService {
 	public async plan(expression: Function, options?: QueryOptions): Promise<MetadataPlan>;
 	public async plan(expression: string, options?: QueryOptions): Promise<MetadataPlan>;
 	public async plan (expression: string|Function, options: QueryOptions|undefined): Promise<MetadataPlan> {
-		const _expression = typeof expression !== 'string' ? expressions.toExpression(expression) : expression
+		const _expression = typeof expression !== 'string' ? this.toExpression(expression) : expression
 		const _options = this.solveOptions(options)
 		const result:AxiosResponse<MetadataPlan, any> = await this.expressionApi.plan({ expression: _expression, options: _options })
 		return result.data
@@ -86,7 +86,7 @@ export class ExpressionApiService implements ExpressionService {
 	public async execute(expression: Function, data?: any, options?: QueryOptions):Promise<any>;
 	public async execute(expression: string, data?: any, options?: QueryOptions):Promise<any>;
 	public async execute (expression: string|Function, data: any = {}, options: QueryOptions|undefined = undefined): Promise<any> {
-		const _expression = typeof expression !== 'string' ? expressions.toExpression(expression) : expression
+		const _expression = typeof expression !== 'string' ? this.toExpression(expression) : expression
 		const _options = this.solveOptions(options)
 		const result:AxiosResponse<any, any> = await this.expressionApi.execute({ expression: _expression, data, options: _options })
 		return result.data
@@ -102,10 +102,14 @@ export class ExpressionApiService implements ExpressionService {
 	public async executeQueued(expression: Function, topic:string, data?: any, chunk?:number, options?: QueryOptions):Promise<any>;
 	public async executeQueued(expression: string, topic:string, data?: any, chunk?:number, options?: QueryOptions):Promise<any>;
 	public async executeQueued (expression: string|Function, topic:string, data: any = {}, chunk?:number, options: QueryOptions|undefined = undefined): Promise<any> {
-		const _expression = typeof expression !== 'string' ? expressions.toExpression(expression) : expression
+		const _expression = typeof expression !== 'string' ? this.toExpression(expression) : expression
 		const _options = this.solveOptions(options)
 		const result:AxiosResponse<any, any> = await this.expressionApi.executeQueued({ expression: _expression, data, options: _options, topic, chunk })
 		return result.data
+	}
+
+	private toExpression (expression:string|Function):string {
+		return typeof expression !== 'string' ? expressions.convert(expression, 'function')[0] : expression
 	}
 
 	private solveOptions (options?: QueryOptions):QueryOptions {

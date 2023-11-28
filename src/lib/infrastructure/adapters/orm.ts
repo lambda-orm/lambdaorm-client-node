@@ -41,7 +41,7 @@ export class Orm implements IOrm {
 		if (host) {
 			this.host = host
 		}
-		new SentenceLibrary(expressions.model).load()
+		new SentenceLibrary(expressions).load()
 		this.configuration = new Configuration({ basePath: this.host })
 		this.expressionService = new ExpressionApiService(new ExpressionApi(this.configuration))
 		this.generalService = new GeneralApiService(new GeneralApi(this.configuration))
