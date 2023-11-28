@@ -12,7 +12,7 @@
 - [metadata](ExpressionService.md#metadata)
 - [model](ExpressionService.md#model)
 - [parameters](ExpressionService.md#parameters)
-- [sentence](ExpressionService.md#sentence)
+- [plan](ExpressionService.md#plan)
 
 ## Methods
 
@@ -36,7 +36,7 @@ Constraints of expression
 
 #### Defined in
 
-[application/ExpressionService.ts:23](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L23)
+[application/ExpressionService.ts:23](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/application/ExpressionService.ts#L23)
 
 ___
 
@@ -62,7 +62,7 @@ Result of execution
 
 #### Defined in
 
-[application/ExpressionService.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L46)
+[application/ExpressionService.ts:46](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/application/ExpressionService.ts#L46)
 
 ___
 
@@ -90,7 +90,7 @@ Result of execution
 
 #### Defined in
 
-[application/ExpressionService.ts:55](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L55)
+[application/ExpressionService.ts:55](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/application/ExpressionService.ts#L55)
 
 ___
 
@@ -114,7 +114,7 @@ metadata of expression
 
 #### Defined in
 
-[application/ExpressionService.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L30)
+[application/ExpressionService.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/application/ExpressionService.ts#L30)
 
 ___
 
@@ -138,7 +138,7 @@ Model of expression
 
 #### Defined in
 
-[application/ExpressionService.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L9)
+[application/ExpressionService.ts:9](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/application/ExpressionService.ts#L9)
 
 ___
 
@@ -162,15 +162,15 @@ Parameters of expression
 
 #### Defined in
 
-[application/ExpressionService.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L16)
+[application/ExpressionService.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/application/ExpressionService.ts#L16)
 
 ___
 
-### sentence
+### plan
 
-▸ **sentence**(`expression`, `options`): `Promise`\<[`MetadataSentence`](MetadataSentence.md)\>
+▸ **plan**(`expression`, `options`): `Promise`\<[`MetadataPlan`](MetadataPlan.md)\>
 
-Get getInfo of expression
+Get plan of expression
 
 #### Parameters
 
@@ -181,8 +181,8 @@ Get getInfo of expression
 
 #### Returns
 
-`Promise`\<[`MetadataSentence`](MetadataSentence.md)\>
+`Promise`\<[`MetadataPlan`](MetadataPlan.md)\>
 
 #### Defined in
 
-[application/ExpressionService.ts:37](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/application/ExpressionService.ts#L37)
+[application/ExpressionService.ts:37](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/application/ExpressionService.ts#L37)

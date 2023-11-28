@@ -27,7 +27,7 @@ QueryOptions
 
 #### Defined in
 
-[domain/model.ts:735](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L735)
+[domain/model.ts:735](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L735)
 
 ___
 
@@ -41,7 +41,7 @@ QueryOptions
 
 #### Defined in
 
-[domain/model.ts:723](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L723)
+[domain/model.ts:723](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L723)
 
 ___
 
@@ -55,7 +55,7 @@ QueryOptions
 
 #### Defined in
 
-[domain/model.ts:741](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L741)
+[domain/model.ts:741](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L741)
 
 ___
 
@@ -69,4 +69,4 @@ QueryOptions
 
 #### Defined in
 
-[domain/model.ts:729](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/model.ts#L729)
+[domain/model.ts:729](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/model.ts#L729)

@@ -16,7 +16,7 @@
 - [metadata](ExpressionActions.md#metadata)
 - [model](ExpressionActions.md#model)
 - [parameters](ExpressionActions.md#parameters)
-- [sentence](ExpressionActions.md#sentence)
+- [plan](ExpressionActions.md#plan)
 
 ## Constructors
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[domain/actions.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L8)
+[domain/actions.ts:8](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/actions.ts#L8)
 
 ## Methods
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[domain/actions.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L22)
+[domain/actions.ts:22](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/actions.ts#L22)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[domain/actions.ts:34](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L34)
+[domain/actions.ts:34](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/actions.ts#L34)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[domain/actions.ts:38](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L38)
+[domain/actions.ts:38](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/actions.ts#L38)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[domain/actions.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L26)
+[domain/actions.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/actions.ts#L26)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-[domain/actions.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L14)
+[domain/actions.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/actions.ts#L14)
 
 ___
 
@@ -162,13 +162,13 @@ ___
 
 #### Defined in
 
-[domain/actions.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L18)
+[domain/actions.ts:18](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/actions.ts#L18)
 
 ___
 
-### sentence
+### plan
 
-▸ **sentence**(`expression`): `Promise`\<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
+▸ **plan**(`expression`): `Promise`\<[`MetadataPlan`](../interfaces/MetadataPlan.md)\>
 
 #### Parameters
 
@@ -178,8 +178,8 @@ ___
 
 #### Returns
 
-`Promise`\<[`MetadataSentence`](../interfaces/MetadataSentence.md)\>
+`Promise`\<[`MetadataPlan`](../interfaces/MetadataPlan.md)\>
 
 #### Defined in
 
-[domain/actions.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/188ce61/src/lib/domain/actions.ts#L30)
+[domain/actions.ts:30](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/5a7bd8d/src/lib/domain/actions.ts#L30)
