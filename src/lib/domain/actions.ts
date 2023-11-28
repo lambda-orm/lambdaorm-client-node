@@ -1,4 +1,4 @@
-import { MetadataSentence, MetadataParameter, MetadataModel, MetadataConstraint, Metadata } from './model'
+import { MetadataPlan, MetadataParameter, MetadataModel, MetadataConstraint, Metadata } from './model'
 import { IOrm } from '../application/IOrm'
 
 export class ExpressionActions {
@@ -27,8 +27,8 @@ export class ExpressionActions {
 		return await this.orm.metadata(`${this.name}${expression}`)
 	}
 
-	public async sentence (expression: string): Promise<MetadataSentence> {
-		return await this.orm.sentence(`${this.name}${expression}`, { stage: this.stage })
+	public async plan (expression: string): Promise<MetadataPlan> {
+		return await this.orm.plan(`${this.name}${expression}`, { stage: this.stage })
 	}
 
 	public async execute (expression: string, data:any): Promise<any> {

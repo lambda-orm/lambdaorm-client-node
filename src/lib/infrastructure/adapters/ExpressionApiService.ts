@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
 import { ExpressionApi } from '../api'
-import { MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
+import { MetadataPlan, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
 import { AxiosResponse } from 'axios'
 import { expressions } from '3xpr'
 import { ExpressionService } from 'lib/application'
@@ -63,16 +63,16 @@ export class ExpressionApiService implements ExpressionService {
 	}
 
 	/**
-		 * Get getInfo of expression
+		 * Get plan of expression
 		 * @param expression query expression
 		 * @param options options of execution
 		 */
-	public async sentence(expression: Function, options?: QueryOptions): Promise<MetadataSentence>;
-	public async sentence(expression: string, options?: QueryOptions): Promise<MetadataSentence>;
-	public async sentence (expression: string|Function, options: QueryOptions|undefined): Promise<MetadataSentence> {
+	public async plan(expression: Function, options?: QueryOptions): Promise<MetadataPlan>;
+	public async plan(expression: string, options?: QueryOptions): Promise<MetadataPlan>;
+	public async plan (expression: string|Function, options: QueryOptions|undefined): Promise<MetadataPlan> {
 		const _expression = typeof expression !== 'string' ? expressions.toExpression(expression) : expression
 		const _options = this.solveOptions(options)
-		const result:AxiosResponse<MetadataSentence, any> = await this.expressionApi.sentence({ expression: _expression, options: _options })
+		const result:AxiosResponse<MetadataPlan, any> = await this.expressionApi.plan({ expression: _expression, options: _options })
 		return result.data
 	}
 

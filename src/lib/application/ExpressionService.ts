@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import { MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../domain'
+import { MetadataPlan, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../domain'
 export interface ExpressionService {
 	/**
 	 * Get model of expression
@@ -30,11 +30,11 @@ export interface ExpressionService {
 	metadata (expression: string|Function): Promise<Metadata>
 
 	/**
-		 * Get getInfo of expression
+		 * Get plan of expression
 		 * @param expression query expression
 		 * @param options options of execution
 		 */
-	sentence (expression: string|Function, options: QueryOptions|undefined): Promise<MetadataSentence>
+	plan (expression: string|Function, options: QueryOptions|undefined): Promise<MetadataPlan>
 
 	/**
 		 * Execute expression

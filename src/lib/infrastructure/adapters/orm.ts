@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
 import { ExpressionService, GeneralService, IOrm, SchemaService, StageService } from '../../application'
-import { Configuration, MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
+import { Configuration, MetadataPlan, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
 import { expressions } from '3xpr'
 import { SentenceLibrary } from '..'
 import { ExpressionApi, GeneralApi, SchemaApi, StageApi } from '../api'
@@ -134,13 +134,13 @@ export class Orm implements IOrm {
 	 * @param expression query expression
 	 * @param options options of execution
 	 */
-	public async sentence(expression: Function, options?: QueryOptions): Promise<MetadataSentence>;
-	public async sentence(expression: string, options?: QueryOptions): Promise<MetadataSentence>;
-	public async sentence (expression: string|Function, options: QueryOptions|undefined): Promise<MetadataSentence> {
+	public async plan(expression: Function, options?: QueryOptions): Promise<MetadataPlan>;
+	public async plan(expression: string, options?: QueryOptions): Promise<MetadataPlan>;
+	public async plan (expression: string|Function, options: QueryOptions|undefined): Promise<MetadataPlan> {
 		if (!this.expressionService) {
 			throw new Error('Orm not initialized')
 		}
-		return this.expressionService.sentence(expression, options)
+		return this.expressionService.plan(expression, options)
 	}
 
 	/**

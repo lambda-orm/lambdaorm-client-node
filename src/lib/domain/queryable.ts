@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import { ExpressionActions } from './actions'
-import { MetadataConstraint, MetadataModel, MetadataParameter, MetadataSentence, Metadata } from './model'
+import { MetadataConstraint, MetadataModel, MetadataParameter, MetadataPlan, Metadata } from './model'
 export class QueryAction {
 	protected actions
 	protected expression
@@ -29,8 +29,8 @@ export class QueryAction {
 		return this.actions.parameters(this.expression)
 	}
 
-	public async sentence ():Promise<MetadataSentence> {
-		return this.actions.getInfo(this.expression)
+	public async plan ():Promise<MetadataPlan> {
+		return this.actions.plan(this.expression)
 	}
 
 	public async metadata ():Promise<Metadata> {

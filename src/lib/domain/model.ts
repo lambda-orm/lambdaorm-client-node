@@ -485,39 +485,39 @@ export interface MetadataParameter {
 /**
 *
 * @export
-* @interface MetadataSentence
+* @interface MetadataPlan
 */
-export interface MetadataSentence {
+export interface MetadataPlan {
 	/**
 	 *
 	 * @type {string}
-	 * @memberof MetadataSentence
+	 * @memberof MetadataPlan
 	 */
 	'entity': string;
 	/**
 	 *
 	 * @type {string}
-	 * @memberof MetadataSentence
+	 * @memberof MetadataPlan
 	 */
 	'dialect': string;
 	/**
 	 *
 	 * @type {string}
-	 * @memberof MetadataSentence
+	 * @memberof MetadataPlan
 	 */
 	'dataSource': string;
 	/**
 	 *
 	 * @type {string}
-	 * @memberof MetadataSentence
+	 * @memberof MetadataPlan
 	 */
 	'sentence': string;
 	/**
 	 *
-	 * @type {Array<MetadataSentence>}
-	 * @memberof MetadataSentence
+	 * @type {Array<MetadataPlan>}
+	 * @memberof MetadataPlan
 	 */
-	'children'?: Array<MetadataSentence>;
+	'children'?: Array<MetadataPlan>;
 }
 /**
 *

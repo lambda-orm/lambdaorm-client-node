@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import { MetadataSentence, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../domain'
+import { MetadataPlan, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../domain'
 import { GeneralService } from './GeneralService'
 import { SchemaService } from './SchemaService'
 import { StageService } from './StageService'
@@ -46,8 +46,8 @@ export interface IOrm
 	 * @param expression
 	 * @param stage
 	 */
-	sentence(expression: Function, options?: QueryOptions): Promise<MetadataSentence>
-	sentence(expression: string, options?: QueryOptions): Promise<MetadataSentence>
+	plan(expression: Function, options?: QueryOptions): Promise<MetadataPlan>
+	plan(expression: string, options?: QueryOptions): Promise<MetadataPlan>
 
 	/**
 		* Execute expression

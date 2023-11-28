@@ -1,7 +1,7 @@
 import globalAxios, { AxiosPromise, AxiosInstance, AxiosRequestConfig } from 'axios'
 import { DUMMY_BASE_URL, assertParamExists, setSearchParams, serializeDataIfNeeded, toPathString, createRequestFunction } from './common'
 import { RequestArgs, BaseAPI } from './base'
-import { Configuration, QueryRequest, MetadataConstraint, QueryQueuedRequest, Metadata, MetadataModel, MetadataParameter, MetadataSentence } from '../../domain'
+import { Configuration, QueryRequest, MetadataConstraint, QueryQueuedRequest, Metadata, MetadataModel, MetadataParameter, MetadataPlan } from '../../domain'
 
 /**
  * ExpressionApi - axios parameter creator
@@ -172,10 +172,10 @@ export const ExpressionApiAxiosParamCreator = function (configuration: Configura
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		sentence: async (queryRequest: QueryRequest, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+		plan: async (queryRequest: QueryRequest, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
 			// verify required parameter 'queryRequest' is not null or undefined
-			assertParamExists('sentence', 'queryRequest', queryRequest)
-			const localVarPath = '/sentence'
+			assertParamExists('plan', 'queryRequest', queryRequest)
+			const localVarPath = '/plan'
 			// use dummy base URL string because the URL constructor only accepts absolute URLs.
 			const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL)
 			let baseOptions
@@ -275,8 +275,8 @@ export const ExpressionApiFp = function (configuration: Configuration) {
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		async sentence (queryRequest: QueryRequest, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<MetadataSentence>> {
-			const localVarAxiosArgs = await localVarAxiosParamCreator.sentence(queryRequest, options)
+		async plan (queryRequest: QueryRequest, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<MetadataPlan>> {
+			const localVarAxiosArgs = await localVarAxiosParamCreator.plan(queryRequest, options)
 			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
 		}
 	}
@@ -340,8 +340,8 @@ export const ExpressionApiFactory = function (configuration: Configuration, base
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		sentence (queryRequest: QueryRequest, options?: any): AxiosPromise<MetadataSentence> {
-			return localVarFp.sentence(queryRequest, options).then((request) => request(axios, configuration.basePath))
+		plan (queryRequest: QueryRequest, options?: any): AxiosPromise<MetadataPlan> {
+			return localVarFp.plan(queryRequest, options).then((request) => request(axios, configuration.basePath))
 		}
 	}
 }
@@ -426,7 +426,7 @@ export class ExpressionApi extends BaseAPI {
 	 * @throws {RequiredError}
 	 * @memberof ExpressionApi
 	 */
-	public sentence (queryRequest: QueryRequest, options?: AxiosRequestConfig) {
-		return ExpressionApiFp(this.configuration).sentence(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
+	public plan (queryRequest: QueryRequest, options?: AxiosRequestConfig) {
+		return ExpressionApiFp(this.configuration).plan(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
 	}
 }

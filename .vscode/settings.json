@@ -24,5 +24,6 @@
     "openapitools",
     "pnorthwind",
     "weakcb"
-  ]
+  ],
+  "editor.inlineSuggest.showToolbar": "onHover"
 }
