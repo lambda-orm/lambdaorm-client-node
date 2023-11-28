@@ -25,7 +25,7 @@ Ping
 
 #### Defined in
 
-[domain/model.ts:558](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L558)
+[domain/model.ts:558](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L558)
 
 ___
 
@@ -39,4 +39,4 @@ Ping
 
 #### Defined in
 
-[domain/model.ts:564](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L564)
+[domain/model.ts:564](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L564)

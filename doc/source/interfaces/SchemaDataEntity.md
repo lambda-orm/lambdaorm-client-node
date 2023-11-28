@@ -25,7 +25,7 @@ SchemaDataEntity
 
 #### Defined in
 
-[domain/model.ts:936](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L936)
+[domain/model.ts:936](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L936)
 
 ___
 
@@ -39,4 +39,4 @@ SchemaDataEntity
 
 #### Defined in
 
-[domain/model.ts:942](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L942)
+[domain/model.ts:942](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L942)

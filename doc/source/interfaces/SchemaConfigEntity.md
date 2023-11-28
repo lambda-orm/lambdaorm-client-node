@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[domain/stage.ts:2](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/stage.ts#L2)
+[domain/stage.ts:2](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/stage.ts#L2)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[domain/stage.ts:3](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/stage.ts#L3)
+[domain/stage.ts:3](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/stage.ts#L3)

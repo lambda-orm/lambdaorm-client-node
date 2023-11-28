@@ -33,7 +33,7 @@ Property
 
 #### Defined in
 
-[domain/model.ts:607](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L607)
+[domain/model.ts:607](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L607)
 
 ___
 
@@ -47,7 +47,7 @@ Property
 
 #### Defined in
 
-[domain/model.ts:613](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L613)
+[domain/model.ts:613](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L613)
 
 ___
 
@@ -61,7 +61,7 @@ Property
 
 #### Defined in
 
-[domain/model.ts:631](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L631)
+[domain/model.ts:631](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L631)
 
 ___
 
@@ -75,7 +75,7 @@ Property
 
 #### Defined in
 
-[domain/model.ts:589](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L589)
+[domain/model.ts:589](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L589)
 
 ___
 
@@ -89,7 +89,7 @@ Property
 
 #### Defined in
 
-[domain/model.ts:577](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L577)
+[domain/model.ts:577](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L577)
 
 ___
 
@@ -103,7 +103,7 @@ Property
 
 #### Defined in
 
-[domain/model.ts:595](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L595)
+[domain/model.ts:595](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L595)
 
 ___
 
@@ -117,7 +117,7 @@ Property
 
 #### Defined in
 
-[domain/model.ts:601](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L601)
+[domain/model.ts:601](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L601)
 
 ___
 
@@ -131,7 +131,7 @@ Property
 
 #### Defined in
 
-[domain/model.ts:619](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L619)
+[domain/model.ts:619](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L619)
 
 ___
 
@@ -145,7 +145,7 @@ Property
 
 #### Defined in
 
-[domain/model.ts:583](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L583)
+[domain/model.ts:583](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L583)
 
 ___
 
@@ -159,4 +159,4 @@ Property
 
 #### Defined in
 
-[domain/model.ts:625](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/70ce19d/src/lib/domain/model.ts#L625)
+[domain/model.ts:625](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L625)
