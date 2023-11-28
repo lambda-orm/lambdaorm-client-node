@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### [0.7.26](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.25...v0.7.26) (2023-11-28)
+
+
+### Features
+
+* **api:** replace sentence method for plan ([dfa7db2](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/dfa7db29d21e9aab7e628819a4134fa0d5ac1cb7)), closes [#201](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/201)
+
 ### [0.7.25](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.24...v0.7.25) (2023-11-21)
 
 
