@@ -48,8 +48,8 @@ async function execute() {
         ).map(d => [d.quantity, d.unitPrice]),
       ])
     const data = { id: 10248 }
-    const sentence = await orm.sentence(query, { stage: 'default' })
-    console.log(JSON.stringify(sentence, null, 2))
+    const plan = await orm.plan(query, { stage: 'default' })
+    console.log(JSON.stringify(plan, null, 2))
     const result = await orm.execute(query, data, { stage: 'default' })
     console.log(JSON.stringify(result, null, 2))
   } catch (error: any) {
@@ -73,8 +73,8 @@ async function execute() {
                       .map(pr => pr.name))
                     .map(d => [d.quantity, d.unitPrice])])`
     const data = { id: 10248 }
-    const sentence = await orm.sentence(query, { stage: 'default' })
-    console.log(JSON.stringify(sentence, null, 2))
+    const plan = await orm.plan(query, { stage: 'default' })
+    console.log(JSON.stringify(plan, null, 2))
     const result = await orm.execute(query, data, { stage: 'default' })
     console.log(JSON.stringify(result, null, 2))
   } catch (error: any) {
@@ -84,7 +84,7 @@ async function execute() {
 execute()
 ```
 
-Result of sentence method:
+Result of plan method:
 
 ```json
 {
