@@ -1,4 +1,4 @@
-import { GeneralService } from 'lib/application'
+import { GeneralService } from '../../application/services'
 import { GeneralApi } from '../api'
 import { AxiosResponse } from 'axios'
 import { Health, Ping } from '../../domain'

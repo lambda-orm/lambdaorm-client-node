@@ -1,12 +1,13 @@
 {
   "eslint.format.enable": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
 	"editor.tabSize": 2,
 	"editor.insertSpaces": false,
   "cSpell.words": [
     "autoincrement",
+    "autonumeric",
     "commitlint",
     "datasource",
     "datasources",
@@ -23,6 +24,7 @@
     "openapi",
     "openapitools",
     "pnorthwind",
+    "postgres",
     "weakcb"
   ],
   "editor.inlineSuggest.showToolbar": "onHover"

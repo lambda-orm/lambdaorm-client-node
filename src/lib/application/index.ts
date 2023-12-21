@@ -1,5 +1,1 @@
 export * from './IOrm'
-export * from './ExpressionService'
-export * from './GeneralService'
-export * from './SchemaService'
-export * from './StageService'

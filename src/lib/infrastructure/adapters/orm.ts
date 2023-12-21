@@ -1,7 +1,9 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
-import { ExpressionService, GeneralService, IOrm, SchemaService, StageService } from '../../application'
-import { Configuration, MetadataPlan, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
+import { IOrm } from '../../application'
+import { ExpressionService, GeneralService, StageService, SchemaService } from '../../application/services'
+import { Configuration } from '../../domain'
+import { QueryOptions, QueryPlan, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from 'lambdaorm-base'
 import { expressions } from '3xpr'
 import { SentenceLibrary } from '..'
 import { ExpressionApi, GeneralApi, SchemaApi, StageApi } from '../api'
@@ -37,7 +39,7 @@ export class Orm implements IOrm {
 		return this._instance
 	}
 
-	public async init (host?: string): Promise<void> {
+	public async init (workspace:string, host?: string): Promise<void> {
 		if (host) {
 			this.host = host
 		}
@@ -134,9 +136,9 @@ export class Orm implements IOrm {
 	 * @param expression query expression
 	 * @param options options of execution
 	 */
-	public async plan(expression: Function, options?: QueryOptions): Promise<MetadataPlan>;
-	public async plan(expression: string, options?: QueryOptions): Promise<MetadataPlan>;
-	public async plan (expression: string|Function, options: QueryOptions|undefined): Promise<MetadataPlan> {
+	public async plan(expression: Function, options?: QueryOptions): Promise<QueryPlan>;
+	public async plan(expression: string, options?: QueryOptions): Promise<QueryPlan>;
+	public async plan (expression: string|Function, options: QueryOptions|undefined): Promise<QueryPlan> {
 		if (!this.expressionService) {
 			throw new Error('Orm not initialized')
 		}

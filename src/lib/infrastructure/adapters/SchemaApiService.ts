@@ -1,5 +1,5 @@
-import { SchemaService } from 'lib/application'
-import { Entity, EntityMapping, Enum, Mapping, Schema, SchemaDomain, Stage } from '../../domain'
+import { Entity, EntityMapping, Enum, Mapping, Schema, DomainSchema, Stage } from 'lambdaorm-base'
+import { SchemaService } from '../../application/services/SchemaService'
 import { SchemaApi } from '../api'
 import { AxiosResponse } from 'axios'
 
@@ -17,8 +17,8 @@ export class SchemaApiService implements SchemaService {
 		return result.data
 	}
 
-	public async domain (): Promise<SchemaDomain> {
-		const result:AxiosResponse<SchemaDomain, any> = await this.schemaApi.domain()
+	public async domain (): Promise<DomainSchema> {
+		const result:AxiosResponse<DomainSchema, any> = await this.schemaApi.domain()
 		return result.data
 	}
 

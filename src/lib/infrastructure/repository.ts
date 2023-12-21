@@ -1,7 +1,7 @@
+import { ExpressionActionsImpl } from '../domain'
 import { IOrm } from '../application/IOrm'
 import { Orm } from './adapters/orm'
-import { Queryable } from '../domain/queryable'
-import { ExpressionActions } from '../domain/actions'
+import { Queryable } from 'lambdaorm-base'
 
 export class Repository<TEntity, TQuery> {
 	public name:string
@@ -143,6 +143,6 @@ export class Repository<TEntity, TQuery> {
 	}
 
 	public query (): Queryable<TQuery> {
-		return new Queryable<TQuery>(new ExpressionActions(this.name, this.orm, this.stage), '')
+		return new Queryable<TQuery>(new ExpressionActionsImpl(this.name, this.orm, this.stage), '')
 	}
 }

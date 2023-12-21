@@ -1,7 +1,7 @@
-import { MetadataPlan, MetadataParameter, MetadataModel, MetadataConstraint, Metadata } from './model'
+import { QueryPlan, MetadataParameter, MetadataModel, MetadataConstraint, Metadata, ExpressionActions } from 'lambdaorm-base'
 import { IOrm } from '../application/IOrm'
 
-export class ExpressionActions {
+export class ExpressionActionsImpl implements ExpressionActions {
 	private orm
 	private name
 	private stage
@@ -9,6 +9,12 @@ export class ExpressionActions {
 		this.name = name
 		this.stage = stage
 		this.orm = orm
+	}
+
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	normalize (expression: string): string {
+		// TODO: implement normalize
+		throw new Error('Method not implemented.')
 	}
 
 	public async model (expression: string): Promise<MetadataModel[]> {
@@ -27,7 +33,7 @@ export class ExpressionActions {
 		return await this.orm.metadata(`${this.name}${expression}`)
 	}
 
-	public async plan (expression: string): Promise<MetadataPlan> {
+	public async plan (expression: string): Promise<QueryPlan> {
 		return await this.orm.plan(`${this.name}${expression}`, { stage: this.stage })
 	}
 

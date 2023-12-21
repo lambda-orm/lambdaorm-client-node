@@ -1,7 +1,8 @@
 import globalAxios, { AxiosPromise, AxiosInstance, AxiosRequestConfig } from 'axios'
 import { DUMMY_BASE_URL, assertParamExists, setSearchParams, toPathString, createRequestFunction } from './common'
 import { RequestArgs, BaseAPI } from './base'
-import { Configuration, Enum, DataSource, Entity, EntityMapping, Mapping, Stage, Schema, SchemaDomain } from '../../domain'
+import { Configuration } from '../../domain'
+import { Enum, Source, Entity, EntityMapping, Mapping, Stage, Schema, DomainSchema } from 'lambdaorm-base'
 
 /**
  * SchemaApi - axios parameter creator
@@ -481,7 +482,7 @@ export const SchemaApiFp = function (configuration: Configuration) {
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		async domain (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<SchemaDomain>> {
+		async domain (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<DomainSchema>> {
 			const localVarAxiosArgs = await localVarAxiosParamCreator.domain(options)
 			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
 		},
@@ -511,7 +512,7 @@ export const SchemaApiFp = function (configuration: Configuration) {
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		async dataSources (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Array<DataSource>>> {
+		async dataSources (options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Array<Source>>> {
 			const localVarAxiosArgs = await localVarAxiosParamCreator.dataSources(options)
 			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
 		},
@@ -521,7 +522,7 @@ export const SchemaApiFp = function (configuration: Configuration) {
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		async datasource (datasource: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<DataSource>> {
+		async datasource (datasource: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Source>> {
 			const localVarAxiosArgs = await localVarAxiosParamCreator.datasource(datasource, options)
 			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
 		},
@@ -635,7 +636,7 @@ export const SchemaApiFactory = function (configuration: Configuration, axios?: 
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		domain (options?: any): AxiosPromise<SchemaDomain> {
+		domain (options?: any): AxiosPromise<DomainSchema> {
 			return localVarFp.domain(options).then((request) => request(axios, configuration.basePath))
 		},
 
@@ -662,7 +663,7 @@ export const SchemaApiFactory = function (configuration: Configuration, axios?: 
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		dataSources (options?: any): AxiosPromise<Array<DataSource>> {
+		dataSources (options?: any): AxiosPromise<Array<Source>> {
 			return localVarFp.dataSources(options).then((request) => request(axios, configuration.basePath))
 		},
 		/**
@@ -671,7 +672,7 @@ export const SchemaApiFactory = function (configuration: Configuration, axios?: 
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		datasource (datasource: string, options?: any): AxiosPromise<DataSource> {
+		datasource (datasource: string, options?: any): AxiosPromise<Source> {
 			return localVarFp.datasource(datasource, options).then((request) => request(axios, configuration.basePath))
 		},
 		/**

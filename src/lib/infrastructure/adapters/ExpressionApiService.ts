@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
 import { ExpressionApi } from '../api'
-import { MetadataPlan, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../../domain'
+import { QueryOptions, QueryPlan, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from 'lambdaorm-base'
 import { AxiosResponse } from 'axios'
 import { expressions } from '3xpr'
-import { ExpressionService } from 'lib/application'
+import { ExpressionService } from '../../application/services'
 
 export class ExpressionApiService implements ExpressionService {
 	// eslint-disable-next-line no-useless-constructor
@@ -67,12 +67,12 @@ export class ExpressionApiService implements ExpressionService {
 		 * @param expression query expression
 		 * @param options options of execution
 		 */
-	public async plan(expression: Function, options?: QueryOptions): Promise<MetadataPlan>;
-	public async plan(expression: string, options?: QueryOptions): Promise<MetadataPlan>;
-	public async plan (expression: string|Function, options: QueryOptions|undefined): Promise<MetadataPlan> {
+	public async plan(expression: Function, options?: QueryOptions): Promise<QueryPlan>;
+	public async plan(expression: string, options?: QueryOptions): Promise<QueryPlan>;
+	public async plan (expression: string|Function, options: QueryOptions|undefined): Promise<QueryPlan> {
 		const _expression = typeof expression !== 'string' ? this.toExpression(expression) : expression
 		const _options = this.solveOptions(options)
-		const result:AxiosResponse<MetadataPlan, any> = await this.expressionApi.plan({ expression: _expression, options: _options })
+		const result:AxiosResponse<QueryPlan, any> = await this.expressionApi.plan({ expression: _expression, options: _options })
 		return result.data
 	}
 

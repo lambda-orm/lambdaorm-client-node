@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import { MetadataPlan, QueryOptions, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from '../domain'
-import { GeneralService } from './GeneralService'
-import { SchemaService } from './SchemaService'
-import { StageService } from './StageService'
+import { QueryOptions, QueryPlan, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from 'lambdaorm-base'
+import { GeneralService } from './services/GeneralService'
+import { StageService } from './services/StageService'
+import { SchemaService } from './services/SchemaService'
 
 export interface IOrm
 {
@@ -46,8 +46,8 @@ export interface IOrm
 	 * @param expression
 	 * @param stage
 	 */
-	plan(expression: Function, options?: QueryOptions): Promise<MetadataPlan>
-	plan(expression: string, options?: QueryOptions): Promise<MetadataPlan>
+	plan(expression: Function, options?: QueryOptions): Promise<QueryPlan>
+	plan(expression: string, options?: QueryOptions): Promise<QueryPlan>
 
 	/**
 		* Execute expression

@@ -1,7 +1,8 @@
 import globalAxios, { AxiosPromise, AxiosInstance, AxiosRequestConfig } from 'axios'
 import { DUMMY_BASE_URL, assertParamExists, setSearchParams, serializeDataIfNeeded, toPathString, createRequestFunction } from './common'
 import { RequestArgs, BaseAPI } from './base'
-import { Configuration, QueryRequest, MetadataConstraint, QueryQueuedRequest, Metadata, MetadataModel, MetadataParameter, MetadataPlan } from '../../domain'
+import { Configuration, QueryRequest, QueryQueuedRequest } from '../../domain'
+import { MetadataConstraint, Metadata, MetadataModel, MetadataParameter, QueryPlan } from 'lambdaorm-base'
 
 /**
  * ExpressionApi - axios parameter creator
@@ -275,7 +276,7 @@ export const ExpressionApiFp = function (configuration: Configuration) {
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		async plan (queryRequest: QueryRequest, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<MetadataPlan>> {
+		async plan (queryRequest: QueryRequest, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<QueryPlan>> {
 			const localVarAxiosArgs = await localVarAxiosParamCreator.plan(queryRequest, options)
 			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
 		}
@@ -340,7 +341,7 @@ export const ExpressionApiFactory = function (configuration: Configuration, base
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		plan (queryRequest: QueryRequest, options?: any): AxiosPromise<MetadataPlan> {
+		plan (queryRequest: QueryRequest, options?: any): AxiosPromise<QueryPlan> {
 			return localVarFp.plan(queryRequest, options).then((request) => request(axios, configuration.basePath))
 		}
 	}

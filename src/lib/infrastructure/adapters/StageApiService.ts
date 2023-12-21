@@ -1,5 +1,5 @@
-import { StageService } from 'lib/application'
-import { SchemaConfig } from '../../domain'
+import { StageService } from '../../application/services'
+import { SchemaConfig } from 'lambdaorm-base'
 import { StageApi } from '../api'
 import { AxiosResponse } from 'axios'
 
