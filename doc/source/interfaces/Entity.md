@@ -2,25 +2,38 @@
 
 # Interface: Entity
 
-**`Export`**
+## Hierarchy
 
-Entity
+- **`Entity`**
+
+  ↳ [`EntityMapping`](EntityMapping.md)
+
+  ↳ [`FormatMapping`](FormatMapping.md)
 
 ## Table of contents
 
 ### Properties
 
 - [abstract](Entity.md#abstract)
+- [composite](Entity.md#composite)
 - [constraints](Entity.md#constraints)
 - [dependents](Entity.md#dependents)
 - [extends](Entity.md#extends)
+- [hadDefaults](Entity.md#haddefaults)
+- [hadReadExps](Entity.md#hadreadexps)
+- [hadReadValues](Entity.md#hadreadvalues)
+- [hadViewReadExp](Entity.md#hadviewreadexp)
+- [hadWriteExps](Entity.md#hadwriteexps)
+- [hadWriteValues](Entity.md#hadwritevalues)
 - [indexes](Entity.md#indexes)
 - [name](Entity.md#name)
 - [primaryKey](Entity.md#primarykey)
 - [properties](Entity.md#properties)
 - [relations](Entity.md#relations)
+- [required](Entity.md#required)
 - [singular](Entity.md#singular)
 - [uniqueKey](Entity.md#uniquekey)
+- [view](Entity.md#view)
 
 ## Properties
 
@@ -28,13 +41,19 @@ Entity
 
 • `Optional` **abstract**: `boolean`
 
-**`Memberof`**
+#### Defined in
 
-Entity
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:60
+
+___
+
+### composite
+
+• `Optional` **composite**: `boolean`
 
 #### Defined in
 
-[domain/model.ts:95](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L95)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:77
 
 ___
 
@@ -42,13 +61,9 @@ ___
 
 • `Optional` **constraints**: [`Constraint`](Constraint.md)[]
 
-**`Memberof`**
-
-Entity
-
 #### Defined in
 
-[domain/model.ts:143](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L143)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:70
 
 ___
 
@@ -56,13 +71,9 @@ ___
 
 • **dependents**: [`Dependent`](Dependent.md)[]
 
-**`Memberof`**
-
-Entity
-
 #### Defined in
 
-[domain/model.ts:137](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L137)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:69
 
 ___
 
@@ -70,13 +81,69 @@ ___
 
 • `Optional` **extends**: `string`
 
-**`Memberof`**
+#### Defined in
 
-Entity
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:59
+
+___
+
+### hadDefaults
+
+• `Optional` **hadDefaults**: `boolean`
 
 #### Defined in
 
-[domain/model.ts:89](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L89)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:75
+
+___
+
+### hadReadExps
+
+• `Optional` **hadReadExps**: `boolean`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:71
+
+___
+
+### hadReadValues
+
+• `Optional` **hadReadValues**: `boolean`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:73
+
+___
+
+### hadViewReadExp
+
+• `Optional` **hadViewReadExp**: `boolean`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:76
+
+___
+
+### hadWriteExps
+
+• `Optional` **hadWriteExps**: `boolean`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:72
+
+___
+
+### hadWriteValues
+
+• `Optional` **hadWriteValues**: `boolean`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:74
 
 ___
 
@@ -84,13 +151,9 @@ ___
 
 • **indexes**: [`Index`](Index.md)[]
 
-**`Memberof`**
-
-Entity
-
 #### Defined in
 
-[domain/model.ts:113](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L113)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:66
 
 ___
 
@@ -98,13 +161,9 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
-
-Entity
-
 #### Defined in
 
-[domain/model.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L83)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:58
 
 ___
 
@@ -112,13 +171,9 @@ ___
 
 • **primaryKey**: `string`[]
 
-**`Memberof`**
-
-Entity
-
 #### Defined in
 
-[domain/model.ts:119](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L119)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:63
 
 ___
 
@@ -126,13 +181,9 @@ ___
 
 • **properties**: [`Property`](Property.md)[]
 
-**`Memberof`**
-
-Entity
-
 #### Defined in
 
-[domain/model.ts:125](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L125)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:67
 
 ___
 
@@ -140,13 +191,19 @@ ___
 
 • **relations**: [`Relation`](Relation.md)[]
 
-**`Memberof`**
+#### Defined in
 
-Entity
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:68
+
+___
+
+### required
+
+• **required**: `string`[]
 
 #### Defined in
 
-[domain/model.ts:131](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L131)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:65
 
 ___
 
@@ -154,13 +211,9 @@ ___
 
 • `Optional` **singular**: `string`
 
-**`Memberof`**
-
-Entity
-
 #### Defined in
 
-[domain/model.ts:101](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L101)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:61
 
 ___
 
@@ -168,10 +221,16 @@ ___
 
 • **uniqueKey**: `string`[]
 
-**`Memberof`**
+#### Defined in
 
-Entity
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:64
+
+___
+
+### view
+
+• `Optional` **view**: `boolean`
 
 #### Defined in
 
-[domain/model.ts:107](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L107)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:62

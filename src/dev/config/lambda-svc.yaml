@@ -160,7 +160,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/MetadataPlan"
+                $ref: "#/components/schemas/QueryPlan"
           description: Ok
       tags:
         - expression
@@ -276,9 +276,9 @@ paths:
       tags:
         - schema
       x-eov-operation-handler: controllers/SchemaController    
-  /datasources:
+  /sources:
     get:
-      operationId: dataSources
+      operationId: sources
       parameters: []
       responses:
         "200":
@@ -286,19 +286,19 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: "#/components/schemas/DataSource"
+                  $ref: "#/components/schemas/Source"
                 type: array
           description: Ok
       tags:
         - schema
       x-eov-operation-handler: controllers/SchemaController
-  /datasources/{datasource}:
+  /sources/{source}:
     get:
-      operationId: datasource
+      operationId: source
       parameters:
         - explode: false
           in: path
-          name: datasource
+          name: source
           required: true
           schema:
             type: string
@@ -308,7 +308,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/DataSource"
+                $ref: "#/components/schemas/Source"
           description: Ok
       tags:
         - schema
@@ -756,12 +756,12 @@ components:
         - constraints
         - entity
       type: object
-    MetadataPlan:
+    QueryPlan:
       additionalProperties: false
       example:
         sentence: sentence
         dialect: dialect
-        dataSource: dataSource
+        Source: Source
         children:
           - null
           - null
@@ -771,16 +771,16 @@ components:
           type: string
         dialect:
           type: string
-        dataSource:
+        Source:
           type: string
         sentence:
           type: string
         children:
           items:
-            $ref: "#/components/schemas/MetadataPlan"
+            $ref: "#/components/schemas/QueryPlan"
           type: array
       required:
-        - dataSource
+        - source
         - dialect
         - entity
         - sentence
@@ -1023,7 +1023,7 @@ components:
         - name
         - values
       type: object
-    DataSource:
+    Source:
       additionalProperties: false
       example:
         mapping: mapping
@@ -1428,7 +1428,7 @@ components:
         - entities
         - name
       type: object
-    RuleDataSource:
+    RuleSource:
       additionalProperties: false
       example:
         condition: condition
@@ -1445,7 +1445,7 @@ components:
       additionalProperties: false
       example:
         name: name
-        dataSources:
+        sources:
           - condition: condition
             name: name
           - condition: condition
@@ -1453,12 +1453,12 @@ components:
       properties:
         name:
           type: string
-        dataSources:
+        sources:
           items:
-            $ref: "#/components/schemas/RuleDataSource"
+            $ref: "#/components/schemas/RuleSource"
           type: array
       required:
-        - dataSources
+        - sources
         - name
       type: object
     SchemaDataEntity:

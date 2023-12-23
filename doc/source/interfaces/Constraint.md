@@ -2,10 +2,6 @@
 
 # Interface: Constraint
 
-**`Export`**
-
-Constraint
-
 ## Table of contents
 
 ### Properties
@@ -19,13 +15,9 @@ Constraint
 
 • **condition**: `string`
 
-**`Memberof`**
-
-Constraint
-
 #### Defined in
 
-[domain/model.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L20)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:21
 
 ___
 
@@ -33,10 +25,6 @@ ___
 
 • **message**: `string`
 
-**`Memberof`**
-
-Constraint
-
 #### Defined in
 
-[domain/model.ts:14](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L14)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:20

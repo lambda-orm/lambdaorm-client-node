@@ -2,10 +2,6 @@
 
 # Interface: QueryOptions
 
-**`Export`**
-
-QueryOptions
-
 ## Table of contents
 
 ### Properties
@@ -21,13 +17,9 @@ QueryOptions
 
 • `Optional` **chunkSize**: `number`
 
-**`Memberof`**
-
-QueryOptions
-
 #### Defined in
 
-[domain/model.ts:735](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L735)
+node_modules/lambdaorm-base/query/domain/query.d.ts:11
 
 ___
 
@@ -35,13 +27,9 @@ ___
 
 • `Optional` **stage**: `string`
 
-**`Memberof`**
-
-QueryOptions
-
 #### Defined in
 
-[domain/model.ts:723](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L723)
+node_modules/lambdaorm-base/query/domain/query.d.ts:9
 
 ___
 
@@ -49,13 +37,9 @@ ___
 
 • `Optional` **tryAllCan**: `boolean`
 
-**`Memberof`**
-
-QueryOptions
-
 #### Defined in
 
-[domain/model.ts:741](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L741)
+node_modules/lambdaorm-base/query/domain/query.d.ts:12
 
 ___
 
@@ -63,10 +47,6 @@ ___
 
 • `Optional` **view**: `string`
 
-**`Memberof`**
-
-QueryOptions
-
 #### Defined in
 
-[domain/model.ts:729](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L729)
+node_modules/lambdaorm-base/query/domain/query.d.ts:10

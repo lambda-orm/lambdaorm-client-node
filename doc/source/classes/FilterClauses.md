@@ -35,7 +35,7 @@
 - [normalize](FilterClauses.md#normalize)
 - [page](FilterClauses.md#page)
 - [parameters](FilterClauses.md#parameters)
-- [plan](FilterClauses.md#plan)
+- [sentence](FilterClauses.md#sentence)
 - [sort](FilterClauses.md#sort)
 
 ## Constructors
@@ -54,7 +54,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](ExpressionActions.md) |
+| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
 | `expression` | `string` |
 
 #### Returns
@@ -67,7 +67,7 @@
 
 #### Defined in
 
-[domain/queryable.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L7)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:7
 
 ## Methods
 
@@ -85,7 +85,7 @@
 
 #### Defined in
 
-[domain/queryable.ts:24](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L24)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:11
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:76](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L76)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:36
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:12](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L12)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:8
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:66](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L66)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:32
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:104](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L104)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:52
 
 ___
 
@@ -209,7 +209,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:99](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L99)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:50
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:71](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L71)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:34
 
 ___
 
@@ -269,7 +269,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:61](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L61)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:30
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:36](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L36)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:14
 
 ___
 
@@ -305,7 +305,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:20](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L20)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:10
 
 ___
 
@@ -323,7 +323,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:16](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L16)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:9
 
 ___
 
@@ -348,7 +348,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:43](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L43)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:18
 
 ___
 
@@ -366,25 +366,25 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L28)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:12
 
 ___
 
-### plan
+### sentence
 
-▸ **plan**(): `Promise`\<[`MetadataPlan`](../interfaces/MetadataPlan.md)\>
+▸ **sentence**(): `Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
 
 #### Returns
 
-`Promise`\<[`MetadataPlan`](../interfaces/MetadataPlan.md)\>
+`Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
 
 #### Inherited from
 
-[HavingClauses](HavingClauses.md).[plan](HavingClauses.md#plan)
+[HavingClauses](HavingClauses.md).[sentence](HavingClauses.md#sentence)
 
 #### Defined in
 
-[domain/queryable.ts:32](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L32)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:13
 
 ___
 
@@ -408,4 +408,4 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:49](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L49)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:22

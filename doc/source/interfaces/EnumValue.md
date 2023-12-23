@@ -2,10 +2,6 @@
 
 # Interface: EnumValue
 
-**`Export`**
-
-EnumValue
-
 ## Table of contents
 
 ### Properties
@@ -19,13 +15,9 @@ EnumValue
 
 • **name**: `string`
 
-**`Memberof`**
-
-EnumValue
-
 #### Defined in
 
-[domain/model.ts:254](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L254)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:10
 
 ___
 
@@ -33,10 +25,6 @@ ___
 
 • **value**: `any`
 
-**`Memberof`**
-
-EnumValue
-
 #### Defined in
 
-[domain/model.ts:260](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L260)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:11

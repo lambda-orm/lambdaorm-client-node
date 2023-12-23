@@ -2,41 +2,29 @@
 
 # Interface: Stage
 
-**`Export`**
-
-Stage
-
 ## Table of contents
 
 ### Properties
 
-- [dataSources](Stage.md#datasources)
 - [name](Stage.md#name)
+- [sources](Stage.md#sources)
 
 ## Properties
-
-### dataSources
-
-• **dataSources**: [`RuleDataSource`](RuleDataSource.md)[]
-
-**`Memberof`**
-
-Stage
-
-#### Defined in
-
-[domain/model.ts:961](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L961)
-
-___
 
 ### name
 
 • **name**: `string`
 
-**`Memberof`**
+#### Defined in
 
-Stage
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:134
+
+___
+
+### sources
+
+• **sources**: [`DataSourceRule`](DataSourceRule.md)[]
 
 #### Defined in
 
-[domain/model.ts:955](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L955)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:135

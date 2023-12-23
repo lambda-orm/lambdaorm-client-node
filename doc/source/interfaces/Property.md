@@ -2,38 +2,40 @@
 
 # Interface: Property
 
-**`Export`**
+## Hierarchy
 
-Property
+- **`Property`**
+
+  ↳ [`PropertyMapping`](PropertyMapping.md)
 
 ## Table of contents
 
 ### Properties
 
-- [autoincrement](Property.md#autoincrement)
+- [autoIncrement](Property.md#autoincrement)
 - [default](Property.md#default)
 - [enum](Property.md#enum)
+- [key](Property.md#key)
 - [length](Property.md#length)
 - [name](Property.md#name)
-- [nullable](Property.md#nullable)
 - [primaryKey](Property.md#primarykey)
+- [readExp](Property.md#readexp)
 - [readValue](Property.md#readvalue)
+- [required](Property.md#required)
 - [type](Property.md#type)
+- [view](Property.md#view)
+- [writeExp](Property.md#writeexp)
 - [writeValue](Property.md#writevalue)
 
 ## Properties
 
-### autoincrement
+### autoIncrement
 
-• `Optional` **autoincrement**: `boolean`
-
-**`Memberof`**
-
-Property
+• `Optional` **autoIncrement**: `boolean`
 
 #### Defined in
 
-[domain/model.ts:607](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L607)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:29
 
 ___
 
@@ -41,13 +43,9 @@ ___
 
 • `Optional` **default**: `string`
 
-**`Memberof`**
-
-Property
-
 #### Defined in
 
-[domain/model.ts:613](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L613)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:33
 
 ___
 
@@ -55,13 +53,19 @@ ___
 
 • `Optional` **enum**: `string`
 
-**`Memberof`**
+#### Defined in
 
-Property
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:36
+
+___
+
+### key
+
+• `Optional` **key**: `string`
 
 #### Defined in
 
-[domain/model.ts:631](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L631)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:37
 
 ___
 
@@ -69,13 +73,9 @@ ___
 
 • `Optional` **length**: `number`
 
-**`Memberof`**
-
-Property
-
 #### Defined in
 
-[domain/model.ts:589](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L589)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:26
 
 ___
 
@@ -83,27 +83,9 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
-
-Property
-
 #### Defined in
 
-[domain/model.ts:577](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L577)
-
-___
-
-### nullable
-
-• `Optional` **nullable**: `boolean`
-
-**`Memberof`**
-
-Property
-
-#### Defined in
-
-[domain/model.ts:595](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L595)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:24
 
 ___
 
@@ -111,13 +93,19 @@ ___
 
 • `Optional` **primaryKey**: `boolean`
 
-**`Memberof`**
+#### Defined in
 
-Property
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:28
+
+___
+
+### readExp
+
+• `Optional` **readExp**: `string`
 
 #### Defined in
 
-[domain/model.ts:601](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L601)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:31
 
 ___
 
@@ -125,13 +113,19 @@ ___
 
 • `Optional` **readValue**: `string`
 
-**`Memberof`**
+#### Defined in
 
-Property
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:34
+
+___
+
+### required
+
+• `Optional` **required**: `boolean`
 
 #### Defined in
 
-[domain/model.ts:619](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L619)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:27
 
 ___
 
@@ -139,13 +133,29 @@ ___
 
 • **type**: `string`
 
-**`Memberof`**
+#### Defined in
 
-Property
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:25
+
+___
+
+### view
+
+• `Optional` **view**: `boolean`
 
 #### Defined in
 
-[domain/model.ts:583](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L583)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:30
+
+___
+
+### writeExp
+
+• `Optional` **writeExp**: `string`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:32
 
 ___
 
@@ -153,10 +163,6 @@ ___
 
 • `Optional` **writeValue**: `string`
 
-**`Memberof`**
-
-Property
-
 #### Defined in
 
-[domain/model.ts:625](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L625)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:35

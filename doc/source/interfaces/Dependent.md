@@ -2,10 +2,6 @@
 
 # Interface: Dependent
 
-**`Export`**
-
-Dependent
-
 ## Table of contents
 
 ### Properties
@@ -19,13 +15,9 @@ Dependent
 
 • **entity**: `string`
 
-**`Memberof`**
-
-Dependent
-
 #### Defined in
 
-[domain/model.ts:64](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L64)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:50
 
 ___
 
@@ -33,10 +25,6 @@ ___
 
 • **relation**: [`Relation`](Relation.md)
 
-**`Memberof`**
-
-Dependent
-
 #### Defined in
 
-[domain/model.ts:70](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L70)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:51

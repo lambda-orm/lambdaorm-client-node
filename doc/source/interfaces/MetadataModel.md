@@ -2,10 +2,6 @@
 
 # Interface: MetadataModel
 
-**`Export`**
-
-MetadataModel
-
 ## Table of contents
 
 ### Properties
@@ -20,13 +16,9 @@ MetadataModel
 
 • `Optional` **children**: [`MetadataModel`](MetadataModel.md)[]
 
-**`Memberof`**
-
-MetadataModel
-
 #### Defined in
 
-[domain/model.ts:458](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L458)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:11
 
 ___
 
@@ -34,13 +26,9 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
-
-MetadataModel
-
 #### Defined in
 
-[domain/model.ts:446](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L446)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:9
 
 ___
 
@@ -48,10 +36,6 @@ ___
 
 • **type**: `string`
 
-**`Memberof`**
-
-MetadataModel
-
 #### Defined in
 
-[domain/model.ts:452](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L452)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:10

@@ -2,25 +2,28 @@
 
 # Interface: Metadata
 
-**`Export`**
-
-Metadata
-
 ## Table of contents
 
 ### Properties
 
 - [alias](Metadata.md#alias)
 - [children](Metadata.md#children)
+- [classtype](Metadata.md#classtype)
+- [clause](Metadata.md#clause)
+- [columns](Metadata.md#columns)
+- [constraints](Metadata.md#constraints)
+- [defaults](Metadata.md#defaults)
 - [entity](Metadata.md#entity)
-- [fields](Metadata.md#fields)
+- [isRoot](Metadata.md#isroot)
 - [name](Metadata.md#name)
 - [number](Metadata.md#number)
 - [parameters](Metadata.md#parameters)
+- [pos](Metadata.md#pos)
 - [property](Metadata.md#property)
 - [relation](Metadata.md#relation)
-- [sentence](Metadata.md#sentence)
+- [returnType](Metadata.md#returntype)
 - [type](Metadata.md#type)
+- [values](Metadata.md#values)
 
 ## Properties
 
@@ -28,13 +31,9 @@ Metadata
 
 • `Optional` **alias**: `string`
 
-**`Memberof`**
-
-Metadata
-
 #### Defined in
 
-[domain/model.ts:402](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L402)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:34
 
 ___
 
@@ -42,13 +41,59 @@ ___
 
 • `Optional` **children**: [`Metadata`](Metadata.md)[]
 
-**`Memberof`**
+#### Defined in
 
-Metadata
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:22
+
+___
+
+### classtype
+
+• **classtype**: `string`
 
 #### Defined in
 
-[domain/model.ts:366](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L366)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:19
+
+___
+
+### clause
+
+• `Optional` **clause**: `string`
+
+#### Defined in
+
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:33
+
+___
+
+### columns
+
+• `Optional` **columns**: [`Property`](Property.md)[]
+
+#### Defined in
+
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:26
+
+___
+
+### constraints
+
+• `Optional` **constraints**: [`Constraint`](Constraint.md)[]
+
+#### Defined in
+
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:29
+
+___
+
+### defaults
+
+• `Optional` **defaults**: [`Behavior`](Behavior.md)[]
+
+#### Defined in
+
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:31
 
 ___
 
@@ -56,27 +101,19 @@ ___
 
 • `Optional` **entity**: `string`
 
-**`Memberof`**
-
-Metadata
-
 #### Defined in
 
-[domain/model.ts:360](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L360)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:25
 
 ___
 
-### fields
+### isRoot
 
-• `Optional` **fields**: [`Property`](Property.md)[]
-
-**`Memberof`**
-
-Metadata
+• `Optional` **isRoot**: `boolean`
 
 #### Defined in
 
-[domain/model.ts:372](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L372)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:35
 
 ___
 
@@ -84,13 +121,9 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
-
-Metadata
-
 #### Defined in
 
-[domain/model.ts:348](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L348)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:21
 
 ___
 
@@ -98,27 +131,29 @@ ___
 
 • `Optional` **number**: `number`
 
-**`Memberof`**
-
-Metadata
-
 #### Defined in
 
-[domain/model.ts:408](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L408)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:36
 
 ___
 
 ### parameters
 
-• `Optional` **parameters**: [`Parameter`](Parameter.md)[]
-
-**`Memberof`**
-
-Metadata
+• `Optional` **parameters**: `Parameter`[]
 
 #### Defined in
 
-[domain/model.ts:384](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L384)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:28
+
+___
+
+### pos
+
+• **pos**: `Position`
+
+#### Defined in
+
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:20
 
 ___
 
@@ -126,13 +161,9 @@ ___
 
 • `Optional` **property**: `string`
 
-**`Memberof`**
-
-Metadata
-
 #### Defined in
 
-[domain/model.ts:378](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L378)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:27
 
 ___
 
@@ -140,27 +171,19 @@ ___
 
 • `Optional` **relation**: [`Relation`](Relation.md)
 
-**`Memberof`**
-
-Metadata
-
 #### Defined in
 
-[domain/model.ts:390](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L390)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:32
 
 ___
 
-### sentence
+### returnType
 
-• `Optional` **sentence**: `string`
-
-**`Memberof`**
-
-Metadata
+• `Optional` **returnType**: `string`
 
 #### Defined in
 
-[domain/model.ts:396](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L396)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:24
 
 ___
 
@@ -168,10 +191,16 @@ ___
 
 • **type**: `string`
 
-**`Memberof`**
+#### Defined in
 
-Metadata
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:23
+
+___
+
+### values
+
+• `Optional` **values**: [`Behavior`](Behavior.md)[]
 
 #### Defined in
 
-[domain/model.ts:354](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L354)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:30

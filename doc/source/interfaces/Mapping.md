@@ -2,16 +2,13 @@
 
 # Interface: Mapping
 
-**`Export`**
-
-Mapping
-
 ## Table of contents
 
 ### Properties
 
 - [entities](Mapping.md#entities)
 - [extends](Mapping.md#extends)
+- [format](Mapping.md#format)
 - [mapping](Mapping.md#mapping)
 - [name](Mapping.md#name)
 
@@ -21,13 +18,9 @@ Mapping
 
 • **entities**: [`EntityMapping`](EntityMapping.md)[]
 
-**`Memberof`**
-
-Mapping
-
 #### Defined in
 
-[domain/model.ts:335](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L335)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:106
 
 ___
 
@@ -35,13 +28,19 @@ ___
 
 • `Optional` **extends**: `string`
 
-**`Memberof`**
+#### Defined in
 
-Mapping
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:103
+
+___
+
+### format
+
+• `Optional` **format**: [`FormatMapping`](FormatMapping.md)
 
 #### Defined in
 
-[domain/model.ts:317](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L317)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:107
 
 ___
 
@@ -49,13 +48,9 @@ ___
 
 • `Optional` **mapping**: `string`
 
-**`Memberof`**
-
-Mapping
-
 #### Defined in
 
-[domain/model.ts:323](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L323)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:104
 
 ___
 
@@ -63,10 +58,6 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
-
-Mapping
-
 #### Defined in
 
-[domain/model.ts:329](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L329)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:105

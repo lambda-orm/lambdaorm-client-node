@@ -55,7 +55,7 @@ Facade through which you can access all the functionalities of the library.
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:26](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L26)
+[src/lib/infrastructure/adapters/orm.ts:28](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L28)
 
 ## Properties
 
@@ -69,17 +69,17 @@ Facade through which you can access all the functionalities of the library.
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:19](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L19)
+[src/lib/infrastructure/adapters/orm.ts:21](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L21)
 
 ## Accessors
 
 ### general
 
-• `get` **general**(): [`GeneralService`](../interfaces/GeneralService.md)
+• `get` **general**(): `GeneralService`
 
 #### Returns
 
-[`GeneralService`](../interfaces/GeneralService.md)
+`GeneralService`
 
 #### Implementation of
 
@@ -87,17 +87,17 @@ IOrm.general
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:55](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L55)
+[src/lib/infrastructure/adapters/orm.ts:57](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L57)
 
 ___
 
 ### schema
 
-• `get` **schema**(): [`SchemaService`](../interfaces/SchemaService.md)
+• `get` **schema**(): `SchemaService`
 
 #### Returns
 
-[`SchemaService`](../interfaces/SchemaService.md)
+`SchemaService`
 
 #### Implementation of
 
@@ -105,17 +105,17 @@ IOrm.schema
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:62](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L62)
+[src/lib/infrastructure/adapters/orm.ts:64](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L64)
 
 ___
 
 ### stage
 
-• `get` **stage**(): [`StageService`](../interfaces/StageService.md)
+• `get` **stage**(): `StageService`
 
 #### Returns
 
-[`StageService`](../interfaces/StageService.md)
+`StageService`
 
 #### Implementation of
 
@@ -123,7 +123,7 @@ IOrm.stage
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:69](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L69)
+[src/lib/infrastructure/adapters/orm.ts:71](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L71)
 
 ___
 
@@ -139,7 +139,7 @@ Singleton
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:33](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L33)
+[src/lib/infrastructure/adapters/orm.ts:35](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L35)
 
 ## Methods
 
@@ -167,7 +167,7 @@ Constraints of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L109)
+[src/lib/infrastructure/adapters/orm.ts:111](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L111)
 
 ▸ **constraints**(`expression`): `Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
@@ -187,7 +187,7 @@ Constraints of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:110](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L110)
+[src/lib/infrastructure/adapters/orm.ts:112](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L112)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:53](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L53)
+[src/lib/infrastructure/adapters/orm.ts:55](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L55)
 
 ___
 
@@ -235,7 +235,7 @@ Result of execution
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:153](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L153)
+[src/lib/infrastructure/adapters/orm.ts:155](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L155)
 
 ▸ **execute**(`expression`, `data?`, `options?`): `Promise`\<`any`\>
 
@@ -257,7 +257,7 @@ Result of execution
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:154](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L154)
+[src/lib/infrastructure/adapters/orm.ts:156](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L156)
 
 ___
 
@@ -289,7 +289,7 @@ Result of execution
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:169](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L169)
+[src/lib/infrastructure/adapters/orm.ts:171](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L171)
 
 ▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`\<`any`\>
 
@@ -313,18 +313,19 @@ Result of execution
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:170](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L170)
+[src/lib/infrastructure/adapters/orm.ts:172](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L172)
 
 ___
 
 ### init
 
-▸ **init**(`host?`): `Promise`\<`void`\>
+▸ **init**(`workspace`, `host?`): `Promise`\<`void`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
+| `workspace` | `string` |
 | `host?` | `string` |
 
 #### Returns
@@ -337,7 +338,7 @@ ___
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:40](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L40)
+[src/lib/infrastructure/adapters/orm.ts:42](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L42)
 
 ___
 
@@ -365,7 +366,7 @@ metadata of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:123](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L123)
+[src/lib/infrastructure/adapters/orm.ts:125](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L125)
 
 ▸ **metadata**(`expression`): `Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
@@ -385,7 +386,7 @@ metadata of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:124](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L124)
+[src/lib/infrastructure/adapters/orm.ts:126](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L126)
 
 ___
 
@@ -413,7 +414,7 @@ Model of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:81](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L81)
+[src/lib/infrastructure/adapters/orm.ts:83](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L83)
 
 ▸ **model**(`expression`): `Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
@@ -433,7 +434,7 @@ Model of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:82](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L82)
+[src/lib/infrastructure/adapters/orm.ts:84](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L84)
 
 ___
 
@@ -461,7 +462,7 @@ Parameters of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:95](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L95)
+[src/lib/infrastructure/adapters/orm.ts:97](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L97)
 
 ▸ **parameters**(`expression`): `Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
@@ -481,13 +482,13 @@ Parameters of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:96](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L96)
+[src/lib/infrastructure/adapters/orm.ts:98](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L98)
 
 ___
 
 ### plan
 
-▸ **plan**(`expression`, `options?`): `Promise`\<[`MetadataPlan`](../interfaces/MetadataPlan.md)\>
+▸ **plan**(`expression`, `options?`): `Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
 
 Get getInfo of expression
 
@@ -500,7 +501,7 @@ Get getInfo of expression
 
 #### Returns
 
-`Promise`\<[`MetadataPlan`](../interfaces/MetadataPlan.md)\>
+`Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
 
 #### Implementation of
 
@@ -508,9 +509,9 @@ Get getInfo of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:137](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L137)
+[src/lib/infrastructure/adapters/orm.ts:139](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L139)
 
-▸ **plan**(`expression`, `options?`): `Promise`\<[`MetadataPlan`](../interfaces/MetadataPlan.md)\>
+▸ **plan**(`expression`, `options?`): `Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
 
 #### Parameters
 
@@ -521,7 +522,7 @@ Get getInfo of expression
 
 #### Returns
 
-`Promise`\<[`MetadataPlan`](../interfaces/MetadataPlan.md)\>
+`Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
 
 #### Implementation of
 
@@ -529,4 +530,4 @@ Get getInfo of expression
 
 #### Defined in
 
-[infrastructure/adapters/orm.ts:138](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/infrastructure/adapters/orm.ts#L138)
+[src/lib/infrastructure/adapters/orm.ts:140](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/infrastructure/adapters/orm.ts#L140)

@@ -22,11 +22,6 @@ export class SchemaApiService implements SchemaService {
 		return result.data
 	}
 
-	public async dataSources ():Promise<{name:string, dialect:string}[]> {
-		const result:AxiosResponse<{name:string, dialect:string}[], any> = await this.schemaApi.dataSources()
-		return result.data
-	}
-
 	public async entities (): Promise<Entity[]> {
 		const result:AxiosResponse<Entity[], any> = await this.schemaApi.entities()
 		return result.data
@@ -59,6 +54,16 @@ export class SchemaApiService implements SchemaService {
 
 	public async entityMapping (mapping:string, entity:string): Promise<EntityMapping|undefined> {
 		const result:AxiosResponse<EntityMapping, any> = await this.schemaApi.entityMapping(mapping, entity)
+		return result.data
+	}
+
+	public async sources ():Promise<{name:string, dialect:string}[]> {
+		const result:AxiosResponse<{name:string, dialect:string}[], any> = await this.schemaApi.sources()
+		return result.data
+	}
+
+	public async source (source:string):Promise<{name:string, dialect:string}> {
+		const result:AxiosResponse<{name:string, dialect:string}, any> = await this.schemaApi.source(source)
 		return result.data
 	}
 

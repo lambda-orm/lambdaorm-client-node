@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[domain/queryable.ts:237](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L237)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:132
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:247](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L247)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:139
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:233](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L233)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:128
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:239](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L239)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:134
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:244](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L244)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:138
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:235](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L235)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:130
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:231](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L231)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:126
 
 ___
 
@@ -209,4 +209,4 @@ ___
 
 #### Defined in
 
-[domain/queryable.ts:241](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/queryable.ts#L241)
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:136

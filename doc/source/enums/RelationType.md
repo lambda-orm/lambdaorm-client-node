@@ -2,42 +2,40 @@
 
 # Enumeration: RelationType
 
-**`Export`**
-
 ## Table of contents
 
 ### Enumeration Members
 
-- [ManyToOne](RelationType.md#manytoone)
-- [OneToMany](RelationType.md#onetomany)
-- [OneToOne](RelationType.md#onetoone)
+- [manyToOne](RelationType.md#manytoone)
+- [oneToMany](RelationType.md#onetomany)
+- [oneToOne](RelationType.md#onetoone)
 
 ## Enumeration Members
 
-### ManyToOne
+### manyToOne
 
-• **ManyToOne** = ``"manyToOne"``
+• **manyToOne** = ``"manyToOne"``
 
 #### Defined in
 
-[domain/model.ts:887](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L887)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:6
 
 ___
 
-### OneToMany
+### oneToMany
 
-• **OneToMany** = ``"oneToMany"``
+• **oneToMany** = ``"oneToMany"``
 
 #### Defined in
 
-[domain/model.ts:886](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L886)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:5
 
 ___
 
-### OneToOne
+### oneToOne
 
-• **OneToOne** = ``"oneToOne"``
+• **oneToOne** = ``"oneToOne"``
 
 #### Defined in
 
-[domain/model.ts:888](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L888)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:7

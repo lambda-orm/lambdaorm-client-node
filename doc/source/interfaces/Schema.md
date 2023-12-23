@@ -6,22 +6,40 @@
 
 ### Properties
 
+- [application](Schema.md#application)
 - [domain](Schema.md#domain)
+- [infrastructure](Schema.md#infrastructure)
 - [version](Schema.md#version)
 
 ## Properties
 
-### domain
+### application
 
-• **domain**: [`SchemaDomain`](SchemaDomain.md)[]
-
-**`Memberof`**
-
-Schema
+• `Optional` **application**: [`ApplicationSchema`](ApplicationSchema.md)
 
 #### Defined in
 
-[domain/model.ts:997](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L997)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:176
+
+___
+
+### domain
+
+• **domain**: [`DomainSchema`](DomainSchema.md)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:174
+
+___
+
+### infrastructure
+
+• `Optional` **infrastructure**: [`InfrastructureSchema`](InfrastructureSchema.md)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:175
 
 ___
 
@@ -29,10 +47,6 @@ ___
 
 • **version**: `string`
 
-**`Memberof`**
-
-Schema
-
 #### Defined in
 
-[domain/model.ts:991](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L991)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:173

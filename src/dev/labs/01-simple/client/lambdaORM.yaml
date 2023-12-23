@@ -108,4 +108,4 @@ domain:
 infrastructure:
   paths:    
     src: src
-    domain: northwind/domain  
+    domain: northwind/domain

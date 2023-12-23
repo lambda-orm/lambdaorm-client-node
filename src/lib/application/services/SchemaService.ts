@@ -3,7 +3,8 @@ export interface SchemaService {
 	version ():Promise<{version:string}>
 	schema (): Promise<Schema>
 	domain (): Promise<DomainSchema>
-	dataSources ():Promise<{name:string, dialect:string}[]>
+	sources ():Promise<{name:string, dialect:string}[]>
+	source (source:string):Promise<{name:string, dialect:string}>
 	entities (): Promise<Entity[]>
 	entity (entity:string): Promise<Entity|undefined>
 	enums (): Promise<Enum[]>

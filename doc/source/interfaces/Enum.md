@@ -2,30 +2,44 @@
 
 # Interface: Enum
 
-**`Export`**
-
-Enum
-
 ## Table of contents
 
 ### Properties
 
+- [abstract](Enum.md#abstract)
+- [extends](Enum.md#extends)
 - [name](Enum.md#name)
 - [values](Enum.md#values)
 
 ## Properties
 
+### abstract
+
+• `Optional` **abstract**: `boolean`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:16
+
+___
+
+### extends
+
+• `Optional` **extends**: `string`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:15
+
+___
+
 ### name
 
 • **name**: `string`
 
-**`Memberof`**
-
-Enum
-
 #### Defined in
 
-[domain/model.ts:235](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L235)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:14
 
 ___
 
@@ -33,10 +47,6 @@ ___
 
 • **values**: [`EnumValue`](EnumValue.md)[]
 
-**`Memberof`**
-
-Enum
-
 #### Defined in
 
-[domain/model.ts:241](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L241)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:17

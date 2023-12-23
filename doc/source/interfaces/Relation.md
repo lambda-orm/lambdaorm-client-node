@@ -2,10 +2,6 @@
 
 # Interface: Relation
 
-**`Export`**
-
-Relation
-
 ## Table of contents
 
 ### Properties
@@ -15,7 +11,6 @@ Relation
 - [from](Relation.md#from)
 - [name](Relation.md#name)
 - [target](Relation.md#target)
-- [targetComposite](Relation.md#targetcomposite)
 - [to](Relation.md#to)
 - [type](Relation.md#type)
 - [weak](Relation.md#weak)
@@ -26,13 +21,9 @@ Relation
 
 • `Optional` **composite**: `boolean`
 
-**`Memberof`**
-
-Relation
-
 #### Defined in
 
-[domain/model.ts:841](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L841)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:42
 
 ___
 
@@ -40,13 +31,9 @@ ___
 
 • **entity**: `string`
 
-**`Memberof`**
-
-Relation
-
 #### Defined in
 
-[domain/model.ts:853](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L853)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:44
 
 ___
 
@@ -54,13 +41,9 @@ ___
 
 • **from**: `string`
 
-**`Memberof`**
-
-Relation
-
 #### Defined in
 
-[domain/model.ts:847](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L847)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:43
 
 ___
 
@@ -68,13 +51,9 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
-
-Relation
-
 #### Defined in
 
-[domain/model.ts:829](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L829)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:40
 
 ___
 
@@ -82,27 +61,9 @@ ___
 
 • `Optional` **target**: `string`
 
-**`Memberof`**
-
-Relation
-
 #### Defined in
 
-[domain/model.ts:871](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L871)
-
-___
-
-### targetComposite
-
-• `Optional` **targetComposite**: `boolean`
-
-**`Memberof`**
-
-Relation
-
-#### Defined in
-
-[domain/model.ts:877](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L877)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:47
 
 ___
 
@@ -110,13 +71,9 @@ ___
 
 • **to**: `string`
 
-**`Memberof`**
-
-Relation
-
 #### Defined in
 
-[domain/model.ts:859](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L859)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:45
 
 ___
 
@@ -124,13 +81,9 @@ ___
 
 • **type**: [`RelationType`](../enums/RelationType.md)
 
-**`Memberof`**
-
-Relation
-
 #### Defined in
 
-[domain/model.ts:835](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L835)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:41
 
 ___
 
@@ -138,10 +91,6 @@ ___
 
 • `Optional` **weak**: `boolean`
 
-**`Memberof`**
-
-Relation
-
 #### Defined in
 
-[domain/model.ts:865](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L865)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:46

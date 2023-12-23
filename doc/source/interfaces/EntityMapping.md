@@ -2,26 +2,41 @@
 
 # Interface: EntityMapping
 
-**`Export`**
+## Hierarchy
 
-EntityMapping
+- [`Entity`](Entity.md)
+
+  ↳ **`EntityMapping`**
 
 ## Table of contents
 
 ### Properties
 
 - [abstract](EntityMapping.md#abstract)
+- [composite](EntityMapping.md#composite)
 - [constraints](EntityMapping.md#constraints)
 - [dependents](EntityMapping.md#dependents)
 - [extends](EntityMapping.md#extends)
+- [filter](EntityMapping.md#filter)
+- [hadDefaults](EntityMapping.md#haddefaults)
+- [hadKeys](EntityMapping.md#hadkeys)
+- [hadReadExps](EntityMapping.md#hadreadexps)
+- [hadReadMappingExp](EntityMapping.md#hadreadmappingexp)
+- [hadReadValues](EntityMapping.md#hadreadvalues)
+- [hadViewReadExp](EntityMapping.md#hadviewreadexp)
+- [hadWriteExps](EntityMapping.md#hadwriteexps)
+- [hadWriteValues](EntityMapping.md#hadwritevalues)
 - [indexes](EntityMapping.md#indexes)
 - [mapping](EntityMapping.md#mapping)
 - [name](EntityMapping.md#name)
 - [primaryKey](EntityMapping.md#primarykey)
 - [properties](EntityMapping.md#properties)
 - [relations](EntityMapping.md#relations)
+- [required](EntityMapping.md#required)
+- [sequence](EntityMapping.md#sequence)
 - [singular](EntityMapping.md#singular)
 - [uniqueKey](EntityMapping.md#uniquekey)
+- [view](EntityMapping.md#view)
 
 ## Properties
 
@@ -29,13 +44,27 @@ EntityMapping
 
 • `Optional` **abstract**: `boolean`
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[abstract](Entity.md#abstract)
 
 #### Defined in
 
-[domain/model.ts:168](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L168)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:60
+
+___
+
+### composite
+
+• `Optional` **composite**: `boolean`
+
+#### Inherited from
+
+[Entity](Entity.md).[composite](Entity.md#composite)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:77
 
 ___
 
@@ -43,13 +72,13 @@ ___
 
 • `Optional` **constraints**: [`Constraint`](Constraint.md)[]
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[constraints](Entity.md#constraints)
 
 #### Defined in
 
-[domain/model.ts:216](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L216)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:70
 
 ___
 
@@ -57,13 +86,13 @@ ___
 
 • **dependents**: [`Dependent`](Dependent.md)[]
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[dependents](Entity.md#dependents)
 
 #### Defined in
 
-[domain/model.ts:210](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L210)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:69
 
 ___
 
@@ -71,13 +100,127 @@ ___
 
 • `Optional` **extends**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[extends](Entity.md#extends)
 
 #### Defined in
 
-[domain/model.ts:162](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L162)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:59
+
+___
+
+### filter
+
+• `Optional` **filter**: `string`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:93
+
+___
+
+### hadDefaults
+
+• `Optional` **hadDefaults**: `boolean`
+
+#### Inherited from
+
+[Entity](Entity.md).[hadDefaults](Entity.md#haddefaults)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:75
+
+___
+
+### hadKeys
+
+• `Optional` **hadKeys**: `boolean`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:94
+
+___
+
+### hadReadExps
+
+• `Optional` **hadReadExps**: `boolean`
+
+#### Inherited from
+
+[Entity](Entity.md).[hadReadExps](Entity.md#hadreadexps)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:71
+
+___
+
+### hadReadMappingExp
+
+• `Optional` **hadReadMappingExp**: `boolean`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:95
+
+___
+
+### hadReadValues
+
+• `Optional` **hadReadValues**: `boolean`
+
+#### Inherited from
+
+[Entity](Entity.md).[hadReadValues](Entity.md#hadreadvalues)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:73
+
+___
+
+### hadViewReadExp
+
+• `Optional` **hadViewReadExp**: `boolean`
+
+#### Inherited from
+
+[Entity](Entity.md).[hadViewReadExp](Entity.md#hadviewreadexp)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:76
+
+___
+
+### hadWriteExps
+
+• `Optional` **hadWriteExps**: `boolean`
+
+#### Inherited from
+
+[Entity](Entity.md).[hadWriteExps](Entity.md#hadwriteexps)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:72
+
+___
+
+### hadWriteValues
+
+• `Optional` **hadWriteValues**: `boolean`
+
+#### Inherited from
+
+[Entity](Entity.md).[hadWriteValues](Entity.md#hadwritevalues)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:74
 
 ___
 
@@ -85,13 +228,13 @@ ___
 
 • **indexes**: [`Index`](Index.md)[]
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[indexes](Entity.md#indexes)
 
 #### Defined in
 
-[domain/model.ts:186](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L186)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:66
 
 ___
 
@@ -99,13 +242,9 @@ ___
 
 • **mapping**: `string`
 
-**`Memberof`**
-
-EntityMapping
-
 #### Defined in
 
-[domain/model.ts:222](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L222)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:90
 
 ___
 
@@ -113,13 +252,13 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[name](Entity.md#name)
 
 #### Defined in
 
-[domain/model.ts:156](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L156)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:58
 
 ___
 
@@ -127,13 +266,13 @@ ___
 
 • **primaryKey**: `string`[]
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[primaryKey](Entity.md#primarykey)
 
 #### Defined in
 
-[domain/model.ts:192](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L192)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:63
 
 ___
 
@@ -141,13 +280,13 @@ ___
 
 • **properties**: [`PropertyMapping`](PropertyMapping.md)[]
 
-**`Memberof`**
+#### Overrides
 
-EntityMapping
+[Entity](Entity.md).[properties](Entity.md#properties)
 
 #### Defined in
 
-[domain/model.ts:198](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L198)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:92
 
 ___
 
@@ -155,13 +294,37 @@ ___
 
 • **relations**: [`Relation`](Relation.md)[]
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[relations](Entity.md#relations)
 
 #### Defined in
 
-[domain/model.ts:204](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L204)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:68
+
+___
+
+### required
+
+• **required**: `string`[]
+
+#### Inherited from
+
+[Entity](Entity.md).[required](Entity.md#required)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:65
+
+___
+
+### sequence
+
+• **sequence**: `string`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:91
 
 ___
 
@@ -169,13 +332,13 @@ ___
 
 • `Optional` **singular**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[singular](Entity.md#singular)
 
 #### Defined in
 
-[domain/model.ts:174](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L174)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:61
 
 ___
 
@@ -183,10 +346,24 @@ ___
 
 • **uniqueKey**: `string`[]
 
-**`Memberof`**
+#### Inherited from
 
-EntityMapping
+[Entity](Entity.md).[uniqueKey](Entity.md#uniquekey)
 
 #### Defined in
 
-[domain/model.ts:180](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L180)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:64
+
+___
+
+### view
+
+• `Optional` **view**: `boolean`
+
+#### Inherited from
+
+[Entity](Entity.md).[view](Entity.md#view)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:62

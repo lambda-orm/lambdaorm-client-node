@@ -2,10 +2,6 @@
 
 # Interface: MetadataConstraint
 
-**`Export`**
-
-MetadataConstraint
-
 ## Table of contents
 
 ### Properties
@@ -20,13 +16,9 @@ MetadataConstraint
 
 • `Optional` **children**: [`MetadataConstraint`](MetadataConstraint.md)[]
 
-**`Memberof`**
-
-MetadataConstraint
-
 #### Defined in
 
-[domain/model.ts:433](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L433)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:16
 
 ___
 
@@ -34,13 +26,9 @@ ___
 
 • **constraints**: [`Constraint`](Constraint.md)[]
 
-**`Memberof`**
-
-MetadataConstraint
-
 #### Defined in
 
-[domain/model.ts:427](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L427)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:15
 
 ___
 
@@ -48,10 +36,6 @@ ___
 
 • **entity**: `string`
 
-**`Memberof`**
-
-MetadataConstraint
-
 #### Defined in
 
-[domain/model.ts:421](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L421)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:14

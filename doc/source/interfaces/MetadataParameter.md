@@ -2,10 +2,6 @@
 
 # Interface: MetadataParameter
 
-**`Export`**
-
-MetadataParameter
-
 ## Table of contents
 
 ### Properties
@@ -20,13 +16,9 @@ MetadataParameter
 
 • `Optional` **children**: [`MetadataParameter`](MetadataParameter.md)[]
 
-**`Memberof`**
-
-MetadataParameter
-
 #### Defined in
 
-[domain/model.ts:483](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L483)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:6
 
 ___
 
@@ -34,13 +26,9 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
-
-MetadataParameter
-
 #### Defined in
 
-[domain/model.ts:471](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L471)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:4
 
 ___
 
@@ -48,10 +36,6 @@ ___
 
 • **type**: `string`
 
-**`Memberof`**
-
-MetadataParameter
-
 #### Defined in
 
-[domain/model.ts:477](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L477)
+node_modules/lambdaorm-base/sentence/domain/metadata.d.ts:5

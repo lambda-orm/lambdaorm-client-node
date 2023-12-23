@@ -2,10 +2,6 @@
 
 # Interface: Index
 
-**`Export`**
-
-Index
-
 ## Table of contents
 
 ### Properties
@@ -19,13 +15,9 @@ Index
 
 • **fields**: `string`[]
 
-**`Memberof`**
-
-Index
-
 #### Defined in
 
-[domain/model.ts:304](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L304)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:55
 
 ___
 
@@ -33,10 +25,6 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
-
-Index
-
 #### Defined in
 
-[domain/model.ts:298](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L298)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:54

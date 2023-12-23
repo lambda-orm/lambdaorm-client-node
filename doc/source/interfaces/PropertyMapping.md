@@ -2,40 +2,46 @@
 
 # Interface: PropertyMapping
 
-**`Export`**
+## Hierarchy
 
-PropertyMapping
+- [`Property`](Property.md)
+
+  ↳ **`PropertyMapping`**
 
 ## Table of contents
 
 ### Properties
 
-- [autoincrement](PropertyMapping.md#autoincrement)
+- [autoIncrement](PropertyMapping.md#autoincrement)
 - [default](PropertyMapping.md#default)
 - [enum](PropertyMapping.md#enum)
 - [key](PropertyMapping.md#key)
 - [length](PropertyMapping.md#length)
 - [mapping](PropertyMapping.md#mapping)
 - [name](PropertyMapping.md#name)
-- [nullable](PropertyMapping.md#nullable)
 - [primaryKey](PropertyMapping.md#primarykey)
+- [readExp](PropertyMapping.md#readexp)
+- [readMappingExp](PropertyMapping.md#readmappingexp)
 - [readValue](PropertyMapping.md#readvalue)
+- [required](PropertyMapping.md#required)
 - [type](PropertyMapping.md#type)
+- [view](PropertyMapping.md#view)
+- [writeExp](PropertyMapping.md#writeexp)
 - [writeValue](PropertyMapping.md#writevalue)
 
 ## Properties
 
-### autoincrement
+### autoIncrement
 
-• `Optional` **autoincrement**: `boolean`
+• `Optional` **autoIncrement**: `boolean`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
+[Property](Property.md).[autoIncrement](Property.md#autoincrement)
 
 #### Defined in
 
-[domain/model.ts:674](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L674)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:29
 
 ___
 
@@ -43,13 +49,13 @@ ___
 
 • `Optional` **default**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
+[Property](Property.md).[default](Property.md#default)
 
 #### Defined in
 
-[domain/model.ts:680](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L680)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:33
 
 ___
 
@@ -57,13 +63,13 @@ ___
 
 • `Optional` **enum**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
+[Property](Property.md).[enum](Property.md#enum)
 
 #### Defined in
 
-[domain/model.ts:698](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L698)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:36
 
 ___
 
@@ -71,13 +77,13 @@ ___
 
 • `Optional` **key**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
+[Property](Property.md).[key](Property.md#key)
 
 #### Defined in
 
-[domain/model.ts:710](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L710)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:37
 
 ___
 
@@ -85,13 +91,13 @@ ___
 
 • `Optional` **length**: `number`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
+[Property](Property.md).[length](Property.md#length)
 
 #### Defined in
 
-[domain/model.ts:656](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L656)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:26
 
 ___
 
@@ -99,13 +105,9 @@ ___
 
 • **mapping**: `string`
 
-**`Memberof`**
-
-PropertyMapping
-
 #### Defined in
 
-[domain/model.ts:704](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L704)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:86
 
 ___
 
@@ -113,27 +115,13 @@ ___
 
 • **name**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
-
-#### Defined in
-
-[domain/model.ts:644](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L644)
-
-___
-
-### nullable
-
-• `Optional` **nullable**: `boolean`
-
-**`Memberof`**
-
-PropertyMapping
+[Property](Property.md).[name](Property.md#name)
 
 #### Defined in
 
-[domain/model.ts:662](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L662)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:24
 
 ___
 
@@ -141,13 +129,37 @@ ___
 
 • `Optional` **primaryKey**: `boolean`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
+[Property](Property.md).[primaryKey](Property.md#primarykey)
 
 #### Defined in
 
-[domain/model.ts:668](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L668)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:28
+
+___
+
+### readExp
+
+• `Optional` **readExp**: `string`
+
+#### Inherited from
+
+[Property](Property.md).[readExp](Property.md#readexp)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:31
+
+___
+
+### readMappingExp
+
+• `Optional` **readMappingExp**: `string`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:87
 
 ___
 
@@ -155,13 +167,27 @@ ___
 
 • `Optional` **readValue**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
+[Property](Property.md).[readValue](Property.md#readvalue)
 
 #### Defined in
 
-[domain/model.ts:686](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L686)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:34
+
+___
+
+### required
+
+• `Optional` **required**: `boolean`
+
+#### Inherited from
+
+[Property](Property.md).[required](Property.md#required)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:27
 
 ___
 
@@ -169,13 +195,41 @@ ___
 
 • **type**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
+[Property](Property.md).[type](Property.md#type)
 
 #### Defined in
 
-[domain/model.ts:650](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L650)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:25
+
+___
+
+### view
+
+• `Optional` **view**: `boolean`
+
+#### Inherited from
+
+[Property](Property.md).[view](Property.md#view)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:30
+
+___
+
+### writeExp
+
+• `Optional` **writeExp**: `string`
+
+#### Inherited from
+
+[Property](Property.md).[writeExp](Property.md#writeexp)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:32
 
 ___
 
@@ -183,10 +237,10 @@ ___
 
 • `Optional` **writeValue**: `string`
 
-**`Memberof`**
+#### Inherited from
 
-PropertyMapping
+[Property](Property.md).[writeValue](Property.md#writevalue)
 
 #### Defined in
 
-[domain/model.ts:692](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/216c8a0/src/lib/domain/model.ts#L692)
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:35
