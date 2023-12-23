@@ -79,7 +79,6 @@ Lambda ORM client
 - [ConfigurationParameters](interfaces/ConfigurationParameters.md)
 - [Constraint](interfaces/Constraint.md)
 - [ContextInfo](interfaces/ContextInfo.md)
-- [DataSourceRule](interfaces/DataSourceRule.md)
 - [Dependent](interfaces/Dependent.md)
 - [DomainSchema](interfaces/DomainSchema.md)
 - [Entity](interfaces/Entity.md)
@@ -129,6 +128,7 @@ Lambda ORM client
 - [SchemaConfigEntity](interfaces/SchemaConfigEntity.md)
 - [SentenceSerializer](interfaces/SentenceSerializer.md)
 - [Source](interfaces/Source.md)
+- [SourceRule](interfaces/SourceRule.md)
 - [Stage](interfaces/Stage.md)
 - [TaskConfig](interfaces/TaskConfig.md)
 - [View](interfaces/View.md)
@@ -294,7 +294,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/3f6c968/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/0371aee/src/lib/index.ts#L6)
 
 ## Functions
 

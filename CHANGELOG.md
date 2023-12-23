@@ -6,10 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ### [0.7.29](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.28...v0.7.29) (2023-12-23)
 
+**Features:**
 
-### Features
-
-* update lambdaorm base dependencie ([0371aee](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/0371aeee71d1cd1da8645c3b9969fcbfcc6c9524)), closes [#223](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/223)
+* update lambdaorm base dependencie ([0371aee](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/0371aeee71d1cd1da8645c3b9969fcbfcc6c9524)), closes [#223](https://github.com/FlavioLionelRita/lambdaorm/issues/223)
 
 ### [0.7.28](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.27...v0.7.28) (2023-11-28)
 

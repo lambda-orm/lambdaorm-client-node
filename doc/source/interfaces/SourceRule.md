@@ -1,13 +1,13 @@
-[Lambda ORM client](../README.md) / DataSourceRule
+[Lambda ORM client](../README.md) / SourceRule
 
-# Interface: DataSourceRule
+# Interface: SourceRule
 
 ## Table of contents
 
 ### Properties
 
-- [condition](DataSourceRule.md#condition)
-- [name](DataSourceRule.md#name)
+- [condition](SourceRule.md#condition)
+- [name](SourceRule.md#name)
 
 ## Properties
 
