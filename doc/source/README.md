@@ -294,7 +294,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/0371aee/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/95acc01/src/lib/index.ts#L6)
 
 ## Functions
 
