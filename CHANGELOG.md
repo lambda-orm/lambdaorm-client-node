@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## Versions
 
+### [0.7.31](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.30...v0.7.31) (2023-12-25)
+
 ### [0.7.30](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.29...v0.7.30) (2023-12-25)
 
 ### [0.7.29](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.28...v0.7.29) (2023-12-23)
