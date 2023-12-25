@@ -38,7 +38,7 @@
 		"@types/jest": "^29.5.10",
 		"@types/node": "^20.10.5",
 		"@typescript-eslint/eslint-plugin": "^6.12.0",
-		"@typescript-eslint/parser": "^6.12.0",
+		"@typescript-eslint/parser": "^6.15.0",
 		"@types/mysql": "^2.15.21",
 		"eslint": "^8.56.0",
 		"eslint-config-standard": "^17.1.0",
