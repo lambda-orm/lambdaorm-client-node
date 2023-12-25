@@ -578,6 +578,6 @@ node ./build/index.js
 ```sh
 cd ..
 cd service
-lambdaorm drop -e ".env"
+lambdaorm drop -e .env
 docker-compose -p lambdaorm-lab down
 ```
