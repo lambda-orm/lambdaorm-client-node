@@ -298,7 +298,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/850d003/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/2403c1f/src/lib/index.ts#L6)
 
 ## Functions
 
