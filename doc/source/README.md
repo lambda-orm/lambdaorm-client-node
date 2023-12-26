@@ -55,11 +55,11 @@ Lambda ORM client
 - [Queryable](classes/Queryable.md)
 - [Repository](classes/Repository.md)
 - [RouteService](classes/RouteService.md)
+- [SchemaCreateService](classes/SchemaCreateService.md)
 - [SchemaError](classes/SchemaError.md)
 - [SchemaExtender](classes/SchemaExtender.md)
 - [SchemaFacade](classes/SchemaFacade.md)
 - [SchemaFacadeBuilder](classes/SchemaFacadeBuilder.md)
-- [SchemaService](classes/SchemaService.md)
 - [Sentence](classes/Sentence.md)
 - [SentenceInclude](classes/SentenceInclude.md)
 - [SentenceLibrary](classes/SentenceLibrary.md)
@@ -87,7 +87,9 @@ Lambda ORM client
 - [Enum](interfaces/Enum.md)
 - [EnumValue](interfaces/EnumValue.md)
 - [ExpressionActions](interfaces/ExpressionActions.md)
+- [ExpressionService](interfaces/ExpressionService.md)
 - [FormatMapping](interfaces/FormatMapping.md)
+- [GeneralService](interfaces/GeneralService.md)
 - [Health](interfaces/Health.md)
 - [IFileSchemaReader](interfaces/IFileSchemaReader.md)
 - [IOrm](interfaces/IOrm.md)
@@ -126,10 +128,12 @@ Lambda ORM client
 - [Schema](interfaces/Schema.md)
 - [SchemaConfig](interfaces/SchemaConfig.md)
 - [SchemaConfigEntity](interfaces/SchemaConfigEntity.md)
+- [SchemaService](interfaces/SchemaService.md)
 - [SentenceSerializer](interfaces/SentenceSerializer.md)
 - [Source](interfaces/Source.md)
 - [SourceRule](interfaces/SourceRule.md)
 - [Stage](interfaces/Stage.md)
+- [StageService](interfaces/StageService.md)
 - [TaskConfig](interfaces/TaskConfig.md)
 - [View](interfaces/View.md)
 
@@ -294,7 +298,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/622022e/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/850d003/src/lib/index.ts#L6)
 
 ## Functions
 

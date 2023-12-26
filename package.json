@@ -31,7 +31,7 @@
 		"axios": "^1.6.2",
 		"crypto-js": "^4.1.1",
 		"h3lp": "^1.5.1",
-		"lambdaorm-base": "^0.1.13"
+		"lambdaorm-base": "^0.1.14"
 	},
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.23.3",
