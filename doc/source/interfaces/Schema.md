@@ -2,6 +2,12 @@
 
 # Interface: Schema
 
+## Hierarchy
+
+- **`Schema`**
+
+  ↳ [`ClientSchema`](ClientSchema.md)
+
 ## Table of contents
 
 ### Properties

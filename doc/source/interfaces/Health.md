@@ -26,7 +26,7 @@ Health
 
 #### Defined in
 
-[src/lib/domain/model.ts:109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8126126/src/lib/domain/model.ts#L109)
+[src/lib/domain/model.ts:109](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8ed2de9/src/lib/domain/model.ts#L109)
 
 ___
 
@@ -40,7 +40,7 @@ Health
 
 #### Defined in
 
-[src/lib/domain/model.ts:115](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8126126/src/lib/domain/model.ts#L115)
+[src/lib/domain/model.ts:115](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8ed2de9/src/lib/domain/model.ts#L115)
 
 ___
 
@@ -54,4 +54,4 @@ Health
 
 #### Defined in
 
-[src/lib/domain/model.ts:121](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8126126/src/lib/domain/model.ts#L121)
+[src/lib/domain/model.ts:121](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8ed2de9/src/lib/domain/model.ts#L121)

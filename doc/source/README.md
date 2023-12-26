@@ -76,6 +76,9 @@ Lambda ORM client
 - [ApplicationSchema](interfaces/ApplicationSchema.md)
 - [Behavior](interfaces/Behavior.md)
 - [ClauseInfo](interfaces/ClauseInfo.md)
+- [ClientSchema](interfaces/ClientSchema.md)
+- [ClientServiceConfig](interfaces/ClientServiceConfig.md)
+- [ClientServiceInfrastructureSchema](interfaces/ClientServiceInfrastructureSchema.md)
 - [ConfigurationParameters](interfaces/ConfigurationParameters.md)
 - [Constraint](interfaces/Constraint.md)
 - [ContextInfo](interfaces/ContextInfo.md)
@@ -298,7 +301,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8126126/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8ed2de9/src/lib/index.ts#L6)
 
 ## Functions
 

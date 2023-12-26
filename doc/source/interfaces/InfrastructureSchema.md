@@ -2,6 +2,12 @@
 
 # Interface: InfrastructureSchema
 
+## Hierarchy
+
+- **`InfrastructureSchema`**
+
+  ↳ [`ClientServiceInfrastructureSchema`](ClientServiceInfrastructureSchema.md)
+
 ## Table of contents
 
 ### Properties
@@ -16,7 +22,7 @@
 
 ### mappings
 
-• **mappings**: [`Mapping`](Mapping.md)[]
+• `Optional` **mappings**: [`Mapping`](Mapping.md)[]
 
 #### Defined in
 
@@ -26,7 +32,7 @@ ___
 
 ### paths
 
-• **paths**: [`AppPathsConfig`](AppPathsConfig.md)
+• `Optional` **paths**: [`AppPathsConfig`](AppPathsConfig.md)
 
 #### Defined in
 
@@ -36,7 +42,7 @@ ___
 
 ### sources
 
-• **sources**: [`Source`](Source.md)[]
+• `Optional` **sources**: [`Source`](Source.md)[]
 
 #### Defined in
 
@@ -46,7 +52,7 @@ ___
 
 ### stages
 
-• **stages**: [`Stage`](Stage.md)[]
+• `Optional` **stages**: [`Stage`](Stage.md)[]
 
 #### Defined in
 
@@ -56,7 +62,7 @@ ___
 
 ### views
 
-• **views**: [`View`](View.md)[]
+• `Optional` **views**: [`View`](View.md)[]
 
 #### Defined in
 
