@@ -6,10 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ### [0.7.33](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.32...v0.7.33) (2023-12-26)
 
+**Features:**
 
-### Features
-
-* change host by url ([8126126](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/81261267d4810101396dcaec7032340b55ad910d)), closes [#223](https://github.com/FlavioLionelRita/lambdaorm-client-node/issues/223)
+* change host by url ([8126126](https://github.com/FlavioLionelRita/lambdaorm-client-node/commit/81261267d4810101396dcaec7032340b55ad910d)), closes [#223](https://github.com/FlavioLionelRita/lambdaorm/issues/223)
 
 ### [0.7.32](https://github.com/FlavioLionelRita/lambdaorm-client-node/compare/v0.7.31...v0.7.32) (2023-12-26)
 
