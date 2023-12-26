@@ -18,15 +18,15 @@ import { StageApiService } from './StageApiService'
 export class Orm implements IOrm {
 	// eslint-disable-next-line no-use-before-define
 	private static _instance: Orm
-	public host: string
+	public url: string
 	private configuration?:Configuration
 	private expressionService?:ExpressionService
 	private generalService?: GeneralService
 	private schemaService?: SchemaService
 	private stageService?: StageService
 
-	constructor (host = 'http://localhost:9289') {
-		this.host = host
+	constructor (url = 'http://localhost:9289') {
+		this.url = url
 	}
 
 	/**
@@ -39,12 +39,12 @@ export class Orm implements IOrm {
 		return this._instance
 	}
 
-	public async init (workspace:string, host?: string): Promise<void> {
-		if (host) {
-			this.host = host
+	public async init (url?: string): Promise<void> {
+		if (url) {
+			this.url = url
 		}
 		new SentenceLibrary(expressions).load()
-		this.configuration = new Configuration({ basePath: this.host })
+		this.configuration = new Configuration({ basePath: this.url })
 		this.expressionService = new ExpressionApiService(new ExpressionApi(this.configuration))
 		this.generalService = new GeneralApiService(new GeneralApi(this.configuration))
 		this.schemaService = new SchemaApiService(new SchemaApi(this.configuration))

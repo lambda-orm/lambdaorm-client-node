@@ -6,8 +6,8 @@ import { SchemaService } from './services/SchemaService'
 
 export interface IOrm
 {
-	host:string
-	init (host?: string):Promise<void>
+	url:string
+	init (url?: string):Promise<void>
 	end ():Promise<void>
 
 	get general (): GeneralService
