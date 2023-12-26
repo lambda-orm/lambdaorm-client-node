@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[src/lib/application/services/GeneralService.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8ed2de9/src/lib/application/services/GeneralService.ts#L6)
+[src/lib/application/services/GeneralService.ts:6](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/82ec74b/src/lib/application/services/GeneralService.ts#L6)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[src/lib/application/services/GeneralService.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8ed2de9/src/lib/application/services/GeneralService.ts#L7)
+[src/lib/application/services/GeneralService.ts:7](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/82ec74b/src/lib/application/services/GeneralService.ts#L7)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[src/lib/application/services/GeneralService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8ed2de9/src/lib/application/services/GeneralService.ts#L5)
+[src/lib/application/services/GeneralService.ts:5](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/82ec74b/src/lib/application/services/GeneralService.ts#L5)
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 #### Defined in
 
-[src/lib/application/services/GeneralService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/8ed2de9/src/lib/application/services/GeneralService.ts#L4)
+[src/lib/application/services/GeneralService.ts:4](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/82ec74b/src/lib/application/services/GeneralService.ts#L4)
