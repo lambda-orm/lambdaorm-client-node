@@ -6,8 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### [0.7.36](https://github.com/lambda-orm/lambdaorm-client-node/compare/v0.7.11...v0.7.36) (2023-12-28)
 
-
-### Features
+**Features:**
 
 * add lambda lab on northwind ([cf1dba5](https://github.com/lambda-orm/lambdaorm-client-node/commit/cf1dba516554fcebd4580f656d3b0c9452830aa3)), closes [#189](https://github.com/lambda-orm/lambdaorm-client-node/issues/189)
 * **api:** replace sentence method for plan ([dfa7db2](https://github.com/lambda-orm/lambdaorm-client-node/commit/dfa7db29d21e9aab7e628819a4134fa0d5ac1cb7)), closes [#201](https://github.com/lambda-orm/lambdaorm-client-node/issues/201)
@@ -20,8 +19,7 @@ All notable changes to this project will be documented in this file.
 * update for changes on service ([7c52331](https://github.com/lambda-orm/lambdaorm-client-node/commit/7c523318e797aacdff9f1a79a1245efb909a637f)), closes [#189](https://github.com/lambda-orm/lambdaorm-client-node/issues/189)
 * update lambdaorm base dependencie ([0371aee](https://github.com/lambda-orm/lambdaorm-client-node/commit/0371aeee71d1cd1da8645c3b9969fcbfcc6c9524)), closes [#223](https://github.com/lambda-orm/lambdaorm-client-node/issues/223)
 
-
-### Bug Fixes
+**Bug Fixes:**
 
 * **library:** solve create library ([70ce19d](https://github.com/lambda-orm/lambdaorm-client-node/commit/70ce19d2d829c8be4e4708e53838144d0c2f2127)), closes [#201](https://github.com/lambda-orm/lambdaorm-client-node/issues/201)
 * update dependencies ([188ce61](https://github.com/lambda-orm/lambdaorm-client-node/commit/188ce610080c6205bbab5139f537715370eb926d)), closes [#202](https://github.com/lambda-orm/lambdaorm-client-node/issues/202)
