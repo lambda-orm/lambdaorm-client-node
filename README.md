@@ -1,6 +1,6 @@
 # λORM Client Node
 
-Lambdaorm client node is an http client to consume [lambdaorm service](https://github.com/FlavioLionelRita/lambdaorm-svc)
+Lambdaorm client node is an http client to consume [lambdaorm service](https://github.com/lambda-orm/lambdaorm-svc)
 
 ## Usage
 
@@ -191,11 +191,11 @@ You can access various images at [flaviorita/lambdaorm-svc](https://hub.docker.c
 
 ## Labs
 
-You can access various labs at [github.com/FlavioLionelRita/lambdaorm-labs](https://github.com/FlavioLionelRita/lambdaorm-labs)
+You can access various labs at [github.com/lambda-orm/lambdaorm-labs](https://github.com/lambda-orm/lambdaorm-labs)
 
 ## Documentation
 
-- [Source Code](https://github.com/FlavioLionelRita/lambdaorm-client-node/blob/main/doc/source/README.md)
-- [Lambdaorm Wiki](https://github.com/FlavioLionelRita/lambdaorm/wiki/)
+- [Source Code](https://github.com/lambda-orm/lambdaorm-client-node/blob/main/doc/source/README.md)
+- [Lambdaorm Wiki](https://github.com/lambda-orm/lambdaorm/wiki/)
 - [CLI](https://www.npmjs.com/package/lambdaorm-cli)
-- [Labs](https://github.com/FlavioLionelRita/lambdaorm-labs)
+- [Labs](https://github.com/lambda-orm/lambdaorm-labs)

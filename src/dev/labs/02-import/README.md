@@ -432,7 +432,7 @@ lambdaorm build -l client-node --all
 for the import we will download the following file.
 
 ```sh
-wget https://raw.githubusercontent.com/FlavioLionelRita/lambdaorm-labs/main/source/northwind/data.json
+wget https://raw.githubusercontent.com/lambda-orm/lambdaorm-labs/main/source/northwind/data.json
 ```
 
 ### Source Code
