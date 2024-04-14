@@ -14,17 +14,7 @@
 
 ### data
 
-• **data**: `string`
-
-#### Defined in
-
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:152
-
-___
-
-### domain
-
-• **domain**: `string`
+• `Optional` **data**: `string`
 
 #### Defined in
 
@@ -32,10 +22,20 @@ node_modules/lambdaorm-base/schema/domain/schema.d.ts:153
 
 ___
 
-### src
+### domain
 
-• **src**: `string`
+• `Optional` **domain**: `string`
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:151
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:154
+
+___
+
+### src
+
+• `Optional` **src**: `string`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:152

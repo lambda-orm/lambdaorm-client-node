@@ -22,7 +22,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `schemaService` | [`SchemaCreateService`](SchemaCreateService.md) |
+| `schemaService` | `SchemaService` |
 
 #### Returns
 
@@ -36,11 +36,18 @@ node_modules/lambdaorm-base/schema/application/useCases/create.d.ts:5
 
 ### create
 
-▸ **create**(): `Promise`\<[`Schema`](../interfaces/Schema.md)\>
+▸ **create**(`dialect?`, `connection?`): [`Schema`](../interfaces/Schema.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `dialect?` | [`Dialect`](../enums/Dialect.md) |
+| `connection?` | `any` |
 
 #### Returns
 
-`Promise`\<[`Schema`](../interfaces/Schema.md)\>
+[`Schema`](../interfaces/Schema.md)
 
 #### Defined in
 

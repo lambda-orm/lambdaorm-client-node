@@ -7,6 +7,7 @@ Lambda ORM client
 ### Enumerations
 
 - [Dialect](enums/Dialect.md)
+- [LogLevel](enums/LogLevel.md)
 - [ObservableAction](enums/ObservableAction.md)
 - [RelationType](enums/RelationType.md)
 - [SentenceAction](enums/SentenceAction.md)
@@ -14,11 +15,13 @@ Lambda ORM client
 
 ### Classes
 
+- [BulkDelete](classes/BulkDelete.md)
 - [BulkInsert](classes/BulkInsert.md)
+- [BulkMerge](classes/BulkMerge.md)
 - [Clause](classes/Clause.md)
-- [CompleteSchema](classes/CompleteSchema.md)
 - [Configuration](classes/Configuration.md)
 - [Constant](classes/Constant.md)
+- [CreateEntitiesService](classes/CreateEntitiesService.md)
 - [CreateSchema](classes/CreateSchema.md)
 - [Data](classes/Data.md)
 - [DataSourceConfigService](classes/DataSourceConfigService.md)
@@ -31,7 +34,7 @@ Lambda ORM client
 - [FilterClauses](classes/FilterClauses.md)
 - [FilterIncludeClauses](classes/FilterIncludeClauses.md)
 - [From](classes/From.md)
-- [GetSchema](classes/GetSchema.md)
+- [GetSchemaSchema](classes/GetSchemaSchema.md)
 - [GroupBy](classes/GroupBy.md)
 - [Having](classes/Having.md)
 - [HavingClauses](classes/HavingClauses.md)
@@ -40,11 +43,14 @@ Lambda ORM client
 - [Insert](classes/Insert.md)
 - [Join](classes/Join.md)
 - [LoadSchema](classes/LoadSchema.md)
+- [Logger](classes/Logger.md)
+- [LoggerBuilder](classes/LoggerBuilder.md)
 - [Map](classes/Map.md)
 - [Map2Clauses](classes/Map2Clauses.md)
 - [MapClauses](classes/MapClauses.md)
 - [MappingConfigService](classes/MappingConfigService.md)
 - [MappingsConfigService](classes/MappingsConfigService.md)
+- [MatchSchema](classes/MatchSchema.md)
 - [MethodNotImplemented](classes/MethodNotImplemented.md)
 - [ModificableClauses](classes/ModificableClauses.md)
 - [NotImplemented](classes/NotImplemented.md)
@@ -55,11 +61,14 @@ Lambda ORM client
 - [Queryable](classes/Queryable.md)
 - [Repository](classes/Repository.md)
 - [RouteService](classes/RouteService.md)
-- [SchemaCreateService](classes/SchemaCreateService.md)
 - [SchemaError](classes/SchemaError.md)
 - [SchemaExtender](classes/SchemaExtender.md)
 - [SchemaFacade](classes/SchemaFacade.md)
 - [SchemaFacadeBuilder](classes/SchemaFacadeBuilder.md)
+- [SchemaH3lp](classes/SchemaH3lp.md)
+- [SchemaHelper](classes/SchemaHelper.md)
+- [SchemaState](classes/SchemaState.md)
+- [SchemaStateBuilder](classes/SchemaStateBuilder.md)
 - [Sentence](classes/Sentence.md)
 - [SentenceInclude](classes/SentenceInclude.md)
 - [SentenceLibrary](classes/SentenceLibrary.md)
@@ -67,6 +76,8 @@ Lambda ORM client
 - [Sort](classes/Sort.md)
 - [StageConfigService](classes/StageConfigService.md)
 - [Update](classes/Update.md)
+- [UpdateSchema](classes/UpdateSchema.md)
+- [Upsert](classes/Upsert.md)
 - [ViewConfigService](classes/ViewConfigService.md)
 - [ViewsConfigService](classes/ViewsConfigService.md)
 
@@ -94,7 +105,7 @@ Lambda ORM client
 - [FormatMapping](interfaces/FormatMapping.md)
 - [GeneralService](interfaces/GeneralService.md)
 - [Health](interfaces/Health.md)
-- [IFileSchemaReader](interfaces/IFileSchemaReader.md)
+- [IFileSchemaService](interfaces/IFileSchemaService.md)
 - [IOrm](interfaces/IOrm.md)
 - [IRelation](interfaces/IRelation.md)
 - [IRepository](interfaces/IRepository.md)
@@ -106,6 +117,7 @@ Lambda ORM client
 - [ListenerConfig](interfaces/ListenerConfig.md)
 - [Mapping](interfaces/Mapping.md)
 - [MappingConfig](interfaces/MappingConfig.md)
+- [MatchOptions](interfaces/MatchOptions.md)
 - [Metadata](interfaces/Metadata.md)
 - [MetadataConstraint](interfaces/MetadataConstraint.md)
 - [MetadataModel](interfaces/MetadataModel.md)
@@ -129,8 +141,9 @@ Lambda ORM client
 - [RelationInfo](interfaces/RelationInfo.md)
 - [RelationMapClauses](interfaces/RelationMapClauses.md)
 - [Schema](interfaces/Schema.md)
-- [SchemaConfig](interfaces/SchemaConfig.md)
-- [SchemaConfigEntity](interfaces/SchemaConfigEntity.md)
+- [SchemaData](interfaces/SchemaData.md)
+- [SchemaEntityData](interfaces/SchemaEntityData.md)
+- [SchemaInfo](interfaces/SchemaInfo.md)
 - [SchemaService](interfaces/SchemaService.md)
 - [SentenceSerializer](interfaces/SentenceSerializer.md)
 - [Source](interfaces/Source.md)
@@ -249,7 +262,7 @@ Lambda ORM client
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:143
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:151
 
 ___
 
@@ -265,7 +278,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:141
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:149
 
 ___
 
@@ -281,7 +294,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:142
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:150
 
 ## Variables
 
@@ -301,7 +314,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/78b3d27/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/dd8b889/src/lib/index.ts#L6)
 
 ## Functions
 
@@ -323,7 +336,7 @@ Get the absolute value
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:157
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:165
 
 ___
 
@@ -345,7 +358,7 @@ Get the arc cosine
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:159
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:167
 
 ___
 
@@ -366,7 +379,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:262
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:270
 
 ___
 
@@ -387,7 +400,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:264
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:272
 
 ___
 
@@ -408,7 +421,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:266
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:274
 
 ___
 
@@ -429,7 +442,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:260
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:268
 
 ___
 
@@ -450,7 +463,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:268
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:276
 
 ___
 
@@ -471,7 +484,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:270
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:278
 
 ___
 
@@ -492,7 +505,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:258
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:266
 
 ___
 
@@ -513,7 +526,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:145
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:153
 
 ___
 
@@ -533,7 +546,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:149
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:157
 
 ___
 
@@ -555,7 +568,7 @@ Get the arc sine
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:161
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:169
 
 ___
 
@@ -577,7 +590,7 @@ Get the arc tangent
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:163
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:171
 
 ___
 
@@ -600,7 +613,7 @@ Get the arc tangent of x and y
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:165
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:173
 
 ___
 
@@ -620,7 +633,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:300
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:308
 
 ___
 
@@ -642,7 +655,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:151
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:159
 
 ___
 
@@ -664,7 +677,7 @@ Get the smallest following integer
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:167
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:175
 
 ___
 
@@ -686,7 +699,7 @@ Get character from ASCII code
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:197
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:205
 
 ___
 
@@ -708,7 +721,7 @@ String concatenation
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:220
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:228
 
 ___
 
@@ -730,7 +743,7 @@ Get the cosine
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:169
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:177
 
 ___
 
@@ -752,7 +765,7 @@ Get hyperbolic cosine
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:171
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:179
 
 ___
 
@@ -772,7 +785,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:302
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:310
 
 ___
 
@@ -788,7 +801,7 @@ Get the current time
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:232
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:240
 
 ___
 
@@ -808,7 +821,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:240
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:248
 
 ___
 
@@ -829,7 +842,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:272
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:280
 
 ___
 
@@ -849,7 +862,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:242
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:250
 
 ___
 
@@ -869,7 +882,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:248
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:256
 
 ___
 
@@ -889,7 +902,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:147
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:155
 
 ___
 
@@ -909,7 +922,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:155
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:163
 
 ___
 
@@ -931,7 +944,7 @@ Raise e to the nth power
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:173
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:181
 
 ___
 
@@ -951,7 +964,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:304
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:312
 
 ___
 
@@ -973,7 +986,7 @@ Get the largest preceding integer
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:175
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:183
 
 ___
 
@@ -993,7 +1006,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:252
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:260
 
 ___
 
@@ -1014,7 +1027,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:153
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:161
 
 ▸ **includes**(`field`, `searchString`): `string`
 
@@ -1033,7 +1046,7 @@ Returns true if searchString appears as a substring of the result of converting 
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:230
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:238
 
 ___
 
@@ -1053,7 +1066,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:298
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:306
 
 ___
 
@@ -1073,7 +1086,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:296
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:304
 
 ___
 
@@ -1093,7 +1106,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:306
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:314
 
 ___
 
@@ -1116,7 +1129,7 @@ Get the position of the first occurrence of substring
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:222
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:230
 
 ___
 
@@ -1138,7 +1151,7 @@ Get natural logarithm of num
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:177
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:185
 
 ___
 
@@ -1161,7 +1174,7 @@ Get logarithm, base num1, of num2
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:179
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:187
 
 ___
 
@@ -1183,7 +1196,7 @@ Lowercase string
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:200
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:208
 
 ___
 
@@ -1207,7 +1220,7 @@ Pad the left-side of string
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:202
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:210
 
 ___
 
@@ -1229,7 +1242,7 @@ Remove leading chars
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:204
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:212
 
 ___
 
@@ -1249,7 +1262,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:308
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:316
 
 ___
 
@@ -1269,7 +1282,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:310
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:318
 
 ___
 
@@ -1289,7 +1302,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:254
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:262
 
 ___
 
@@ -1309,7 +1322,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:246
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:254
 
 ___
 
@@ -1325,7 +1338,7 @@ Get the current dateTime
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:236
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:244
 
 ___
 
@@ -1346,7 +1359,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:292
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:300
 
 ___
 
@@ -1368,7 +1381,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:294
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:302
 
 ___
 
@@ -1391,7 +1404,7 @@ Get remainder
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:181
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:189
 
 ___
 
@@ -1415,7 +1428,7 @@ The replace() method searches a string for a specified value and returns a new s
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:206
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:214
 
 ___
 
@@ -1438,7 +1451,7 @@ Get rounded value
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:183
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:191
 
 ___
 
@@ -1462,7 +1475,7 @@ Pad the right-side of string
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:208
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:216
 
 ___
 
@@ -1484,7 +1497,7 @@ Remove trailing spaces
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:210
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:218
 
 ___
 
@@ -1504,7 +1517,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:256
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:264
 
 ___
 
@@ -1526,7 +1539,7 @@ Get sign of exp
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:185
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:193
 
 ___
 
@@ -1548,7 +1561,7 @@ Get sine
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:187
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:195
 
 ___
 
@@ -1570,7 +1583,7 @@ Get hyperbolic sine
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:189
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:197
 
 ___
 
@@ -1584,7 +1597,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:290
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:298
 
 ___
 
@@ -1609,7 +1622,7 @@ position. Otherwise returns false.
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:228
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:236
 
 ___
 
@@ -1633,7 +1646,7 @@ Get a substring of string
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:212
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:220
 
 ___
 
@@ -1657,7 +1670,7 @@ Get a substring of string
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:214
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:222
 
 ___
 
@@ -1677,7 +1690,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:312
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:320
 
 ___
 
@@ -1699,7 +1712,7 @@ Get tangent
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:191
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:199
 
 ___
 
@@ -1721,7 +1734,7 @@ Get hyperbolic tangent
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:193
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:201
 
 ___
 
@@ -1741,7 +1754,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:238
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:246
 
 ___
 
@@ -1762,7 +1775,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:274
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:282
 
 ___
 
@@ -1782,7 +1795,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:278
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:286
 
 ___
 
@@ -1802,7 +1815,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:280
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:288
 
 ___
 
@@ -1822,7 +1835,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:284
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:292
 
 ___
 
@@ -1842,7 +1855,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:286
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:294
 
 ___
 
@@ -1862,7 +1875,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:276
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:284
 
 ___
 
@@ -1882,7 +1895,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:282
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:290
 
 ___
 
@@ -1898,7 +1911,7 @@ Get the current date
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:234
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:242
 
 ___
 
@@ -1920,7 +1933,7 @@ Remove characters
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:216
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:224
 
 ___
 
@@ -1943,7 +1956,7 @@ Truncate num
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:195
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:203
 
 ___
 
@@ -1965,7 +1978,7 @@ Uppercase string
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:218
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:226
 
 ___
 
@@ -1979,7 +1992,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:288
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:296
 
 ___
 
@@ -1999,7 +2012,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:250
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:258
 
 ___
 
@@ -2019,4 +2032,4 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:244
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:252

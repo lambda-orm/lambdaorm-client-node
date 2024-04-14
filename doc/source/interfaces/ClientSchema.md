@@ -29,7 +29,7 @@
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:176
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:177
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:174
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:175
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[src/lib/domain/schema.ts:12](https://github.com/lambda-orm/lambdaorm-client-node/blob/78b3d27/src/lib/domain/schema.ts#L12)
+[src/lib/domain/schema.ts:12](https://github.com/lambda-orm/lambdaorm-client-node/blob/dd8b889/src/lib/domain/schema.ts#L12)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:173
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:174

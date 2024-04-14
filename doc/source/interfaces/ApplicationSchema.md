@@ -14,7 +14,17 @@
 
 ### end
 
-• **end**: [`TaskConfig`](TaskConfig.md)[]
+• `Optional` **end**: [`TaskConfig`](TaskConfig.md)[]
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:171
+
+___
+
+### listeners
+
+• `Optional` **listeners**: [`ListenerConfig`](ListenerConfig.md)[]
 
 #### Defined in
 
@@ -22,20 +32,10 @@ node_modules/lambdaorm-base/schema/domain/schema.d.ts:170
 
 ___
 
-### listeners
+### start
 
-• **listeners**: [`ListenerConfig`](ListenerConfig.md)[]
+• `Optional` **start**: [`TaskConfig`](TaskConfig.md)[]
 
 #### Defined in
 
 node_modules/lambdaorm-base/schema/domain/schema.d.ts:169
-
-___
-
-### start
-
-• **start**: [`TaskConfig`](TaskConfig.md)[]
-
-#### Defined in
-
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:168

@@ -20,6 +20,7 @@
 - [last](IRelation.md#last)
 - [map](IRelation.md#map)
 - [update](IRelation.md#update)
+- [upsert](IRelation.md#upsert)
 
 ## Methods
 
@@ -46,7 +47,7 @@
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:132
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:138
 
 ___
 
@@ -67,7 +68,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:139
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:147
 
 ___
 
@@ -94,7 +95,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:128
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:134
 
 ___
 
@@ -115,7 +116,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:134
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:140
 
 ___
 
@@ -135,7 +136,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:138
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:144
 
 ___
 
@@ -162,7 +163,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:130
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:136
 
 ___
 
@@ -189,7 +190,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:126
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:132
 
 ___
 
@@ -209,4 +210,24 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/repository/domain/queryable.d.ts:136
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:142
+
+___
+
+### upsert
+
+▸ **upsert**(`predicate?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `predicate?` | (`value`: `T`) => `unknown` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+node_modules/lambdaorm-base/repository/domain/queryable.d.ts:146

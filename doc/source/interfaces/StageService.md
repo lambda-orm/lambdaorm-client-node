@@ -28,13 +28,13 @@
 
 #### Defined in
 
-[src/lib/application/services/StageService.ts:3](https://github.com/lambda-orm/lambdaorm-client-node/blob/78b3d27/src/lib/application/services/StageService.ts#L3)
+[src/lib/application/services/StageService.ts:3](https://github.com/lambda-orm/lambdaorm-client-node/blob/dd8b889/src/lib/application/services/StageService.ts#L3)
 
 ___
 
 ### export
 
-▸ **export**(`stage`): `Promise`\<[`SchemaConfig`](SchemaConfig.md)\>
+▸ **export**(`stage`): `Promise`\<[`SchemaData`](SchemaData.md)\>
 
 #### Parameters
 
@@ -44,11 +44,11 @@ ___
 
 #### Returns
 
-`Promise`\<[`SchemaConfig`](SchemaConfig.md)\>
+`Promise`\<[`SchemaData`](SchemaData.md)\>
 
 #### Defined in
 
-[src/lib/application/services/StageService.ts:4](https://github.com/lambda-orm/lambdaorm-client-node/blob/78b3d27/src/lib/application/services/StageService.ts#L4)
+[src/lib/application/services/StageService.ts:4](https://github.com/lambda-orm/lambdaorm-client-node/blob/dd8b889/src/lib/application/services/StageService.ts#L4)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `stage` | `string` |
-| `data` | [`SchemaConfig`](SchemaConfig.md) |
+| `data` | [`SchemaData`](SchemaData.md) |
 
 #### Returns
 
@@ -69,4 +69,4 @@ ___
 
 #### Defined in
 
-[src/lib/application/services/StageService.ts:5](https://github.com/lambda-orm/lambdaorm-client-node/blob/78b3d27/src/lib/application/services/StageService.ts#L5)
+[src/lib/application/services/StageService.ts:5](https://github.com/lambda-orm/lambdaorm-client-node/blob/dd8b889/src/lib/application/services/StageService.ts#L5)

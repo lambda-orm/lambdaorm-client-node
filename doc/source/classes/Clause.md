@@ -30,7 +30,13 @@
 
   ↳↳ [`Update`](Update.md)
 
+  ↳↳ [`Upsert`](Upsert.md)
+
   ↳↳ [`Delete`](Delete.md)
+
+  ↳↳ [`BulkDelete`](BulkDelete.md)
+
+  ↳↳ [`BulkMerge`](BulkMerge.md)
 
 ## Table of contents
 

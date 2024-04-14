@@ -26,6 +26,7 @@
 - [hadWriteExps](Entity.md#hadwriteexps)
 - [hadWriteValues](Entity.md#hadwritevalues)
 - [indexes](Entity.md#indexes)
+- [intermediate](Entity.md#intermediate)
 - [name](Entity.md#name)
 - [primaryKey](Entity.md#primarykey)
 - [properties](Entity.md#properties)
@@ -43,7 +44,7 @@
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:60
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:61
 
 ___
 
@@ -69,7 +70,7 @@ ___
 
 ### dependents
 
-• **dependents**: [`Dependent`](Dependent.md)[]
+• `Optional` **dependents**: [`Dependent`](Dependent.md)[]
 
 #### Defined in
 
@@ -83,7 +84,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:59
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:60
 
 ___
 
@@ -149,11 +150,21 @@ ___
 
 ### indexes
 
-• **indexes**: [`Index`](Index.md)[]
+• `Optional` **indexes**: [`Index`](Index.md)[]
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:66
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:68
+
+___
+
+### intermediate
+
+• `Optional` **intermediate**: `boolean`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:78
 
 ___
 
@@ -169,41 +180,41 @@ ___
 
 ### primaryKey
 
-• **primaryKey**: `string`[]
+• `Optional` **primaryKey**: `string`[]
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:63
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:64
 
 ___
 
 ### properties
 
-• **properties**: [`Property`](Property.md)[]
+• `Optional` **properties**: [`Property`](Property.md)[]
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:67
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:59
 
 ___
 
 ### relations
 
-• **relations**: [`Relation`](Relation.md)[]
+• `Optional` **relations**: [`Relation`](Relation.md)[]
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:68
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:66
 
 ___
 
 ### required
 
-• **required**: `string`[]
+• `Optional` **required**: `string`[]
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:65
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:67
 
 ___
 
@@ -213,17 +224,17 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:61
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:62
 
 ___
 
 ### uniqueKey
 
-• **uniqueKey**: `string`[]
+• `Optional` **uniqueKey**: `string`[]
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:64
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:65
 
 ___
 
@@ -233,4 +244,4 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:62
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:63

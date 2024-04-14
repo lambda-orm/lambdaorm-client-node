@@ -27,6 +27,7 @@
 - [hadWriteExps](EntityMapping.md#hadwriteexps)
 - [hadWriteValues](EntityMapping.md#hadwritevalues)
 - [indexes](EntityMapping.md#indexes)
+- [intermediate](EntityMapping.md#intermediate)
 - [mapping](EntityMapping.md#mapping)
 - [name](EntityMapping.md#name)
 - [primaryKey](EntityMapping.md#primarykey)
@@ -50,7 +51,7 @@
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:60
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:61
 
 ___
 
@@ -84,7 +85,7 @@ ___
 
 ### dependents
 
-• **dependents**: [`Dependent`](Dependent.md)[]
+• `Optional` **dependents**: [`Dependent`](Dependent.md)[]
 
 #### Inherited from
 
@@ -106,7 +107,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:59
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:60
 
 ___
 
@@ -116,7 +117,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:93
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:94
 
 ___
 
@@ -140,7 +141,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:94
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:95
 
 ___
 
@@ -164,7 +165,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:95
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:96
 
 ___
 
@@ -226,7 +227,7 @@ ___
 
 ### indexes
 
-• **indexes**: [`Index`](Index.md)[]
+• `Optional` **indexes**: [`Index`](Index.md)[]
 
 #### Inherited from
 
@@ -234,17 +235,31 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:66
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:68
+
+___
+
+### intermediate
+
+• `Optional` **intermediate**: `boolean`
+
+#### Inherited from
+
+[Entity](Entity.md).[intermediate](Entity.md#intermediate)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:78
 
 ___
 
 ### mapping
 
-• **mapping**: `string`
+• `Optional` **mapping**: `string`
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:90
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:91
 
 ___
 
@@ -264,7 +279,7 @@ ___
 
 ### primaryKey
 
-• **primaryKey**: `string`[]
+• `Optional` **primaryKey**: `string`[]
 
 #### Inherited from
 
@@ -272,13 +287,13 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:63
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:64
 
 ___
 
 ### properties
 
-• **properties**: [`PropertyMapping`](PropertyMapping.md)[]
+• `Optional` **properties**: [`PropertyMapping`](PropertyMapping.md)[]
 
 #### Overrides
 
@@ -286,13 +301,13 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:92
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:93
 
 ___
 
 ### relations
 
-• **relations**: [`Relation`](Relation.md)[]
+• `Optional` **relations**: [`Relation`](Relation.md)[]
 
 #### Inherited from
 
@@ -300,13 +315,13 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:68
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:66
 
 ___
 
 ### required
 
-• **required**: `string`[]
+• `Optional` **required**: `string`[]
 
 #### Inherited from
 
@@ -314,17 +329,17 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:65
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:67
 
 ___
 
 ### sequence
 
-• **sequence**: `string`
+• `Optional` **sequence**: `string`
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:91
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:92
 
 ___
 
@@ -338,13 +353,13 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:61
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:62
 
 ___
 
 ### uniqueKey
 
-• **uniqueKey**: `string`[]
+• `Optional` **uniqueKey**: `string`[]
 
 #### Inherited from
 
@@ -352,7 +367,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:64
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:65
 
 ___
 
@@ -366,4 +381,4 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:62
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:63

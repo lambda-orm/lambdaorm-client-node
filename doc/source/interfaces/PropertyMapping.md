@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:86
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:87
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:87
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:88
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 ### type
 
-• **type**: `string`
+• `Optional` **type**: `string`
 
 #### Inherited from
 
