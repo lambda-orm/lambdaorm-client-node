@@ -1,6 +1,6 @@
 {
 	"name": "lambdaorm-client-node",
-	"version": "0.7.36",
+	"version": "0.7.37",
 	"description": "Client form lambda ORM service",
 	"author": "Flavio Lionel Rita <flaviolrita@gmail.com>",
 	"license": "MIT",
@@ -31,12 +31,12 @@
 		"h3lp": "^1.8.4",
 		"lambdaorm-base": "^1.0.1",
 		"axios": "^1.6.3",
-		"crypto-js": "^4.1.1"		
+		"crypto-js": "^4.1.1"
 	},
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.23.3",
 		"@types/jest": "^29.5.10",
-			"@types/node": "^20.11.30",
+		"@types/node": "^20.11.30",
 		"@typescript-eslint/eslint-plugin": "^7.0.0",
 		"@typescript-eslint/parser": "^6.16.0",
 		"@types/mysql": "^2.15.26",
