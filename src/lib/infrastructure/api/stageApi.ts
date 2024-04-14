@@ -2,7 +2,7 @@ import globalAxios, { AxiosPromise, AxiosInstance, AxiosRequestConfig } from 'ax
 import { DUMMY_BASE_URL, assertParamExists, setSearchParams, serializeDataIfNeeded, toPathString, createRequestFunction } from './common'
 import { RequestArgs, BaseAPI } from './base'
 import { Configuration } from '../../domain'
-import { SchemaConfig } from 'lambdaorm-base'
+import { SchemaData } from 'lambdaorm-base'
 
 /**
  * StageApi - axios parameter creator
@@ -44,11 +44,11 @@ export const StageApiAxiosParamCreator = function (configuration: Configuration)
 		/**
 			 *
 			 * @param {string} stage
-			 * @param {SchemaConfig} data
+			 * @param {SchemaData} data
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		_import: async (stage: string, data: SchemaConfig, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+		_import: async (stage: string, data: SchemaData, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
 			// verify required parameter 'stage' is not null or undefined
 			assertParamExists('_import', 'stage', stage)
 			// verify required parameter 'SchemaConfig' is not null or undefined
@@ -125,18 +125,18 @@ export const StageApiFp = function (configuration: Configuration) {
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		async _export (stage: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<SchemaConfig>> {
+		async _export (stage: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<SchemaData>> {
 			const localVarAxiosArgs = await localVarAxiosParamCreator._export(stage, options)
 			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
 		},
 		/**
 			 *
 			 * @param {string} stage
-			 * @param {SchemaConfig} data
+			 * @param {SchemaData} data
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		async _import (stage: string, data: SchemaConfig, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<any>> {
+		async _import (stage: string, data: SchemaData, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<any>> {
 			const localVarAxiosArgs = await localVarAxiosParamCreator._import(stage, data, options)
 			return createRequestFunction(localVarAxiosArgs, globalAxios, configuration)
 		},
@@ -166,17 +166,17 @@ export const StageApiFactory = function (configuration: Configuration, basePath?
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		_export (stage: string, options?: any): AxiosPromise<SchemaConfig> {
+		_export (stage: string, options?: any): AxiosPromise<SchemaData> {
 			return localVarFp._export(stage, options).then((request) => request(axios, configuration.basePath))
 		},
 		/**
 			 *
 			 * @param {string} stage
-			 * @param {SchemaConfig} data
+			 * @param {SchemaData} data
 			 * @param {*} [options] Override http request option.
 			 * @throws {RequiredError}
 			 */
-		_import (stage: string, data: SchemaConfig, options?: any): AxiosPromise<any> {
+		_import (stage: string, data: SchemaData, options?: any): AxiosPromise<any> {
 			return localVarFp._import(stage, data, options).then((request) => request(axios, configuration.basePath))
 		},
 		/**
@@ -212,12 +212,12 @@ export class StageApi extends BaseAPI {
 	/**
 	 *
 	 * @param {string} stage
-	 * @param {SchemaConfig} data
+	 * @param {SchemaData} data
 	 * @param {*} [options] Override http request option.
 	 * @throws {RequiredError}
 	 * @memberof StageApi
 	 */
-	public _import (stage: string, data: SchemaConfig, options?: AxiosRequestConfig) {
+	public _import (stage: string, data: SchemaData, options?: AxiosRequestConfig) {
 		return StageApiFp(this.configuration)._import(stage, data, options).then((request) => request(this.axios, this.configuration.basePath))
 	}
 

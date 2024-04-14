@@ -1,5 +1,5 @@
 import { StageService } from '../../application/services'
-import { SchemaConfig } from 'lambdaorm-base'
+import { SchemaData } from 'lambdaorm-base'
 import { StageApi } from '../api'
 import { AxiosResponse } from 'axios'
 
@@ -12,8 +12,8 @@ export class StageApiService implements StageService {
 		return result.data
 	}
 
-	public async export (stage:string): Promise<SchemaConfig> {
-		const result:AxiosResponse<SchemaConfig, any> = await this.stageApi._export(stage)
+	public async export (stage:string): Promise<SchemaData> {
+		const result:AxiosResponse<SchemaData, any> = await this.stageApi._export(stage)
 		return result.data
 	}
 
