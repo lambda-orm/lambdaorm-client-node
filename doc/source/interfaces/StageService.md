@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/lib/application/services/StageService.ts:3](https://github.com/lambda-orm/lambdaorm-client-node/blob/5aa7d6d/src/lib/application/services/StageService.ts#L3)
+[src/lib/application/services/StageService.ts:3](https://github.com/lambda-orm/lambdaorm-client-node/blob/78b3d27/src/lib/application/services/StageService.ts#L3)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/lib/application/services/StageService.ts:4](https://github.com/lambda-orm/lambdaorm-client-node/blob/5aa7d6d/src/lib/application/services/StageService.ts#L4)
+[src/lib/application/services/StageService.ts:4](https://github.com/lambda-orm/lambdaorm-client-node/blob/78b3d27/src/lib/application/services/StageService.ts#L4)
 
 ___
 
@@ -69,4 +69,4 @@ ___
 
 #### Defined in
 
-[src/lib/application/services/StageService.ts:5](https://github.com/lambda-orm/lambdaorm-client-node/blob/5aa7d6d/src/lib/application/services/StageService.ts#L5)
+[src/lib/application/services/StageService.ts:5](https://github.com/lambda-orm/lambdaorm-client-node/blob/78b3d27/src/lib/application/services/StageService.ts#L5)
