@@ -14,6 +14,7 @@
 
 - [mappings](ClientServiceInfrastructureSchema.md#mappings)
 - [paths](ClientServiceInfrastructureSchema.md#paths)
+- [server](ClientServiceInfrastructureSchema.md#server)
 - [service](ClientServiceInfrastructureSchema.md#service)
 - [sources](ClientServiceInfrastructureSchema.md#sources)
 - [stages](ClientServiceInfrastructureSchema.md#stages)
@@ -31,7 +32,7 @@
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:163
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:166
 
 ___
 
@@ -45,7 +46,21 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:162
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:165
+
+___
+
+### server
+
+• `Optional` **server**: [`ServerConfig`](ServerConfig.md)
+
+#### Inherited from
+
+[InfrastructureSchema](InfrastructureSchema.md).[server](InfrastructureSchema.md#server)
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:170
 
 ___
 
@@ -55,7 +70,7 @@ ___
 
 #### Defined in
 
-[src/lib/domain/schema.ts:8](https://github.com/lambda-orm/lambdaorm-client-node/blob/dd8b889/src/lib/domain/schema.ts#L8)
+[src/lib/domain/schema.ts:8](https://github.com/lambda-orm/lambdaorm-client-node/blob/711fd15a3a33de0da00f78fff640cb51c3140db8/src/lib/domain/schema.ts#L8)
 
 ___
 
@@ -69,7 +84,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:165
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:168
 
 ___
 
@@ -83,7 +98,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:166
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:169
 
 ___
 
@@ -97,4 +112,4 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:164
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:167

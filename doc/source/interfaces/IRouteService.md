@@ -17,14 +17,14 @@
 
 ### eval
 
-▸ **eval**(`source`, `clauseInfo`): `boolean`
+▸ **eval**(`source`, `info`): `boolean`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `source` | [`SourceRule`](SourceRule.md) |
-| `clauseInfo` | [`ClauseInfo`](ClauseInfo.md) |
+| `info` | [`SentenceInfo`](SentenceInfo.md) |
 
 #### Returns
 
@@ -32,19 +32,19 @@
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/services.d.ts:4
+node_modules/lambdaorm-base/schema/domain/services.d.ts:5
 
 ___
 
 ### getSource
 
-▸ **getSource**(`clauseInfo`, `stage?`): `string`
+▸ **getSource**(`info`, `stage?`): `string`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `clauseInfo` | [`ClauseInfo`](ClauseInfo.md) |
+| `info` | [`SentenceInfo`](SentenceInfo.md) |
 | `stage?` | `string` |
 
 #### Returns
@@ -53,4 +53,4 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/services.d.ts:5
+node_modules/lambdaorm-base/schema/domain/services.d.ts:6

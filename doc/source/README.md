@@ -8,10 +8,10 @@ Lambda ORM client
 
 - [Dialect](enums/Dialect.md)
 - [LogLevel](enums/LogLevel.md)
-- [ObservableAction](enums/ObservableAction.md)
 - [RelationType](enums/RelationType.md)
 - [SentenceAction](enums/SentenceAction.md)
-- [SentenceCrudAction](enums/SentenceCrudAction.md)
+- [SentenceCategory](enums/SentenceCategory.md)
+- [SentenceType](enums/SentenceType.md)
 
 ### Classes
 
@@ -40,7 +40,9 @@ Lambda ORM client
 - [HavingClauses](classes/HavingClauses.md)
 - [IncludeAction](classes/IncludeAction.md)
 - [IncludeClauses](classes/IncludeClauses.md)
+- [InitializeSchema](classes/InitializeSchema.md)
 - [Insert](classes/Insert.md)
+- [InterpretSchemaDataService](classes/InterpretSchemaDataService.md)
 - [Join](classes/Join.md)
 - [LoadSchema](classes/LoadSchema.md)
 - [Logger](classes/Logger.md)
@@ -55,6 +57,7 @@ Lambda ORM client
 - [ModificableClauses](classes/ModificableClauses.md)
 - [NotImplemented](classes/NotImplemented.md)
 - [Orm](classes/Orm.md)
+- [OrmBaseH3lp](classes/OrmBaseH3lp.md)
 - [Page](classes/Page.md)
 - [PageClauses](classes/PageClauses.md)
 - [QueryAction](classes/QueryAction.md)
@@ -65,8 +68,8 @@ Lambda ORM client
 - [SchemaExtender](classes/SchemaExtender.md)
 - [SchemaFacade](classes/SchemaFacade.md)
 - [SchemaFacadeBuilder](classes/SchemaFacadeBuilder.md)
-- [SchemaH3lp](classes/SchemaH3lp.md)
 - [SchemaHelper](classes/SchemaHelper.md)
+- [SchemaService](classes/SchemaService.md)
 - [SchemaState](classes/SchemaState.md)
 - [SchemaStateBuilder](classes/SchemaStateBuilder.md)
 - [Sentence](classes/Sentence.md)
@@ -74,25 +77,30 @@ Lambda ORM client
 - [SentenceLibrary](classes/SentenceLibrary.md)
 - [SintaxisError](classes/SintaxisError.md)
 - [Sort](classes/Sort.md)
+- [SqlHelper](classes/SqlHelper.md)
 - [StageConfigService](classes/StageConfigService.md)
+- [UUIDWrapper](classes/UUIDWrapper.md)
 - [Update](classes/Update.md)
 - [UpdateSchema](classes/UpdateSchema.md)
 - [Upsert](classes/Upsert.md)
 - [ViewConfigService](classes/ViewConfigService.md)
 - [ViewsConfigService](classes/ViewsConfigService.md)
+- [YamlWrapper](classes/YamlWrapper.md)
 
 ### Interfaces
 
 - [AppPathsConfig](interfaces/AppPathsConfig.md)
 - [ApplicationSchema](interfaces/ApplicationSchema.md)
 - [Behavior](interfaces/Behavior.md)
-- [ClauseInfo](interfaces/ClauseInfo.md)
+- [ClientExpressionService](interfaces/ClientExpressionService.md)
+- [ClientGeneralService](interfaces/ClientGeneralService.md)
 - [ClientSchema](interfaces/ClientSchema.md)
+- [ClientSchemaService](interfaces/ClientSchemaService.md)
 - [ClientServiceConfig](interfaces/ClientServiceConfig.md)
 - [ClientServiceInfrastructureSchema](interfaces/ClientServiceInfrastructureSchema.md)
+- [ClientStageService](interfaces/ClientStageService.md)
 - [ConfigurationParameters](interfaces/ConfigurationParameters.md)
 - [Constraint](interfaces/Constraint.md)
-- [ContextInfo](interfaces/ContextInfo.md)
 - [Dependent](interfaces/Dependent.md)
 - [DomainSchema](interfaces/DomainSchema.md)
 - [Entity](interfaces/Entity.md)
@@ -101,9 +109,7 @@ Lambda ORM client
 - [Enum](interfaces/Enum.md)
 - [EnumValue](interfaces/EnumValue.md)
 - [ExpressionActions](interfaces/ExpressionActions.md)
-- [ExpressionService](interfaces/ExpressionService.md)
 - [FormatMapping](interfaces/FormatMapping.md)
-- [GeneralService](interfaces/GeneralService.md)
 - [Health](interfaces/Health.md)
 - [IFileSchemaService](interfaces/IFileSchemaService.md)
 - [IOrm](interfaces/IOrm.md)
@@ -114,6 +120,7 @@ Lambda ORM client
 - [ISentenceCompleteBuilder](interfaces/ISentenceCompleteBuilder.md)
 - [Index](interfaces/Index.md)
 - [InfrastructureSchema](interfaces/InfrastructureSchema.md)
+- [InitializeSchemaArgs](interfaces/InitializeSchemaArgs.md)
 - [ListenerConfig](interfaces/ListenerConfig.md)
 - [Mapping](interfaces/Mapping.md)
 - [MappingConfig](interfaces/MappingConfig.md)
@@ -144,12 +151,12 @@ Lambda ORM client
 - [SchemaData](interfaces/SchemaData.md)
 - [SchemaEntityData](interfaces/SchemaEntityData.md)
 - [SchemaInfo](interfaces/SchemaInfo.md)
-- [SchemaService](interfaces/SchemaService.md)
+- [SentenceInfo](interfaces/SentenceInfo.md)
 - [SentenceSerializer](interfaces/SentenceSerializer.md)
+- [ServerConfig](interfaces/ServerConfig.md)
 - [Source](interfaces/Source.md)
 - [SourceRule](interfaces/SourceRule.md)
 - [Stage](interfaces/Stage.md)
-- [StageService](interfaces/StageService.md)
 - [TaskConfig](interfaces/TaskConfig.md)
 - [View](interfaces/View.md)
 
@@ -314,7 +321,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/dd8b889/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/711fd15a3a33de0da00f78fff640cb51c3140db8/src/lib/index.ts#L6)
 
 ## Functions
 
