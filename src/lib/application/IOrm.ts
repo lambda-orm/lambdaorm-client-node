@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import { QueryOptions, QueryPlan, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from 'lambdaorm-base'
-import { GeneralService } from './services/GeneralService'
-import { StageService } from './services/StageService'
-import { SchemaService } from './services/SchemaService'
+import { ClientGeneralService } from './services/GeneralService'
+import { ClientStageService } from './services/StageService'
+import { ClientSchemaService } from './services/SchemaService'
 
 export interface IOrm
 {
@@ -10,9 +10,9 @@ export interface IOrm
 	init (url?: string):Promise<void>
 	end ():Promise<void>
 
-	get general (): GeneralService
-	get schema (): SchemaService
-	get stage (): StageService
+	get general (): ClientGeneralService
+	get schema (): ClientSchemaService
+	get stage (): ClientStageService
 	/**
 		* Get model of expression
 		* @returns Model of expression

@@ -1,9 +1,9 @@
-import { GeneralService } from '../../application/services'
+import { ClientGeneralService } from '../../application/services'
 import { GeneralApi } from '../api'
 import { AxiosResponse } from 'axios'
 import { Health, Ping } from '../../domain'
 
-export class GeneralApiService implements GeneralService {
+export class GeneralApiService implements ClientGeneralService {
 	// eslint-disable-next-line no-useless-constructor
 	constructor (private readonly generalApi:GeneralApi) {}
 

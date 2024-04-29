@@ -1,9 +1,9 @@
 import { Entity, EntityMapping, Enum, Mapping, Schema, DomainSchema, Stage } from 'lambdaorm-base'
-import { SchemaService } from '../../application/services/SchemaService'
+import { ClientSchemaService } from '../../application/services/SchemaService'
 import { SchemaApi } from '../api'
 import { AxiosResponse } from 'axios'
 
-export class SchemaApiService implements SchemaService {
+export class SchemaApiService implements ClientSchemaService {
 	// eslint-disable-next-line no-useless-constructor
 	constructor (private readonly schemaApi:SchemaApi) {}
 

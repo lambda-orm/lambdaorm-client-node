@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import { QueryOptions, QueryPlan, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from 'lambdaorm-base'
-export interface ExpressionService {
+export interface ClientExpressionService {
 	/**
 	 * Get model of expression
 	 * @param expression query expression

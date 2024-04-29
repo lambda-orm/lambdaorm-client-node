@@ -1,5 +1,5 @@
 import { Entity, EntityMapping, Enum, Mapping, Stage, Schema, DomainSchema } from 'lambdaorm-base'
-export interface SchemaService {
+export interface ClientSchemaService {
 	version ():Promise<{version:string}>
 	schema (): Promise<Schema>
 	domain (): Promise<DomainSchema>

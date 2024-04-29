@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
-import { IOrm } from '../../application'
-import { ExpressionService, GeneralService, StageService, SchemaService } from '../../application/services'
+import { IOrm, ClientExpressionService, ClientGeneralService, ClientStageService, ClientSchemaService } from '../../application'
 import { Configuration } from '../../domain'
 import { QueryOptions, QueryPlan, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from 'lambdaorm-base'
 import { expressions } from '3xpr'
@@ -20,10 +19,10 @@ export class Orm implements IOrm {
 	private static _instance: Orm
 	public url: string
 	private configuration?:Configuration
-	private expressionService?:ExpressionService
-	private generalService?: GeneralService
-	private schemaService?: SchemaService
-	private stageService?: StageService
+	private expressionService?: ClientExpressionService
+	private generalService?: ClientGeneralService
+	private schemaService?: ClientSchemaService
+	private stageService?: ClientStageService
 
 	constructor (url = 'http://localhost:9289') {
 		this.url = url
@@ -54,21 +53,21 @@ export class Orm implements IOrm {
 	// eslint-disable-next-line @typescript-eslint/no-empty-function
 	public async end (): Promise<void> {}
 
-	public get general (): GeneralService {
+	public get general (): ClientGeneralService {
 		if (!this.generalService) {
 			throw new Error('Orm not initialized')
 		}
 		return this.generalService
 	}
 
-	public get schema (): SchemaService {
+	public get schema (): ClientSchemaService {
 		if (!this.schemaService) {
 			throw new Error('Orm not initialized')
 		}
 		return this.schemaService
 	}
 
-	public get stage (): StageService {
+	public get stage (): ClientStageService {
 		if (!this.stageService) {
 			throw new Error('Orm not initialized')
 		}

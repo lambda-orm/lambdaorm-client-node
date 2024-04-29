@@ -1,9 +1,9 @@
-import { StageService } from '../../application/services'
+import { ClientStageService } from '../../application/services'
 import { SchemaData } from 'lambdaorm-base'
 import { StageApi } from '../api'
 import { AxiosResponse } from 'axios'
 
-export class StageApiService implements StageService {
+export class StageApiService implements ClientStageService {
 	// eslint-disable-next-line no-useless-constructor
 	constructor (private readonly stageApi:StageApi) {}
 

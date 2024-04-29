@@ -4,9 +4,9 @@ import { ExpressionApi } from '../api'
 import { QueryOptions, QueryPlan, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from 'lambdaorm-base'
 import { AxiosResponse } from 'axios'
 import { expressions } from '3xpr'
-import { ExpressionService } from '../../application/services'
+import { ClientExpressionService } from '../../application/services'
 
-export class ExpressionApiService implements ExpressionService {
+export class ExpressionApiService implements ClientExpressionService {
 	// eslint-disable-next-line no-useless-constructor
 	constructor (private readonly expressionApi:ExpressionApi) {}
 
