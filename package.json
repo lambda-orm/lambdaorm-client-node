@@ -27,9 +27,9 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
-		"3xpr": "^1.15.11",
-		"h3lp": "^1.8.4",
-		"lambdaorm-base": "^1.0.1",
+		"3xpr": "^1.15.15",
+		"h3lp": "^1.10.1",
+		"lambdaorm-base": "^1.4.12",
 		"axios": "^1.6.3",
 		"crypto-js": "^4.1.1"
 	},
