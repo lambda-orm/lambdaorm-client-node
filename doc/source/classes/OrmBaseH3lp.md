@@ -55,7 +55,7 @@ ExprH3lp.constructor
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:38
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:39
 
 ## Properties
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:33
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:34
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:34
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:35
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:36
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:37
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:37
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:38
 
 ___
 
@@ -245,4 +245,4 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:35
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:36
