@@ -31,14 +31,14 @@
 
 ### constructor
 
-• **new PageClauses**(`actions`, `expression`): [`PageClauses`](PageClauses.md)
+• **new PageClauses**(`actions`, `query`): [`PageClauses`](PageClauses.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

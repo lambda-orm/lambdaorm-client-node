@@ -294,13 +294,13 @@ ___
 
 ### execute
 
-▸ **execute**(`expression`, `data?`): `Promise`\<`any`\>
+▸ **execute**(`query`, `data?`): `Promise`\<`any`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 | `data?` | `any` |
 
 #### Returns

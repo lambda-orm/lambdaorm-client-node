@@ -35,7 +35,7 @@
 
 ### constructor
 
-• **new Map2Clauses**\<`T`\>(`actions`, `expression`): [`Map2Clauses`](Map2Clauses.md)\<`T`\>
+• **new Map2Clauses**\<`T`\>(`actions`, `query`): [`Map2Clauses`](Map2Clauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -47,8 +47,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

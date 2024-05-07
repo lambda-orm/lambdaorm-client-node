@@ -12,13 +12,13 @@
 
 ### build
 
-▸ **build**(`expression`, `view`, `stage`): [`Sentence`](../classes/Sentence.md)
+▸ **build**(`query`, `view`, `stage`): [`Sentence`](../classes/Sentence.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 | `view` | [`ViewConfigService`](../classes/ViewConfigService.md) |
 | `stage` | `string` |
 

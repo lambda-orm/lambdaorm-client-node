@@ -16,13 +16,13 @@
 
 ### constructor
 
-• **new SchemaStateBuilder**(`expressions`, `facade`, `helper`): [`SchemaStateBuilder`](SchemaStateBuilder.md)
+• **new SchemaStateBuilder**(`exp`, `facade`, `helper`): [`SchemaStateBuilder`](SchemaStateBuilder.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expressions` | `Expressions` |
+| `exp` | `Expressions` |
 | `facade` | [`SchemaFacade`](SchemaFacade.md) |
 | `helper` | [`OrmBaseH3lp`](OrmBaseH3lp.md) |
 

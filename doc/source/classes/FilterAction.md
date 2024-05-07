@@ -35,7 +35,7 @@
 
 ### constructor
 
-• **new FilterAction**\<`T`\>(`actions`, `expression`): [`FilterAction`](FilterAction.md)\<`T`\>
+• **new FilterAction**\<`T`\>(`actions`, `query`): [`FilterAction`](FilterAction.md)\<`T`\>
 
 #### Type parameters
 
@@ -47,8 +47,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

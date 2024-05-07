@@ -12,8 +12,8 @@ QueryRequest
 
 - [chunk](QueryQueuedRequest.md#chunk)
 - [data](QueryQueuedRequest.md#data)
-- [expression](QueryQueuedRequest.md#expression)
 - [options](QueryQueuedRequest.md#options)
+- [query](QueryQueuedRequest.md#query)
 - [topic](QueryQueuedRequest.md#topic)
 
 ## Properties
@@ -28,7 +28,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[src/lib/domain/model.ts:62](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/domain/model.ts#L62)
+[src/lib/domain/model.ts:62](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/model.ts#L62)
 
 ___
 
@@ -42,21 +42,7 @@ QueryQueuedRequest
 
 #### Defined in
 
-[src/lib/domain/model.ts:50](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/domain/model.ts#L50)
-
-___
-
-### expression
-
-• **expression**: `string`
-
-**`Memberof`**
-
-QueryQueuedRequest
-
-#### Defined in
-
-[src/lib/domain/model.ts:44](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/domain/model.ts#L44)
+[src/lib/domain/model.ts:50](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/model.ts#L50)
 
 ___
 
@@ -70,7 +56,21 @@ QueryQueuedRequest
 
 #### Defined in
 
-[src/lib/domain/model.ts:38](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/domain/model.ts#L38)
+[src/lib/domain/model.ts:38](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/model.ts#L38)
+
+___
+
+### query
+
+• **query**: `string`
+
+**`Memberof`**
+
+QueryQueuedRequest
+
+#### Defined in
+
+[src/lib/domain/model.ts:44](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/model.ts#L44)
 
 ___
 
@@ -84,4 +84,4 @@ QueryQueuedRequest
 
 #### Defined in
 
-[src/lib/domain/model.ts:56](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/domain/model.ts#L56)
+[src/lib/domain/model.ts:56](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/model.ts#L56)

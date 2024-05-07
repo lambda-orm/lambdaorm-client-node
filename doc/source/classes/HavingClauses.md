@@ -48,7 +48,7 @@
 
 ### constructor
 
-• **new HavingClauses**\<`T`\>(`actions`, `expression`): [`HavingClauses`](HavingClauses.md)\<`T`\>
+• **new HavingClauses**\<`T`\>(`actions`, `query`): [`HavingClauses`](HavingClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -60,8 +60,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

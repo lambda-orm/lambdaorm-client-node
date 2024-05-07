@@ -35,7 +35,7 @@
 
 ### constructor
 
-• **new IncludeAction**\<`T`\>(`actions`, `expression`): [`IncludeAction`](IncludeAction.md)\<`T`\>
+• **new IncludeAction**\<`T`\>(`actions`, `query`): [`IncludeAction`](IncludeAction.md)\<`T`\>
 
 #### Type parameters
 
@@ -47,8 +47,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

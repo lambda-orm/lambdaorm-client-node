@@ -27,7 +27,6 @@ Lambda ORM client
 - [DataSourceConfigService](classes/DataSourceConfigService.md)
 - [Delete](classes/Delete.md)
 - [DomainConfigService](classes/DomainConfigService.md)
-- [ExpressionActionsImpl](classes/ExpressionActionsImpl.md)
 - [Field](classes/Field.md)
 - [Filter](classes/Filter.md)
 - [FilterAction](classes/FilterAction.md)
@@ -61,6 +60,7 @@ Lambda ORM client
 - [Page](classes/Page.md)
 - [PageClauses](classes/PageClauses.md)
 - [QueryAction](classes/QueryAction.md)
+- [QueryActionsImpl](classes/QueryActionsImpl.md)
 - [Queryable](classes/Queryable.md)
 - [Repository](classes/Repository.md)
 - [RouteService](classes/RouteService.md)
@@ -92,8 +92,8 @@ Lambda ORM client
 - [AppPathsConfig](interfaces/AppPathsConfig.md)
 - [ApplicationSchema](interfaces/ApplicationSchema.md)
 - [Behavior](interfaces/Behavior.md)
-- [ClientExpressionService](interfaces/ClientExpressionService.md)
 - [ClientGeneralService](interfaces/ClientGeneralService.md)
+- [ClientQueryService](interfaces/ClientQueryService.md)
 - [ClientSchema](interfaces/ClientSchema.md)
 - [ClientSchemaService](interfaces/ClientSchemaService.md)
 - [ClientServiceConfig](interfaces/ClientServiceConfig.md)
@@ -108,7 +108,6 @@ Lambda ORM client
 - [EntityView](interfaces/EntityView.md)
 - [Enum](interfaces/Enum.md)
 - [EnumValue](interfaces/EnumValue.md)
-- [ExpressionActions](interfaces/ExpressionActions.md)
 - [FormatMapping](interfaces/FormatMapping.md)
 - [Health](interfaces/Health.md)
 - [IFileSchemaService](interfaces/IFileSchemaService.md)
@@ -138,6 +137,7 @@ Lambda ORM client
 - [Property](interfaces/Property.md)
 - [PropertyMapping](interfaces/PropertyMapping.md)
 - [PropertyView](interfaces/PropertyView.md)
+- [QueryActions](interfaces/QueryActions.md)
 - [QueryOptions](interfaces/QueryOptions.md)
 - [QueryPlan](interfaces/QueryPlan.md)
 - [QueryQueuedRequest](interfaces/QueryQueuedRequest.md)
@@ -321,7 +321,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/index.ts#L6)
 
 ## Functions
 

@@ -36,14 +36,14 @@
 
 ### constructor
 
-• **new QueryAction**(`actions`, `expression`): [`QueryAction`](QueryAction.md)
+• **new QueryAction**(`actions`, `query`): [`QueryAction`](QueryAction.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

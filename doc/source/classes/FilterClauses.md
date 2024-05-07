@@ -42,7 +42,7 @@
 
 ### constructor
 
-• **new FilterClauses**\<`T`\>(`actions`, `expression`): [`FilterClauses`](FilterClauses.md)\<`T`\>
+• **new FilterClauses**\<`T`\>(`actions`, `query`): [`FilterClauses`](FilterClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -54,8 +54,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

@@ -36,7 +36,7 @@
 
 ### constructor
 
-• **new ModificableClauses**\<`T`\>(`actions`, `expression`): [`ModificableClauses`](ModificableClauses.md)\<`T`\>
+• **new ModificableClauses**\<`T`\>(`actions`, `query`): [`ModificableClauses`](ModificableClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -48,8 +48,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

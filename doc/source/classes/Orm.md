@@ -55,7 +55,7 @@ Facade through which you can access all the functionalities of the library.
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:27](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L27)
+[src/lib/infrastructure/adapters/orm.ts:27](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L27)
 
 ## Properties
 
@@ -69,7 +69,7 @@ Facade through which you can access all the functionalities of the library.
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:20](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L20)
+[src/lib/infrastructure/adapters/orm.ts:20](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L20)
 
 ## Accessors
 
@@ -87,7 +87,7 @@ IOrm.general
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:56](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L56)
+[src/lib/infrastructure/adapters/orm.ts:56](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L56)
 
 ___
 
@@ -105,7 +105,7 @@ IOrm.schema
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:63](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L63)
+[src/lib/infrastructure/adapters/orm.ts:63](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L63)
 
 ___
 
@@ -123,7 +123,7 @@ IOrm.stage
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:70](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L70)
+[src/lib/infrastructure/adapters/orm.ts:70](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L70)
 
 ___
 
@@ -139,27 +139,27 @@ Singleton
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:34](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L34)
+[src/lib/infrastructure/adapters/orm.ts:34](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L34)
 
 ## Methods
 
 ### constraints
 
-▸ **constraints**(`expression`): `Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
+▸ **constraints**(`query`): `Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
-Get constraints of expression
+Get constraints of query
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `expression` | `Function` | query expression |
+| `query` | `Function` | query expression |
 
 #### Returns
 
 `Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
-Constraints of expression
+Constraints of query
 
 #### Implementation of
 
@@ -167,15 +167,15 @@ Constraints of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:110](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L110)
+[src/lib/infrastructure/adapters/orm.ts:110](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L110)
 
-▸ **constraints**(`expression`): `Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
+▸ **constraints**(`query`): `Promise`\<[`MetadataConstraint`](../interfaces/MetadataConstraint.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
@@ -187,7 +187,7 @@ Constraints of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:111](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L111)
+[src/lib/infrastructure/adapters/orm.ts:111](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L111)
 
 ___
 
@@ -205,21 +205,21 @@ ___
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:54](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L54)
+[src/lib/infrastructure/adapters/orm.ts:54](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L54)
 
 ___
 
 ### execute
 
-▸ **execute**(`expression`, `data?`, `options?`): `Promise`\<`any`\>
+▸ **execute**(`query`, `data?`, `options?`): `Promise`\<`any`\>
 
-Execute expression
+Execute query
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `expression` | `Function` | query expression |
+| `query` | `Function` | query expression |
 | `data?` | `any` | Data with variables |
 | `options?` | [`QueryOptions`](../interfaces/QueryOptions.md) | options of execution |
 
@@ -235,15 +235,15 @@ Result of execution
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:154](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L154)
+[src/lib/infrastructure/adapters/orm.ts:154](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L154)
 
-▸ **execute**(`expression`, `data?`, `options?`): `Promise`\<`any`\>
+▸ **execute**(`query`, `data?`, `options?`): `Promise`\<`any`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 | `data?` | `any` |
 | `options?` | [`QueryOptions`](../interfaces/QueryOptions.md) |
 
@@ -257,21 +257,21 @@ Result of execution
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:155](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L155)
+[src/lib/infrastructure/adapters/orm.ts:155](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L155)
 
 ___
 
 ### executeQueued
 
-▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`\<`any`\>
+▸ **executeQueued**(`query`, `topic`, `data?`, `chunk?`, `options?`): `Promise`\<`any`\>
 
-Execute expression
+Execute query
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `expression` | `Function` | query expression |
+| `query` | `Function` | query expression |
 | `topic` | `string` | - |
 | `data?` | `any` | Data with variables |
 | `chunk?` | `number` | - |
@@ -289,15 +289,15 @@ Result of execution
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:170](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L170)
+[src/lib/infrastructure/adapters/orm.ts:170](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L170)
 
-▸ **executeQueued**(`expression`, `topic`, `data?`, `chunk?`, `options?`): `Promise`\<`any`\>
+▸ **executeQueued**(`query`, `topic`, `data?`, `chunk?`, `options?`): `Promise`\<`any`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 | `topic` | `string` |
 | `data?` | `any` |
 | `chunk?` | `number` |
@@ -313,7 +313,7 @@ Result of execution
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:171](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L171)
+[src/lib/infrastructure/adapters/orm.ts:171](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L171)
 
 ___
 
@@ -337,27 +337,27 @@ ___
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:41](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L41)
+[src/lib/infrastructure/adapters/orm.ts:41](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L41)
 
 ___
 
 ### metadata
 
-▸ **metadata**(`expression`): `Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
+▸ **metadata**(`query`): `Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
-Get metadata of expression
+Get metadata of query
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `expression` | `Function` | query expression |
+| `query` | `Function` | query expression |
 
 #### Returns
 
 `Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
-metadata of expression
+metadata of query
 
 #### Implementation of
 
@@ -365,15 +365,15 @@ metadata of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:124](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L124)
+[src/lib/infrastructure/adapters/orm.ts:124](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L124)
 
-▸ **metadata**(`expression`): `Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
+▸ **metadata**(`query`): `Promise`\<[`Metadata`](../interfaces/Metadata.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
@@ -385,27 +385,27 @@ metadata of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:125](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L125)
+[src/lib/infrastructure/adapters/orm.ts:125](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L125)
 
 ___
 
 ### model
 
-▸ **model**(`expression`): `Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
+▸ **model**(`query`): `Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
-Get model of expression
+Get model of query
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `expression` | `Function` | query expression |
+| `query` | `Function` | query expression |
 
 #### Returns
 
 `Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
-Model of expression
+Model of query
 
 #### Implementation of
 
@@ -413,15 +413,15 @@ Model of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:82](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L82)
+[src/lib/infrastructure/adapters/orm.ts:82](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L82)
 
-▸ **model**(`expression`): `Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
+▸ **model**(`query`): `Promise`\<[`MetadataModel`](../interfaces/MetadataModel.md)[]\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
@@ -433,27 +433,27 @@ Model of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:83](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L83)
+[src/lib/infrastructure/adapters/orm.ts:83](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L83)
 
 ___
 
 ### parameters
 
-▸ **parameters**(`expression`): `Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
+▸ **parameters**(`query`): `Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
-Get parameters of expression
+Get parameters of query
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `expression` | `Function` | query expression |
+| `query` | `Function` | query expression |
 
 #### Returns
 
 `Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
-Parameters of expression
+Parameters of query
 
 #### Implementation of
 
@@ -461,15 +461,15 @@ Parameters of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:96](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L96)
+[src/lib/infrastructure/adapters/orm.ts:96](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L96)
 
-▸ **parameters**(`expression`): `Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
+▸ **parameters**(`query`): `Promise`\<[`MetadataParameter`](../interfaces/MetadataParameter.md)[]\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
@@ -481,21 +481,21 @@ Parameters of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:97](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L97)
+[src/lib/infrastructure/adapters/orm.ts:97](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L97)
 
 ___
 
 ### plan
 
-▸ **plan**(`expression`, `options?`): `Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
+▸ **plan**(`query`, `options?`): `Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
 
-Get getInfo of expression
+Get getInfo of query
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `expression` | `Function` | query expression |
+| `query` | `Function` | query expression |
 | `options?` | [`QueryOptions`](../interfaces/QueryOptions.md) | options of execution |
 
 #### Returns
@@ -508,15 +508,15 @@ Get getInfo of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:138](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L138)
+[src/lib/infrastructure/adapters/orm.ts:138](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L138)
 
-▸ **plan**(`expression`, `options?`): `Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
+▸ **plan**(`query`, `options?`): `Promise`\<[`QueryPlan`](../interfaces/QueryPlan.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 | `options?` | [`QueryOptions`](../interfaces/QueryOptions.md) |
 
 #### Returns
@@ -529,4 +529,4 @@ Get getInfo of expression
 
 #### Defined in
 
-[src/lib/infrastructure/adapters/orm.ts:139](https://github.com/lambda-orm/lambdaorm-client-node/blob/94c96ec28de1a2050723593cb991dc0ebf39ded6/src/lib/infrastructure/adapters/orm.ts#L139)
+[src/lib/infrastructure/adapters/orm.ts:139](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/infrastructure/adapters/orm.ts#L139)

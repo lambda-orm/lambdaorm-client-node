@@ -12,13 +12,13 @@
 
 ### build
 
-▸ **build**(`expression`): [`Sentence`](../classes/Sentence.md)
+▸ **build**(`query`): [`Sentence`](../classes/Sentence.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 

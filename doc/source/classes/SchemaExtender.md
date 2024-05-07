@@ -18,13 +18,13 @@
 
 ### constructor
 
-• **new SchemaExtender**(`expressions`, `helper`): [`SchemaExtender`](SchemaExtender.md)
+• **new SchemaExtender**(`exp`, `helper`): [`SchemaExtender`](SchemaExtender.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expressions` | `Expressions` |
+| `exp` | `Expressions` |
 | `helper` | [`OrmBaseH3lp`](OrmBaseH3lp.md) |
 
 #### Returns

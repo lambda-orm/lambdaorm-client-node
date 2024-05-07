@@ -38,7 +38,7 @@
 
 ### constructor
 
-• **new MapClauses**\<`T`\>(`actions`, `expression`): [`MapClauses`](MapClauses.md)\<`T`\>
+• **new MapClauses**\<`T`\>(`actions`, `query`): [`MapClauses`](MapClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -50,8 +50,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

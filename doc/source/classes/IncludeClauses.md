@@ -42,7 +42,7 @@
 
 ### constructor
 
-• **new IncludeClauses**\<`T`\>(`actions`, `expression`): [`IncludeClauses`](IncludeClauses.md)\<`T`\>
+• **new IncludeClauses**\<`T`\>(`actions`, `query`): [`IncludeClauses`](IncludeClauses.md)\<`T`\>
 
 #### Type parameters
 
@@ -54,8 +54,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

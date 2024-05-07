@@ -53,7 +53,7 @@
 
 ### constructor
 
-• **new Queryable**\<`T`\>(`actions`, `expression`): [`Queryable`](Queryable.md)\<`T`\>
+• **new Queryable**\<`T`\>(`actions`, `query`): [`Queryable`](Queryable.md)\<`T`\>
 
 #### Type parameters
 
@@ -65,8 +65,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `actions` | [`ExpressionActions`](../interfaces/ExpressionActions.md) |
-| `expression` | `string` |
+| `actions` | [`QueryActions`](../interfaces/QueryActions.md) |
+| `query` | `string` |
 
 #### Returns
 

@@ -21,14 +21,14 @@
 
 ### constructor
 
-• **new RouteService**(`stageConfigService`, `expressions`): [`RouteService`](RouteService.md)
+• **new RouteService**(`stageConfigService`, `exp`): [`RouteService`](RouteService.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `stageConfigService` | [`StageConfigService`](StageConfigService.md) |
-| `expressions` | `Expressions` |
+| `exp` | `Expressions` |
 
 #### Returns
 

@@ -1,34 +1,34 @@
-[Lambda ORM client](../README.md) / ExpressionActions
+[Lambda ORM client](../README.md) / QueryActions
 
-# Interface: ExpressionActions
+# Interface: QueryActions
 
 ## Implemented by
 
-- [`ExpressionActionsImpl`](../classes/ExpressionActionsImpl.md)
+- [`QueryActionsImpl`](../classes/QueryActionsImpl.md)
 
 ## Table of contents
 
 ### Methods
 
-- [constraints](ExpressionActions.md#constraints)
-- [execute](ExpressionActions.md#execute)
-- [metadata](ExpressionActions.md#metadata)
-- [model](ExpressionActions.md#model)
-- [normalize](ExpressionActions.md#normalize)
-- [parameters](ExpressionActions.md#parameters)
-- [plan](ExpressionActions.md#plan)
+- [constraints](QueryActions.md#constraints)
+- [execute](QueryActions.md#execute)
+- [metadata](QueryActions.md#metadata)
+- [model](QueryActions.md#model)
+- [normalize](QueryActions.md#normalize)
+- [parameters](QueryActions.md#parameters)
+- [plan](QueryActions.md#plan)
 
 ## Methods
 
 ### constraints
 
-▸ **constraints**(`expression`): `Promise`\<[`MetadataConstraint`](MetadataConstraint.md)\>
+▸ **constraints**(`query`): `Promise`\<[`MetadataConstraint`](MetadataConstraint.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
@@ -42,13 +42,13 @@ ___
 
 ### execute
 
-▸ **execute**(`expression`, `data`): `Promise`\<`any`\>
+▸ **execute**(`query`, `data`): `Promise`\<`any`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 | `data` | `any` |
 
 #### Returns
@@ -63,13 +63,13 @@ ___
 
 ### metadata
 
-▸ **metadata**(`expression`): `Promise`\<[`Metadata`](Metadata.md)\>
+▸ **metadata**(`query`): `Promise`\<[`Metadata`](Metadata.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
@@ -83,13 +83,13 @@ ___
 
 ### model
 
-▸ **model**(`expression`): `Promise`\<[`MetadataModel`](MetadataModel.md)[]\>
+▸ **model**(`query`): `Promise`\<[`MetadataModel`](MetadataModel.md)[]\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
@@ -103,13 +103,13 @@ ___
 
 ### normalize
 
-▸ **normalize**(`expression`): `string`
+▸ **normalize**(`query`): `string`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
@@ -123,13 +123,13 @@ ___
 
 ### parameters
 
-▸ **parameters**(`expression`): `Promise`\<[`MetadataParameter`](MetadataParameter.md)[]\>
+▸ **parameters**(`query`): `Promise`\<[`MetadataParameter`](MetadataParameter.md)[]\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
@@ -143,13 +143,13 @@ ___
 
 ### plan
 
-▸ **plan**(`expression`): `Promise`\<[`QueryPlan`](QueryPlan.md)\>
+▸ **plan**(`query`): `Promise`\<[`QueryPlan`](QueryPlan.md)\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `expression` | `string` |
+| `query` | `string` |
 
 #### Returns
 
