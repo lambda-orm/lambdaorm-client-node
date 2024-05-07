@@ -1,7 +1,7 @@
-import { QueryPlan, MetadataParameter, MetadataModel, MetadataConstraint, Metadata, ExpressionActions } from 'lambdaorm-base'
+import { QueryPlan, MetadataParameter, MetadataModel, MetadataConstraint, Metadata, QueryActions } from 'lambdaorm-base'
 import { IOrm } from '../application/IOrm'
 
-export class QueryActionsImpl implements ExpressionActions {
+export class QueryActionsImpl implements QueryActions {
 	private orm
 	private name
 	private stage
