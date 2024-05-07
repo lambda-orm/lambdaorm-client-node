@@ -22,6 +22,7 @@ export interface IOrm
 
 	/**
 		* Get parameters of query
+		* @param query query expression
 		* @returns Parameters of query
 		*/
 	parameters(query:Function): Promise<MetadataParameter[]>
@@ -29,6 +30,7 @@ export interface IOrm
 
 	/**
 	 * Get constraints of query
+	 * @param query query expression
 	 * @returns Constraints of query
 	 */
 	constraints(query:Function): Promise<MetadataConstraint>
@@ -36,24 +38,25 @@ export interface IOrm
 
 	/**
 		* Get metadata of query
+		* @param query query expression
 		* @returns metadata of query
 		*/
 	metadata(query: Function): Promise<Metadata>
 	metadata (query:string):Promise<Metadata>
 
 	/**
-	 *
+	 * Plan query
 	 * @param query
-	 * @param stage
+	 * @param options
 	 */
 	plan(query: Function, options?: QueryOptions): Promise<QueryPlan>
 	plan(query: string, options?: QueryOptions): Promise<QueryPlan>
 
 	/**
 		* Execute query
+		* @param query query expression
 		* @param data Data with variables
-		* @param stage Stage name
-	  * @param view View name
+		* @param options query options
 		* @returns Result of execution
 		*/
 	execute(query: Function, data?: any, options?: QueryOptions):Promise<any>
@@ -61,9 +64,9 @@ export interface IOrm
 
 		/**
 		* Execute query
+		* @param query query expression
 		* @param data Data with variables
-		* @param stage Stage name
-	  * @param view View name
+		* @param options query options
 		* @returns Result of execution
 		*/
 		executeQueued(query: Function, topic:string, data?: any, chunk?:number, options?: QueryOptions):Promise<string>

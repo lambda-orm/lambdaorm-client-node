@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[src/lib/domain/configuration.ts:77](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/configuration.ts#L77)
+[src/lib/domain/configuration.ts:77](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/configuration.ts#L77)
 
 ## Properties
 
@@ -64,7 +64,7 @@ Configuration
 
 #### Defined in
 
-[src/lib/domain/configuration.ts:53](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/configuration.ts#L53)
+[src/lib/domain/configuration.ts:53](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/configuration.ts#L53)
 
 ___
 
@@ -84,7 +84,7 @@ Configuration
 
 #### Defined in
 
-[src/lib/domain/configuration.ts:32](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/configuration.ts#L32)
+[src/lib/domain/configuration.ts:32](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/configuration.ts#L32)
 
 ___
 
@@ -100,7 +100,7 @@ Configuration
 
 #### Defined in
 
-[src/lib/domain/configuration.ts:67](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/configuration.ts#L67)
+[src/lib/domain/configuration.ts:67](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/configuration.ts#L67)
 
 ___
 
@@ -116,7 +116,7 @@ Configuration
 
 #### Defined in
 
-[src/lib/domain/configuration.ts:60](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/configuration.ts#L60)
+[src/lib/domain/configuration.ts:60](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/configuration.ts#L60)
 
 ___
 
@@ -138,7 +138,7 @@ do not support the FormData class can still run the generated client.
 
 #### Defined in
 
-[src/lib/domain/configuration.ts:75](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/configuration.ts#L75)
+[src/lib/domain/configuration.ts:75](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/configuration.ts#L75)
 
 ___
 
@@ -154,7 +154,7 @@ Configuration
 
 #### Defined in
 
-[src/lib/domain/configuration.ts:46](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/configuration.ts#L46)
+[src/lib/domain/configuration.ts:46](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/configuration.ts#L46)
 
 ___
 
@@ -170,7 +170,7 @@ Configuration
 
 #### Defined in
 
-[src/lib/domain/configuration.ts:39](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/configuration.ts#L39)
+[src/lib/domain/configuration.ts:39](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/configuration.ts#L39)
 
 ## Methods
 
@@ -199,4 +199,4 @@ True if the given MIME is JSON, false otherwise.
 
 #### Defined in
 
-[src/lib/domain/configuration.ts:97](https://github.com/lambda-orm/lambdaorm-client-node/blob/0e0ab25480582c25bf330cef1a7ebb89f605f5a0/src/lib/domain/configuration.ts#L97)
+[src/lib/domain/configuration.ts:97](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/configuration.ts#L97)
