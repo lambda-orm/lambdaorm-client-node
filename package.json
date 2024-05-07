@@ -27,15 +27,15 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
-		"3xpr": "^1.15.15",
+		"3xpr": "^1.15.20",
 		"h3lp": "^1.10.1",
-		"lambdaorm-base": "^1.5.0",
+		"lambdaorm-base": "^1.5.1",
 		"axios": "^1.6.3",
 		"crypto-js": "^4.1.1"
 	},
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.23.3",
-		"@types/jest": "^29.5.10",
+		"@types/jest": "^29.5.12",
 		"@types/node": "^20.12.8",
 		"@typescript-eslint/eslint-plugin": "^7.0.0",
 		"@typescript-eslint/parser": "^6.16.0",
@@ -56,7 +56,7 @@
 		"concurrently": "^8.2.2",
 		"dotenv": "^16.0.3",
 		"load-grunt-tasks": "^5.1.0",
-		"ts-jest": "^29.0.5",
+		"ts-jest": "^29.1.2",
 		"ts-node": "^10.9.1",
 		"typedoc": "^0.25.13",
 		"typedoc-plugin-markdown": "3.17.1",
