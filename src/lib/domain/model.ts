@@ -16,7 +16,7 @@ export interface QueryRequest {
  * @type {string}
  * @memberof QueryRequest
  */
-'expression': string;
+'query': string;
 /**
  *
  * @type {any}
@@ -41,7 +41,7 @@ export interface QueryQueuedRequest {
  * @type {string}
  * @memberof QueryQueuedRequest
  */
-'expression': string;
+'query': string;
 /**
  *
  * @type {any}

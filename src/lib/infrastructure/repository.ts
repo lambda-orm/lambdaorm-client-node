@@ -1,4 +1,4 @@
-import { ExpressionActionsImpl } from '../domain'
+import { QueryActionsImpl } from '../domain'
 import { IOrm } from '../application/IOrm'
 import { Orm } from './adapters/orm'
 import { Queryable } from 'lambdaorm-base'
@@ -19,22 +19,22 @@ export class Repository<TEntity, TQuery> {
 		include?: (value: TQuery, index: number, array: TQuery[]) => unknown,
 		data: any = {}
 	): Promise<any> {
-		let expression = `${head}`
+		let query = `${head}`
 		if (filter !== undefined) {
-			expression = `${expression}.filter(${filter.toString()})`
+			query = `${query}.filter(${filter.toString()})`
 		}
 		if (include !== undefined) {
-			expression = `${expression}.include(${include.toString()})`
+			query = `${query}.include(${include.toString()})`
 		}
-		return await this.orm.execute(expression, data, { stage: this.stage })
+		return await this.orm.execute(query, data, { stage: this.stage })
 	}
 
-	public async execute (expression: string, data?: any): Promise<any> {
-		return await this.orm.execute(`${this.name}${expression}`, data, { stage: this.stage })
+	public async execute (query: string, data?: any): Promise<any> {
+		return await this.orm.execute(`${this.name}${query}`, data, { stage: this.stage })
 	}
 
-	public async executeQueued (topic:string, expression: string, data?: any, chunk?:number): Promise<any> {
-		return await this.orm.executeQueued(`${this.name}${expression}`, topic, data, chunk, { stage: this.stage })
+	public async executeQueued (topic:string, query: string, data?: any, chunk?:number): Promise<any> {
+		return await this.orm.executeQueued(`${this.name}${query}`, topic, data, chunk, { stage: this.stage })
 	}
 
 	/**  */
@@ -143,6 +143,6 @@ export class Repository<TEntity, TQuery> {
 	}
 
 	public query (): Queryable<TQuery> {
-		return new Queryable<TQuery>(new ExpressionActionsImpl(this.name, this.orm, this.stage), '')
+		return new Queryable<TQuery>(new QueryActionsImpl(this.name, this.orm, this.stage), '')
 	}
 }

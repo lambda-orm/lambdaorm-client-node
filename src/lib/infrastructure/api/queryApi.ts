@@ -8,7 +8,7 @@ import { MetadataConstraint, Metadata, MetadataModel, MetadataParameter, QueryPl
  * ExpressionApi - axios parameter creator
  * @export
  */
-export const ExpressionApiAxiosParamCreator = function (configuration: Configuration) {
+export const QueryApiAxiosParamCreator = function (configuration: Configuration) {
 	return {
 		/**
 			 *
@@ -207,8 +207,8 @@ export const ExpressionApiAxiosParamCreator = function (configuration: Configura
 * ExpressionApi - functional programming interface
 * @export
 */
-export const ExpressionApiFp = function (configuration: Configuration) {
-	const localVarAxiosParamCreator = ExpressionApiAxiosParamCreator(configuration)
+export const QueryApiFp = function (configuration: Configuration) {
+	const localVarAxiosParamCreator = QueryApiAxiosParamCreator(configuration)
 	return {
 		/**
 			 *
@@ -288,7 +288,7 @@ export const ExpressionApiFp = function (configuration: Configuration) {
 * @export
 */
 export const ExpressionApiFactory = function (configuration: Configuration, basePath?: string, axios?: AxiosInstance) {
-	const localVarFp = ExpressionApiFp(configuration)
+	const localVarFp = QueryApiFp(configuration)
 	return {
 		/**
 			 *
@@ -348,12 +348,12 @@ export const ExpressionApiFactory = function (configuration: Configuration, base
 }
 
 /**
-* ExpressionApi - object-oriented interface
+* QueryApi - object-oriented interface
 * @export
 * @class ExpressionApi
 * @extends {BaseAPI}
 */
-export class ExpressionApi extends BaseAPI {
+export class QueryApi extends BaseAPI {
 	/**
 	 *
 	 * @param {QueryRequest} [queryRequest]
@@ -362,7 +362,7 @@ export class ExpressionApi extends BaseAPI {
 	 * @memberof ExpressionApi
 	 */
 	public constraints (queryRequest?: QueryRequest, options?: AxiosRequestConfig) {
-		return ExpressionApiFp(this.configuration).constraints(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
+		return QueryApiFp(this.configuration).constraints(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
 	}
 
 	/**
@@ -373,7 +373,7 @@ export class ExpressionApi extends BaseAPI {
 	 * @memberof ExpressionApi
 	 */
 	public execute (queryRequest: QueryRequest, options?: AxiosRequestConfig) {
-		return ExpressionApiFp(this.configuration).execute(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
+		return QueryApiFp(this.configuration).execute(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
 	}
 
 	/**
@@ -384,7 +384,7 @@ export class ExpressionApi extends BaseAPI {
 	 * @memberof ExpressionApi
 	 */
 	public executeQueued (queryQueuedRequest: QueryQueuedRequest, options?: AxiosRequestConfig) {
-		return ExpressionApiFp(this.configuration).execute(queryQueuedRequest, options).then((request) => request(this.axios, this.configuration.basePath))
+		return QueryApiFp(this.configuration).execute(queryQueuedRequest, options).then((request) => request(this.axios, this.configuration.basePath))
 	}
 
 	/**
@@ -395,7 +395,7 @@ export class ExpressionApi extends BaseAPI {
 	 * @memberof ExpressionApi
 	 */
 	public metadata (queryRequest?: QueryRequest, options?: AxiosRequestConfig) {
-		return ExpressionApiFp(this.configuration).metadata(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
+		return QueryApiFp(this.configuration).metadata(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
 	}
 
 	/**
@@ -406,7 +406,7 @@ export class ExpressionApi extends BaseAPI {
 	 * @memberof ExpressionApi
 	 */
 	public model (queryRequest?: QueryRequest, options?: AxiosRequestConfig) {
-		return ExpressionApiFp(this.configuration).model(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
+		return QueryApiFp(this.configuration).model(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
 	}
 
 	/**
@@ -417,7 +417,7 @@ export class ExpressionApi extends BaseAPI {
 	 * @memberof ExpressionApi
 	 */
 	public parameters (queryRequest?: QueryRequest, options?: AxiosRequestConfig) {
-		return ExpressionApiFp(this.configuration).parameters(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
+		return QueryApiFp(this.configuration).parameters(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
 	}
 
 	/**
@@ -428,6 +428,6 @@ export class ExpressionApi extends BaseAPI {
 	 * @memberof ExpressionApi
 	 */
 	public plan (queryRequest: QueryRequest, options?: AxiosRequestConfig) {
-		return ExpressionApiFp(this.configuration).plan(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
+		return QueryApiFp(this.configuration).plan(queryRequest, options).then((request) => request(this.axios, this.configuration.basePath))
 	}
 }

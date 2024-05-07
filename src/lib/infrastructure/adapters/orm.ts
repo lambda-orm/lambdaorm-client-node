@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
-import { IOrm, ClientExpressionService, ClientGeneralService, ClientStageService, ClientSchemaService } from '../../application'
+import { IOrm, ClientQueryService, ClientGeneralService, ClientStageService, ClientSchemaService } from '../../application'
 import { Configuration } from '../../domain'
 import { QueryOptions, QueryPlan, Metadata, MetadataModel, MetadataConstraint, MetadataParameter } from 'lambdaorm-base'
 import { expressions } from '3xpr'
 import { SentenceLibrary } from '..'
-import { ExpressionApi, GeneralApi, SchemaApi, StageApi } from '../api'
-import { ExpressionApiService } from './ExpressionApiService'
+import { QueryApi, GeneralApi, SchemaApi, StageApi } from '../api'
+import { QueryApiService } from './QueryApiService'
 import { GeneralApiService } from './GeneralApiService'
 import { SchemaApiService } from './SchemaApiService'
 import { StageApiService } from './StageApiService'
@@ -19,7 +19,7 @@ export class Orm implements IOrm {
 	private static _instance: Orm
 	public url: string
 	private configuration?:Configuration
-	private expressionService?: ClientExpressionService
+	private queryService?: ClientQueryService
 	private generalService?: ClientGeneralService
 	private schemaService?: ClientSchemaService
 	private stageService?: ClientStageService
@@ -44,7 +44,7 @@ export class Orm implements IOrm {
 		}
 		new SentenceLibrary(expressions).load()
 		this.configuration = new Configuration({ basePath: this.url })
-		this.expressionService = new ExpressionApiService(new ExpressionApi(this.configuration))
+		this.queryService = new QueryApiService(new QueryApi(this.configuration))
 		this.generalService = new GeneralApiService(new GeneralApi(this.configuration))
 		this.schemaService = new SchemaApiService(new SchemaApi(this.configuration))
 		this.stageService = new StageApiService(new StageApi(this.configuration))
@@ -75,117 +75,104 @@ export class Orm implements IOrm {
 	}
 
 	/**
-	 * Get model of expression
-	 * @param expression query expression
-	 * @returns Model of expression
+	 * Get model of query
+	 * @param query query expression
+	 * @returns Model of query
 	 */
-	public async model(expression:Function): Promise<MetadataModel[]>
-	public async model(expression:string): Promise<MetadataModel[]>
-	public async model (expression: string|Function): Promise<MetadataModel[]> {
-		if (!this.expressionService) {
+	public async model(query:Function): Promise<MetadataModel[]>
+	public async model(query:string): Promise<MetadataModel[]>
+	public async model (query: string|Function): Promise<MetadataModel[]> {
+		if (!this.queryService) {
 			throw new Error('Orm not initialized')
 		}
-		return this.expressionService.model(expression)
+		return this.queryService.model(query)
 	}
 
 	/**
-	 * Get parameters of expression
-	 * @param expression query expression
-	 * @returns Parameters of expression
+	 * Get parameters of query
+	 * @param query query expression
+	 * @returns Parameters of query
 	 */
-	public async parameters(expression:Function): Promise<MetadataParameter[]>;
-	public async parameters(expression:string): Promise<MetadataParameter[]>;
-	public async parameters (expression: string|Function): Promise<MetadataParameter[]> {
-		if (!this.expressionService) {
+	public async parameters(query:Function): Promise<MetadataParameter[]>;
+	public async parameters(query:string): Promise<MetadataParameter[]>;
+	public async parameters (query: string|Function): Promise<MetadataParameter[]> {
+		if (!this.queryService) {
 			throw new Error('Orm not initialized')
 		}
-		return this.expressionService.parameters(expression)
+		return this.queryService.parameters(query)
 	}
 
 	/**
-	 * Get constraints of expression
-	 * @param expression query expression
-	 * @returns Constraints of expression
+	 * Get constraints of query
+	 * @param query query expression
+	 * @returns Constraints of query
 	 */
-	public async constraints(expression:Function): Promise<MetadataConstraint>;
-	public async constraints(expression:string): Promise<MetadataConstraint>;
-	public async constraints (expression: string|Function): Promise<MetadataConstraint> {
-		if (!this.expressionService) {
+	public async constraints(query:Function): Promise<MetadataConstraint>;
+	public async constraints(query:string): Promise<MetadataConstraint>;
+	public async constraints (query: string|Function): Promise<MetadataConstraint> {
+		if (!this.queryService) {
 			throw new Error('Orm not initialized')
 		}
-		return this.expressionService.constraints(expression)
+		return this.queryService.constraints(query)
 	}
 
 	/**
-	 * Get metadata of expression
-	 * @param expression query expression
-	 * @returns metadata of expression
+	 * Get metadata of query
+	 * @param query query expression
+	 * @returns metadata of query
 	 */
-	public async metadata(expression: Function): Promise<Metadata>
-	public async metadata (expression:string):Promise<Metadata>
-	public async metadata (expression: string|Function): Promise<Metadata> {
-		if (!this.expressionService) {
+	public async metadata(query: Function): Promise<Metadata>
+	public async metadata (query:string):Promise<Metadata>
+	public async metadata (query: string|Function): Promise<Metadata> {
+		if (!this.queryService) {
 			throw new Error('Orm not initialized')
 		}
-		return this.expressionService.metadata(expression)
+		return this.queryService.metadata(query)
 	}
 
 	/**
-	 * Get getInfo of expression
-	 * @param expression query expression
+	 * Get getInfo of query
+	 * @param query query expression
 	 * @param options options of execution
 	 */
-	public async plan(expression: Function, options?: QueryOptions): Promise<QueryPlan>;
-	public async plan(expression: string, options?: QueryOptions): Promise<QueryPlan>;
-	public async plan (expression: string|Function, options: QueryOptions|undefined): Promise<QueryPlan> {
-		if (!this.expressionService) {
+	public async plan(query: Function, options?: QueryOptions): Promise<QueryPlan>;
+	public async plan(query: string, options?: QueryOptions): Promise<QueryPlan>;
+	public async plan (query: string|Function, options: QueryOptions|undefined): Promise<QueryPlan> {
+		if (!this.queryService) {
 			throw new Error('Orm not initialized')
 		}
-		return this.expressionService.plan(expression, options)
+		return this.queryService.plan(query, options)
 	}
 
 	/**
-	 * Execute expression
-	 * @param expression query expression
+	 * Execute query
+	 * @param query query expression
 	 * @param data Data with variables
 	 * @param options options of execution
 	 * @returns Result of execution
 	 */
-	public async execute(expression: Function, data?: any, options?: QueryOptions):Promise<any>;
-	public async execute(expression: string, data?: any, options?: QueryOptions):Promise<any>;
-	public async execute (expression: string|Function, data: any = {}, options: QueryOptions|undefined = undefined): Promise<any> {
-		if (!this.expressionService) {
+	public async execute(query: Function, data?: any, options?: QueryOptions):Promise<any>;
+	public async execute(query: string, data?: any, options?: QueryOptions):Promise<any>;
+	public async execute (query: string|Function, data: any = {}, options: QueryOptions|undefined = undefined): Promise<any> {
+		if (!this.queryService) {
 			throw new Error('Orm not initialized')
 		}
-		return this.expressionService.execute(expression, data, options)
+		return this.queryService.execute(query, data, options)
 	}
 
 	/**
-	 * Execute expression
-	 * @param expression query expression
+	 * Execute query
+	 * @param query query expression
 	 * @param data Data with variables
 	 * @param options options of execution
 	 * @returns Result of execution
 	 */
-	public async executeQueued(expression: Function, topic:string, data?: any, chunk?:number, options?: QueryOptions):Promise<any>;
-	public async executeQueued(expression: string, topic:string, data?: any, chunk?:number, options?: QueryOptions):Promise<any>;
-	public async executeQueued (expression: string|Function, topic:string, data: any = {}, chunk?:number, options: QueryOptions|undefined = undefined): Promise<any> {
-		if (!this.expressionService) {
+	public async executeQueued(query: Function, topic:string, data?: any, chunk?:number, options?: QueryOptions):Promise<any>;
+	public async executeQueued(query: string, topic:string, data?: any, chunk?:number, options?: QueryOptions):Promise<any>;
+	public async executeQueued (query: string|Function, topic:string, data: any = {}, chunk?:number, options: QueryOptions|undefined = undefined): Promise<any> {
+		if (!this.queryService) {
 			throw new Error('Orm not initialized')
 		}
-		return this.expressionService.executeQueued(expression, data, options)
-	}
-
-	private solveOptions (options?: QueryOptions):QueryOptions {
-		if (!options) {
-			options = {}
-		}
-		if (!options.stage) {
-			options.stage = 'default'
-		}
-		if (!options.view) {
-			options.view = 'default'
-		}
-		return options
+		return this.queryService.executeQueued(query, data, options)
 	}
 }

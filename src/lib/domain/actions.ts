@@ -1,7 +1,7 @@
 import { QueryPlan, MetadataParameter, MetadataModel, MetadataConstraint, Metadata, ExpressionActions } from 'lambdaorm-base'
 import { IOrm } from '../application/IOrm'
 
-export class ExpressionActionsImpl implements ExpressionActions {
+export class QueryActionsImpl implements ExpressionActions {
 	private orm
 	private name
 	private stage
@@ -12,36 +12,36 @@ export class ExpressionActionsImpl implements ExpressionActions {
 	}
 
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	normalize (expression: string): string {
+	normalize (query: string): string {
 		// TODO: implement normalize
 		throw new Error('Method not implemented.')
 	}
 
-	public async model (expression: string): Promise<MetadataModel[]> {
-		return await this.orm.model(`${this.name}${expression}`)
+	public async model (query: string): Promise<MetadataModel[]> {
+		return await this.orm.model(`${this.name}${query}`)
 	}
 
-	public async parameters (expression: string): Promise<MetadataParameter[]> {
-		return await this.orm.parameters(`${this.name}${expression}`)
+	public async parameters (query: string): Promise<MetadataParameter[]> {
+		return await this.orm.parameters(`${this.name}${query}`)
 	}
 
-	public async constraints (expression: string): Promise<MetadataConstraint> {
-		return await this.orm.constraints(`${this.name}${expression}`)
+	public async constraints (query: string): Promise<MetadataConstraint> {
+		return await this.orm.constraints(`${this.name}${query}`)
 	}
 
-	public async metadata (expression: string): Promise<Metadata> {
-		return await this.orm.metadata(`${this.name}${expression}`)
+	public async metadata (query: string): Promise<Metadata> {
+		return await this.orm.metadata(`${this.name}${query}`)
 	}
 
-	public async plan (expression: string): Promise<QueryPlan> {
-		return await this.orm.plan(`${this.name}${expression}`, { stage: this.stage })
+	public async plan (query: string): Promise<QueryPlan> {
+		return await this.orm.plan(`${this.name}${query}`, { stage: this.stage })
 	}
 
-	public async execute (expression: string, data:any): Promise<any> {
-		return await this.orm.execute(`${this.name}${expression}`, data, { stage: this.stage })
+	public async execute (query: string, data:any): Promise<any> {
+		return await this.orm.execute(`${this.name}${query}`, data, { stage: this.stage })
 	}
 
-	public async executeQueued (expression: string, topic:string, data:any, chunk?:number): Promise<any> {
-		return await this.orm.executeQueued(`${this.name}${expression}`, topic, data, chunk, { stage: this.stage })
+	public async executeQueued (query: string, topic:string, data:any, chunk?:number): Promise<any> {
+		return await this.orm.executeQueued(`${this.name}${query}`, topic, data, chunk, { stage: this.stage })
 	}
 }

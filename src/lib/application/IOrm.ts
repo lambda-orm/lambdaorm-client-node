@@ -14,58 +14,58 @@ export interface IOrm
 	get schema (): ClientSchemaService
 	get stage (): ClientStageService
 	/**
-		* Get model of expression
-		* @returns Model of expression
+		* Get model of query
+		* @returns Model of query
 		*/
-	model(expression:Function): Promise<MetadataModel[]>
-	model(expression:string): Promise<MetadataModel[]>
+	model(query:Function): Promise<MetadataModel[]>
+	model(query:string): Promise<MetadataModel[]>
 
 	/**
-		* Get parameters of expression
-		* @returns Parameters of expression
+		* Get parameters of query
+		* @returns Parameters of query
 		*/
-	parameters(expression:Function): Promise<MetadataParameter[]>
-	parameters(expression: string): Promise<MetadataParameter[]>
+	parameters(query:Function): Promise<MetadataParameter[]>
+	parameters(query: string): Promise<MetadataParameter[]>
 
 	/**
-	 * Get constraints of expression
-	 * @returns Constraints of expression
+	 * Get constraints of query
+	 * @returns Constraints of query
 	 */
-	constraints(expression:Function): Promise<MetadataConstraint>
-	constraints(expression:string): Promise<MetadataConstraint>
+	constraints(query:Function): Promise<MetadataConstraint>
+	constraints(query:string): Promise<MetadataConstraint>
 
 	/**
-		* Get metadata of expression
-		* @returns metadata of expression
+		* Get metadata of query
+		* @returns metadata of query
 		*/
-	metadata(expression: Function): Promise<Metadata>
-	metadata (expression:string):Promise<Metadata>
+	metadata(query: Function): Promise<Metadata>
+	metadata (query:string):Promise<Metadata>
 
 	/**
 	 *
-	 * @param expression
+	 * @param query
 	 * @param stage
 	 */
-	plan(expression: Function, options?: QueryOptions): Promise<QueryPlan>
-	plan(expression: string, options?: QueryOptions): Promise<QueryPlan>
+	plan(query: Function, options?: QueryOptions): Promise<QueryPlan>
+	plan(query: string, options?: QueryOptions): Promise<QueryPlan>
 
 	/**
-		* Execute expression
+		* Execute query
 		* @param data Data with variables
 		* @param stage Stage name
 	  * @param view View name
 		* @returns Result of execution
 		*/
-	execute(expression: Function, data?: any, options?: QueryOptions):Promise<any>
-	execute(expression: string, data?: any, options?: QueryOptions): Promise<any>
+	execute(query: Function, data?: any, options?: QueryOptions):Promise<any>
+	execute(query: string, data?: any, options?: QueryOptions): Promise<any>
 
 		/**
-		* Execute expression
+		* Execute query
 		* @param data Data with variables
 		* @param stage Stage name
 	  * @param view View name
 		* @returns Result of execution
 		*/
-		executeQueued(expression: Function, topic:string, data?: any, chunk?:number, options?: QueryOptions):Promise<string>
-		executeQueued(expression: string, topic:string, data?: any, chunk?:number, options?: QueryOptions): Promise<string>
+		executeQueued(query: Function, topic:string, data?: any, chunk?:number, options?: QueryOptions):Promise<string>
+		executeQueued(query: string, topic:string, data?: any, chunk?:number, options?: QueryOptions): Promise<string>
 }
