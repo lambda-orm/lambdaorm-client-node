@@ -23,8 +23,8 @@
 - [logger](OrmBaseH3lp.md#logger)
 - [obj](OrmBaseH3lp.md#obj)
 - [operand](OrmBaseH3lp.md#operand)
+- [query](OrmBaseH3lp.md#query)
 - [schema](OrmBaseH3lp.md#schema)
-- [sql](OrmBaseH3lp.md#sql)
 - [str](OrmBaseH3lp.md#str)
 - [test](OrmBaseH3lp.md#test)
 - [utils](OrmBaseH3lp.md#utils)
@@ -55,7 +55,7 @@ ExprH3lp.constructor
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:39
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:40
 
 ## Properties
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:34
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:35
 
 ___
 
@@ -153,23 +153,23 @@ node_modules/3xpr/shared/infrastructure/helper.d.ts:6
 
 ___
 
+### query
+
+• **query**: [`QueryHelper`](QueryHelper.md)
+
+#### Defined in
+
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:38
+
+___
+
 ### schema
 
 • **schema**: [`SchemaHelper`](SchemaHelper.md)
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:35
-
-___
-
-### sql
-
-• **sql**: [`SqlHelper`](SqlHelper.md)
-
-#### Defined in
-
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:37
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:36
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:38
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:39
 
 ___
 
@@ -245,4 +245,4 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:36
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:37

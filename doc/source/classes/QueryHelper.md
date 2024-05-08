@@ -1,32 +1,33 @@
-[Lambda ORM client](../README.md) / SqlHelper
+[Lambda ORM client](../README.md) / QueryHelper
 
-# Class: SqlHelper
+# Class: QueryHelper
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](SqlHelper.md#constructor)
+- [constructor](QueryHelper.md#constructor)
 
 ### Methods
 
-- [arrayToList](SqlHelper.md#arraytolist)
-- [bufferToString](SqlHelper.md#buffertostring)
-- [createInfo](SqlHelper.md#createinfo)
-- [dateFormat](SqlHelper.md#dateformat)
-- [dateToString](SqlHelper.md#datetostring)
-- [escape](SqlHelper.md#escape)
-- [escapeId](SqlHelper.md#escapeid)
-- [format](SqlHelper.md#format)
-- [getInfo](SqlHelper.md#getinfo)
-- [raw](SqlHelper.md#raw)
-- [transformParameter](SqlHelper.md#transformparameter)
+- [arrayToList](QueryHelper.md#arraytolist)
+- [bufferToString](QueryHelper.md#buffertostring)
+- [dateFormat](QueryHelper.md#dateformat)
+- [dateToString](QueryHelper.md#datetostring)
+- [escape](QueryHelper.md#escape)
+- [escapeId](QueryHelper.md#escapeid)
+- [format](QueryHelper.md#format)
+- [getInfo](QueryHelper.md#getinfo)
+- [getSentenceCategory](QueryHelper.md#getsentencecategory)
+- [getSentenceType](QueryHelper.md#getsentencetype)
+- [raw](QueryHelper.md#raw)
+- [transformParameter](QueryHelper.md#transformparameter)
 
 ## Constructors
 
 ### constructor
 
-• **new SqlHelper**(`str`): [`SqlHelper`](SqlHelper.md)
+• **new QueryHelper**(`str`): [`QueryHelper`](QueryHelper.md)
 
 #### Parameters
 
@@ -36,7 +37,7 @@
 
 #### Returns
 
-[`SqlHelper`](SqlHelper.md)
+[`QueryHelper`](QueryHelper.md)
 
 #### Defined in
 
@@ -82,29 +83,6 @@ ___
 #### Defined in
 
 node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:20
-
-___
-
-### createInfo
-
-▸ **createInfo**(`entity`, `action`, `category`, `type`): [`SentenceInfo`](../interfaces/SentenceInfo.md)
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `entity` | `string` |
-| `action` | [`SentenceAction`](../enums/SentenceAction.md) |
-| `category` | [`SentenceCategory`](../enums/SentenceCategory.md) |
-| `type` | [`SentenceType`](../enums/SentenceType.md) |
-
-#### Returns
-
-[`SentenceInfo`](../interfaces/SentenceInfo.md)
-
-#### Defined in
-
-node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:24
 
 ___
 
@@ -215,7 +193,7 @@ ___
 
 ### getInfo
 
-▸ **getInfo**(`action`, `entity`): [`SentenceInfo`](../interfaces/SentenceInfo.md)
+▸ **getInfo**(`action`, `entity`, `type?`): [`SentenceInfo`](../interfaces/SentenceInfo.md)
 
 #### Parameters
 
@@ -223,10 +201,51 @@ ___
 | :------ | :------ |
 | `action` | [`SentenceAction`](../enums/SentenceAction.md) |
 | `entity` | `string` |
+| `type?` | [`SentenceType`](../enums/SentenceType.md) |
 
 #### Returns
 
 [`SentenceInfo`](../interfaces/SentenceInfo.md)
+
+#### Defined in
+
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:25
+
+___
+
+### getSentenceCategory
+
+▸ **getSentenceCategory**(`action`): [`SentenceCategory`](../enums/SentenceCategory.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `action` | [`SentenceAction`](../enums/SentenceAction.md) |
+
+#### Returns
+
+[`SentenceCategory`](../enums/SentenceCategory.md)
+
+#### Defined in
+
+node_modules/lambdaorm-base/shared/infrastructure/helper.d.ts:24
+
+___
+
+### getSentenceType
+
+▸ **getSentenceType**(`action`): [`SentenceType`](../enums/SentenceType.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `action` | [`SentenceAction`](../enums/SentenceAction.md) |
+
+#### Returns
+
+[`SentenceType`](../enums/SentenceType.md)
 
 #### Defined in
 

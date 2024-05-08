@@ -61,6 +61,7 @@ Lambda ORM client
 - [PageClauses](classes/PageClauses.md)
 - [QueryAction](classes/QueryAction.md)
 - [QueryActionsImpl](classes/QueryActionsImpl.md)
+- [QueryHelper](classes/QueryHelper.md)
 - [Queryable](classes/Queryable.md)
 - [Repository](classes/Repository.md)
 - [RouteService](classes/RouteService.md)
@@ -77,7 +78,6 @@ Lambda ORM client
 - [SentenceLibrary](classes/SentenceLibrary.md)
 - [SintaxisError](classes/SintaxisError.md)
 - [Sort](classes/Sort.md)
-- [SqlHelper](classes/SqlHelper.md)
 - [StageConfigService](classes/StageConfigService.md)
 - [UUIDWrapper](classes/UUIDWrapper.md)
 - [Update](classes/Update.md)
@@ -321,7 +321,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/index.ts#L6)
 
 ## Functions
 

@@ -67,7 +67,7 @@ ___
 
 ### on
 
-• **on**: [`SentenceAction`](../enums/SentenceAction.md)[]
+• **on**: [`SentenceCategory`](../enums/SentenceCategory.md)[]
 
 #### Defined in
 

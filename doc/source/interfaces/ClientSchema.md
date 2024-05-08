@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[src/lib/domain/schema.ts:12](https://github.com/lambda-orm/lambdaorm-client-node/blob/39a7f9ff3f0038de117e7a22f79e40688374af53/src/lib/domain/schema.ts#L12)
+[src/lib/domain/schema.ts:12](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/schema.ts#L12)
 
 ___
 
