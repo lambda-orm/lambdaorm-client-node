@@ -1,6 +1,6 @@
 {
 	"name": "lambdaorm-client-node",
-	"version": "0.7.43",
+	"version": "0.7.44",
 	"description": "Client form lambda ORM service",
 	"author": "Flavio Lionel Rita <flaviolrita@gmail.com>",
 	"license": "MIT",
