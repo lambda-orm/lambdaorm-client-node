@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:9](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L9)
+[src/lib/application/IOrm.ts:9](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L9)
 
 ## Accessors
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:13](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L13)
+[src/lib/application/IOrm.ts:13](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L13)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:14](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L14)
+[src/lib/application/IOrm.ts:14](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L14)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:15](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L15)
+[src/lib/application/IOrm.ts:15](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L15)
 
 ## Methods
 
@@ -104,7 +104,7 @@ Constraints of query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:36](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L36)
+[src/lib/application/IOrm.ts:36](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L36)
 
 ▸ **constraints**(`query`): `Promise`\<[`MetadataConstraint`](MetadataConstraint.md)\>
 
@@ -120,7 +120,7 @@ Constraints of query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:37](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L37)
+[src/lib/application/IOrm.ts:37](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L37)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:11](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L11)
+[src/lib/application/IOrm.ts:11](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L11)
 
 ___
 
@@ -160,7 +160,7 @@ Result of execution
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:62](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L62)
+[src/lib/application/IOrm.ts:62](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L62)
 
 ▸ **execute**(`query`, `data?`, `options?`): `Promise`\<`any`\>
 
@@ -178,7 +178,7 @@ Result of execution
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:63](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L63)
+[src/lib/application/IOrm.ts:63](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L63)
 
 ___
 
@@ -206,7 +206,7 @@ Result of execution
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:72](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L72)
+[src/lib/application/IOrm.ts:72](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L72)
 
 ▸ **executeQueued**(`query`, `topic`, `data?`, `chunk?`, `options?`): `Promise`\<`string`\>
 
@@ -226,7 +226,7 @@ Result of execution
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:73](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L73)
+[src/lib/application/IOrm.ts:73](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L73)
 
 ___
 
@@ -246,7 +246,7 @@ ___
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:10](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L10)
+[src/lib/application/IOrm.ts:10](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L10)
 
 ___
 
@@ -270,7 +270,7 @@ metadata of query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:44](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L44)
+[src/lib/application/IOrm.ts:44](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L44)
 
 ▸ **metadata**(`query`): `Promise`\<[`Metadata`](Metadata.md)\>
 
@@ -286,7 +286,7 @@ metadata of query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:45](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L45)
+[src/lib/application/IOrm.ts:45](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L45)
 
 ___
 
@@ -310,7 +310,7 @@ Model of query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:20](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L20)
+[src/lib/application/IOrm.ts:20](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L20)
 
 ▸ **model**(`query`): `Promise`\<[`MetadataModel`](MetadataModel.md)[]\>
 
@@ -326,7 +326,7 @@ Model of query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:21](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L21)
+[src/lib/application/IOrm.ts:21](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L21)
 
 ___
 
@@ -350,7 +350,7 @@ Parameters of query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:28](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L28)
+[src/lib/application/IOrm.ts:28](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L28)
 
 ▸ **parameters**(`query`): `Promise`\<[`MetadataParameter`](MetadataParameter.md)[]\>
 
@@ -366,7 +366,7 @@ Parameters of query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:29](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L29)
+[src/lib/application/IOrm.ts:29](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L29)
 
 ___
 
@@ -389,7 +389,7 @@ Plan query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:52](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L52)
+[src/lib/application/IOrm.ts:52](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L52)
 
 ▸ **plan**(`query`, `options?`): `Promise`\<[`QueryPlan`](QueryPlan.md)\>
 
@@ -406,4 +406,4 @@ Plan query
 
 #### Defined in
 
-[src/lib/application/IOrm.ts:53](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/application/IOrm.ts#L53)
+[src/lib/application/IOrm.ts:53](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/IOrm.ts#L53)

@@ -26,7 +26,7 @@ QueryRequest
 
 #### Defined in
 
-[src/lib/domain/model.ts:25](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/model.ts#L25)
+[src/lib/domain/model.ts:25](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/model.ts#L25)
 
 ___
 
@@ -40,7 +40,7 @@ QueryRequest
 
 #### Defined in
 
-[src/lib/domain/model.ts:13](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/model.ts#L13)
+[src/lib/domain/model.ts:13](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/model.ts#L13)
 
 ___
 
@@ -54,4 +54,4 @@ QueryRequest
 
 #### Defined in
 
-[src/lib/domain/model.ts:19](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/model.ts#L19)
+[src/lib/domain/model.ts:19](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/model.ts#L19)

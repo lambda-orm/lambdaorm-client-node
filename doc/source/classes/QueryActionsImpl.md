@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[src/lib/domain/actions.ts:8](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/actions.ts#L8)
+[src/lib/domain/actions.ts:8](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/actions.ts#L8)
 
 ## Methods
 
@@ -67,7 +67,7 @@
 
 #### Defined in
 
-[src/lib/domain/actions.ts:28](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/actions.ts#L28)
+[src/lib/domain/actions.ts:28](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/actions.ts#L28)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[src/lib/domain/actions.ts:40](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/actions.ts#L40)
+[src/lib/domain/actions.ts:40](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/actions.ts#L40)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[src/lib/domain/actions.ts:44](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/actions.ts#L44)
+[src/lib/domain/actions.ts:44](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/actions.ts#L44)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/lib/domain/actions.ts:32](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/actions.ts#L32)
+[src/lib/domain/actions.ts:32](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/actions.ts#L32)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-[src/lib/domain/actions.ts:20](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/actions.ts#L20)
+[src/lib/domain/actions.ts:20](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/actions.ts#L20)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[src/lib/domain/actions.ts:15](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/actions.ts#L15)
+[src/lib/domain/actions.ts:15](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/actions.ts#L15)
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-[src/lib/domain/actions.ts:24](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/actions.ts#L24)
+[src/lib/domain/actions.ts:24](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/actions.ts#L24)
 
 ___
 
@@ -235,4 +235,4 @@ ___
 
 #### Defined in
 
-[src/lib/domain/actions.ts:36](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/domain/actions.ts#L36)
+[src/lib/domain/actions.ts:36](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/domain/actions.ts#L36)

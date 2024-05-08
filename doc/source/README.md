@@ -321,7 +321,7 @@ ___
 
 #### Defined in
 
-[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/ad88ece6e88554e4da22cdad4127e9f62aaa9607/src/lib/index.ts#L6)
+[src/lib/index.ts:6](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/index.ts#L6)
 
 ## Functions
 
