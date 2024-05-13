@@ -13,6 +13,7 @@
 ### Properties
 
 - [autoIncrement](PropertyMapping.md#autoincrement)
+- [dbType](PropertyMapping.md#dbtype)
 - [default](PropertyMapping.md#default)
 - [enum](PropertyMapping.md#enum)
 - [key](PropertyMapping.md#key)
@@ -42,6 +43,16 @@
 #### Defined in
 
 node_modules/lambdaorm-base/schema/domain/schema.d.ts:29
+
+___
+
+### dbType
+
+• `Optional` **dbType**: `string`
+
+#### Defined in
+
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:89
 
 ___
 

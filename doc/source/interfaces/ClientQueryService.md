@@ -36,7 +36,7 @@ Constraints of query
 
 #### Defined in
 
-[src/lib/application/services/QueryService.ts:23](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/services/QueryService.ts#L23)
+[src/lib/application/services/QueryService.ts:23](https://github.com/lambda-orm/lambdaorm-client-node/blob/529e5a44db104f23d202b29664d7b44f0a3728da/src/lib/application/services/QueryService.ts#L23)
 
 ___
 
@@ -62,7 +62,7 @@ Result of execution
 
 #### Defined in
 
-[src/lib/application/services/QueryService.ts:46](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/services/QueryService.ts#L46)
+[src/lib/application/services/QueryService.ts:46](https://github.com/lambda-orm/lambdaorm-client-node/blob/529e5a44db104f23d202b29664d7b44f0a3728da/src/lib/application/services/QueryService.ts#L46)
 
 ___
 
@@ -90,7 +90,7 @@ Result of execution
 
 #### Defined in
 
-[src/lib/application/services/QueryService.ts:55](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/services/QueryService.ts#L55)
+[src/lib/application/services/QueryService.ts:55](https://github.com/lambda-orm/lambdaorm-client-node/blob/529e5a44db104f23d202b29664d7b44f0a3728da/src/lib/application/services/QueryService.ts#L55)
 
 ___
 
@@ -114,7 +114,7 @@ metadata of query
 
 #### Defined in
 
-[src/lib/application/services/QueryService.ts:30](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/services/QueryService.ts#L30)
+[src/lib/application/services/QueryService.ts:30](https://github.com/lambda-orm/lambdaorm-client-node/blob/529e5a44db104f23d202b29664d7b44f0a3728da/src/lib/application/services/QueryService.ts#L30)
 
 ___
 
@@ -138,7 +138,7 @@ Model of query
 
 #### Defined in
 
-[src/lib/application/services/QueryService.ts:9](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/services/QueryService.ts#L9)
+[src/lib/application/services/QueryService.ts:9](https://github.com/lambda-orm/lambdaorm-client-node/blob/529e5a44db104f23d202b29664d7b44f0a3728da/src/lib/application/services/QueryService.ts#L9)
 
 ___
 
@@ -162,7 +162,7 @@ Parameters of query
 
 #### Defined in
 
-[src/lib/application/services/QueryService.ts:16](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/services/QueryService.ts#L16)
+[src/lib/application/services/QueryService.ts:16](https://github.com/lambda-orm/lambdaorm-client-node/blob/529e5a44db104f23d202b29664d7b44f0a3728da/src/lib/application/services/QueryService.ts#L16)
 
 ___
 
@@ -185,4 +185,4 @@ Get plan of query
 
 #### Defined in
 
-[src/lib/application/services/QueryService.ts:37](https://github.com/lambda-orm/lambdaorm-client-node/blob/af7af1fc556cf5613695df5bc65de430b994ea9e/src/lib/application/services/QueryService.ts#L37)
+[src/lib/application/services/QueryService.ts:37](https://github.com/lambda-orm/lambdaorm-client-node/blob/529e5a44db104f23d202b29664d7b44f0a3728da/src/lib/application/services/QueryService.ts#L37)

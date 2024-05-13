@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:94
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:95
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:95
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:96
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:96
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:97
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:91
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:92
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:93
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:94
 
 ___
 
@@ -339,7 +339,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:92
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:93
 
 ___
 

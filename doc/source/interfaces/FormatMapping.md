@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:100
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:101
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:99
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:100
 
 ___
 
@@ -331,7 +331,7 @@ ___
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:101
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:102
 
 ___
 

@@ -16,4 +16,4 @@
 
 #### Defined in
 
-node_modules/lambdaorm-base/schema/domain/schema.d.ts:205
+node_modules/lambdaorm-base/schema/domain/schema.d.ts:206
