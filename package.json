@@ -29,7 +29,7 @@
 	"dependencies": {
 		"3xpr": "^1.15.23",
 		"h3lp": "^1.12.0",
-		"lambdaorm-base": "^1.6.3",
+		"lambdaorm-base": "^1.7.8",
 		"axios": "^1.6.3",
 		"crypto-js": "^4.1.1"
 	},
